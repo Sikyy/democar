@@ -1,6 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import styled from 'styled-components';
 
+
+// 更新为2025.07.17
+
 const FiltersContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -60,123 +63,7 @@ const CollapsibleContent = styled.div<{ isOpen: boolean }>`
   padding-top: ${props => props.isOpen ? '12px' : '0'};
 `;
 
-const BrandSelector = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-`;
 
-const BrandSearchInput = styled.div`
-  position: relative;
-  margin-bottom: 12px;
-  
-  svg {
-    position: absolute;
-    left: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #9E9E9E;
-  }
-`;
-
-const SearchInput = styled.input`
-  width: 100%;
-  padding: 10px 12px 10px 36px;
-  border: 1px solid #E0E0E0;
-  border-radius: 8px;
-  font-size: 0.9rem;
-  
-  &:focus {
-    outline: none;
-    border-color: #FF5722;
-    box-shadow: 0 0 0 3px rgba(255, 87, 34, 0.1);
-  }
-  
-  &::placeholder {
-    color: #9E9E9E;
-  }
-`;
-
-const BrandItem = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 10px 12px;
-  border: 1px solid #E0E0E0;
-  border-radius: 8px;
-  cursor: pointer;
-  position: relative;
-  transition: all 0.2s ease;
-  
-  &:hover {
-    border-color: #BDBDBD;
-    background-color: #FAFAFA;
-  }
-`;
-
-const BrandLogo = styled.div`
-  width: 24px;
-  height: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
-const BrandName = styled.span`
-  flex: 1;
-  font-size: 0.9rem;
-`;
-
-const BrandCount = styled.span`
-  font-size: 0.8rem;
-  color: #757575;
-  margin-right: 8px;
-`;
-
-const RemoveButton = styled.button`
-  width: 20px;
-  height: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  background-color: #F5F5F5;
-  transition: all 0.2s ease;
-  
-  &:hover {
-    background-color: #E0E0E0;
-  }
-  
-  svg {
-    width: 12px;
-    height: 12px;
-  }
-`;
-
-const AddModelButton = styled.button`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 12px;
-  background-color: #F5F5F5;
-  border-radius: 8px;
-  font-weight: 500;
-  color: #333;
-  gap: 8px;
-  transition: background-color 0.2s ease;
-  
-  &:hover {
-    background-color: #EEEEEE;
-  }
-  
-  svg {
-    transition: transform 0.2s ease;
-  }
-  
-  &:hover svg {
-    transform: scale(1.1);
-  }
-`;
 
 const RangeContainer = styled.div`
   margin-top: 12px;
@@ -354,51 +241,23 @@ const ApplyFiltersButton = styled.button`
   }
 `;
 
-const BrandDropdown = styled.div`
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  background-color: white;
-  border: 1px solid #E0E0E0;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  margin-top: 4px;
-  z-index: 100;
-  max-height: 250px;
-  overflow-y: auto;
-  padding: 8px;
-`;
-
-const BrandOption = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 8px 12px;
-  cursor: pointer;
-  border-radius: 4px;
-  
-  &:hover {
-    background-color: #F5F5F5;
-  }
-`;
 
 // Mock data for histogram
 const histogramData = Array.from({ length: 30 }, () => Math.floor(Math.random() * 100));
 
 // Brand data with counts
-const allBrands = [
-  { name: 'Mercedes-Benz', count: 125 },
-  { name: 'BMW', count: 98 },
-  { name: 'Lexus', count: 47 },
-  { name: 'Audi', count: 76 },
-  { name: 'Toyota', count: 112 },
-  { name: 'Honda', count: 65 },
-  { name: 'Ford', count: 82 },
-  { name: 'Volkswagen', count: 94 },
-  { name: 'Porsche', count: 28 },
-  { name: 'Volvo', count: 41 },
-];
+// const allBrands = [
+//   { name: 'Mercedes-Benz', count: 125 },
+//   { name: 'BMW', count: 98 },
+//   { name: 'Lexus', count: 47 },
+//   { name: 'Audi', count: 76 },
+//   { name: 'Toyota', count: 112 },
+//   { name: 'Honda', count: 65 },
+//   { name: 'Ford', count: 82 },
+//   { name: 'Volkswagen', count: 94 },
+//   { name: 'Porsche', count: 28 },
+//   { name: 'Volvo', count: 41 },
+// ];
 
 interface EnhancedFiltersProps {
   onFilterChange?: (filters: FilterState) => void;
