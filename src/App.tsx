@@ -5,6 +5,7 @@ import GlobalStyles from './styles/GlobalStyles';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import { BuyPage, CarDetailPage } from './pages';
+import BusinessPage from './pages/BusinessPage';
 
 const AppContainer = styled.div`
   display: flex;
@@ -131,6 +132,7 @@ const App: React.FC = () => {
             <Route path="/buy" element={<BuyPage />} />
             <Route path="/car/:carId" element={<CarDetailPageWrapper />} />
             <Route path="/sell" element={<div>Sell Page</div>} />
+            <Route path="/business" element={<BusinessPage />} />
             <Route path="/about" element={<div>About Page</div>} />
             <Route path="/reviews" element={<div>Reviews Page</div>} />
             <Route path="*" element={<Navigate to="/buy" replace />} />

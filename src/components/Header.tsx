@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import { Link, NavLink as RouterNavLink } from 'react-router-dom';
 
 const HeaderContainer = styled.header`
   display: flex;
@@ -36,11 +36,11 @@ const Navigation = styled.nav`
   gap: 2rem;
 `;
 
-const NavLink = styled(Link)<{ active?: boolean }>`
+const NavLink = styled(RouterNavLink)`
   text-decoration: none;
   color: inherit;
   padding: 0.5rem 0;
-  font-weight: ${props => props.active ? '600' : '400'};
+  font-weight: 400;
   position: relative;
   
   &::after {
@@ -51,8 +51,16 @@ const NavLink = styled(Link)<{ active?: boolean }>`
     width: 100%;
     height: 2px;
     background-color: var(--primary-color);
-    transform: scaleX(${props => props.active ? 1 : 0});
+    transform: scaleX(0);
     transition: transform 0.3s ease;
+  }
+  
+  &.active {
+    font-weight: 600;
+    
+    &::after {
+      transform: scaleX(1);
+    }
   }
   
   &:hover::after {
@@ -90,7 +98,9 @@ const LanguageButton = styled.button`
   }
 `;
 
-const LanguageDropdown = styled.div<{ isOpen: boolean }>`
+const LanguageDropdown = styled.div.withConfig({
+  shouldForwardProp: (prop) => !['isOpen'].includes(prop)
+})<{ isOpen: boolean }>`
   position: absolute;
   top: 100%;
   right: 0;
@@ -103,7 +113,9 @@ const LanguageDropdown = styled.div<{ isOpen: boolean }>`
   display: ${props => props.isOpen ? 'block' : 'none'};
 `;
 
-const LanguageOption = styled.button<{ active?: boolean }>`
+const LanguageOption = styled.button.withConfig({
+  shouldForwardProp: (prop) => !['active'].includes(prop)
+})<{ active?: boolean }>`
   display: flex;
   align-items: center;
   width: 100%;
@@ -148,10 +160,9 @@ const Header: React.FC = () => {
       </LogoSection>
       
       <Navigation>
-        <NavLink to="/buy" active>Buy</NavLink>
-        <NavLink to="/sell">Sell</NavLink>
+        <NavLink to="/buy">Buy Car</NavLink>
         <NavLink to="/about">About</NavLink>
-        <NavLink to="/reviews">Reviews</NavLink>
+        <NavLink to="/business">Business</NavLink>
       </Navigation>
       
       <RightSection>
@@ -189,4 +200,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header; 
+export default Header;

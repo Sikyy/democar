@@ -11,6 +11,7 @@ interface CarCardProps {
   specs: {
     mileage: number;
     fuelType: string;
+    displacement: string;
     power: number;
     driveType: string;
   };
@@ -103,8 +104,8 @@ const Title = styled.h3`
 
 const SpecsContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 8px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
   margin: 16px 0;
 `;
 
@@ -246,6 +247,15 @@ const CarCard: React.FC<CarCardProps> = ({
             <Spec>
               <SpecIcon>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2L13.09 8.26L22 9L13.09 9.74L12 16L10.91 9.74L2 9L10.91 8.26L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </SpecIcon>
+              <SpecValue>{specs.displacement}</SpecValue>
+            </Spec>
+            
+            <Spec>
+              <SpecIcon>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M12 8V16M8 12H16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </SpecIcon>
@@ -285,4 +295,4 @@ const CarCard: React.FC<CarCardProps> = ({
   );
 };
 
-export default CarCard; 
+export default CarCard;

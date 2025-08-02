@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { Breadcrumb, Button, Tooltip, message, Tabs, Tag, Rate } from 'antd';
-import { HeartOutlined, HeartFilled, ShareAltOutlined, CheckOutlined, 
+import { CheckOutlined, 
   PhoneOutlined, MessageOutlined, EnvironmentOutlined, CarOutlined, 
-  InfoCircleOutlined, HistoryOutlined, FileTextOutlined } from '@ant-design/icons';
+  CheckCircleOutlined, 
+  ToolOutlined, SettingOutlined, SafetyOutlined, EyeOutlined } from '@ant-design/icons';
 
 // 主容器
 const Container = styled.div`
@@ -61,24 +62,7 @@ const Subtitle = styled.div`
   color: #5d636f;
 `;
 
-const ActionButtons = styled.div`
-  display: flex;
-  gap: 16px;
-`;
 
-const IconButton = styled.button`
-  background: none;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  color: #5d636f;
-  font-size: 16px;
-  
-  &:hover {
-    color: #0277bd;
-  }
-`;
 
 // 标签区域
 const TagsRow = styled.div`
@@ -166,7 +150,9 @@ const ThumbnailStrip = styled.div`
   margin-top: 8px;
 `;
 
-const Thumbnail = styled.div<{ active?: boolean }>`
+const Thumbnail = styled.div.withConfig({
+  shouldForwardProp: (prop) => !['active'].includes(prop)
+})<{ active?: boolean }>`
   width: 100%;
   height: 0;
   padding-bottom: 75%;
@@ -374,96 +360,130 @@ const FeatureText = styled.div`
   color: #242d3d;
 `;
 
-// 车辆历史部分
-const HistorySection = styled.div`
+
+
+// 检测报告部分
+const InspectionSection = styled.div`
   margin-bottom: 32px;
 `;
 
-const HistoryItem = styled.div`
-  display: flex;
-  gap: 16px;
-  margin-bottom: 16px;
-  padding-bottom: 16px;
-  border-bottom: 1px solid #f0f0f0;
-  
-  &:last-child {
-    border-bottom: none;
-  }
+const InspectionCard = styled.div`
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 1px solid #f0f0f0;
 `;
 
-const HistoryIcon = styled.div`
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+const InspectionHeader = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #f0f0f0;
+`;
+
+const InspectionIcon = styled.div`
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
   background: #f5f9fc;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #0277bd;
 `;
 
-const HistoryContent = styled.div``;
-
-const HistoryTitle = styled.div`
-  font-size: 16px;
-  font-weight: 500;
-  color: #242d3d;
-  margin-bottom: 4px;
+const InspectionInfo = styled.div`
+  flex: 1;
 `;
 
-const HistoryDescription = styled.div`
-  font-size: 14px;
-  color: #5d636f;
-`;
-
-// 相似车辆部分
-const SimilarSection = styled.div`
-  margin-bottom: 32px;
-`;
-
-const SimilarGrid = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 16px;
-`;
-
-const SimilarCard = styled.div`
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-`;
-
-const SimilarImage = styled.img`
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-`;
-
-const SimilarContent = styled.div`
-  padding: 12px;
-`;
-
-const SimilarTitle = styled.div`
-  font-size: 16px;
-  font-weight: 500;
-  color: #242d3d;
-  margin-bottom: 4px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-`;
-
-const SimilarPrice = styled.div`
+const InspectionTitle = styled.div`
   font-size: 18px;
   font-weight: 600;
   color: #242d3d;
   margin-bottom: 4px;
 `;
 
-const SimilarDetails = styled.div`
+const InspectionSubtitle = styled.div`
   font-size: 14px;
   color: #5d636f;
 `;
+
+const InspectionStatus = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+`;
+
+const InspectionContent = styled.div``;
+
+const InspectionGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 20px;
+`;
+
+const InspectionItem = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 6px;
+`;
+
+const InspectionItemIcon = styled.div`
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const InspectionItemContent = styled.div`
+  flex: 1;
+`;
+
+const InspectionItemTitle = styled.div`
+  font-size: 14px;
+  color: #242d3d;
+  margin-bottom: 2px;
+`;
+
+const InspectionItemResult = styled.div<{ status: 'good' | 'warning' | 'error' }>`
+  font-size: 12px;
+  font-weight: 500;
+  color: ${props => {
+    switch (props.status) {
+      case 'good': return '#4caf50';
+      case 'warning': return '#ff9800';
+      case 'error': return '#f44336';
+      default: return '#5d636f';
+    }
+  }};
+`;
+
+const InspectionFooter = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  border-top: 1px solid #f0f0f0;
+`;
+
+const InspectionDate = styled.div`
+  font-size: 14px;
+  color: #5d636f;
+`;
+
+const InspectionButton = styled.div``;
+
+
 
 // 免责声明部分
 const DisclaimerSection = styled.div`
@@ -524,23 +544,12 @@ interface CarDetailPageProps {
 
 const CarDetailPage: React.FC<CarDetailPageProps> = ({ car }) => {
   const [activeImageIndex, setActiveImageIndex] = useState(0);
-  const [isFavorite, setIsFavorite] = useState(false);
-
   const handlePrevImage = () => {
     setActiveImageIndex(prev => (prev === 0 ? car.images.length - 1 : prev - 1));
   };
 
   const handleNextImage = () => {
     setActiveImageIndex(prev => (prev === car.images.length - 1 ? 0 : prev + 1));
-  };
-
-  const handleFavoriteClick = () => {
-    setIsFavorite(!isFavorite);
-    message.success(isFavorite ? '已从收藏夹移除' : '已添加到收藏夹');
-  };
-
-  const handleShare = () => {
-    message.info('分享功能开发中');
   };
 
   return (
@@ -567,28 +576,8 @@ const CarDetailPage: React.FC<CarDetailPageProps> = ({ car }) => {
             <Title>{car.year} {car.make} {car.model} {car.trim}</Title>
             <SubtitleRow>
               <Subtitle>{car.mileage} · {car.dealerInfo.location}</Subtitle>
-              <ActionButtons>
-                <Tooltip title={isFavorite ? '取消收藏' : '添加收藏'}>
-                  <IconButton onClick={handleFavoriteClick}>
-                    {isFavorite ? <HeartFilled /> : <HeartOutlined />}
-                    {isFavorite ? ' 已收藏' : ' 收藏'}
-                  </IconButton>
-                </Tooltip>
-                <Tooltip title="分享">
-                  <IconButton onClick={handleShare}>
-                    <ShareAltOutlined /> 分享
-                  </IconButton>
-                </Tooltip>
-              </ActionButtons>
             </SubtitleRow>
-            <TagsRow>
-              {car.special && (
-                <StyledTag color="blue">特惠价格</StyledTag>
-              )}
-              <StyledTag color="green">在线购买</StyledTag>
-              <StyledTag color="orange">可送货上门</StyledTag>
-              <StyledTag color="purple">7天退换保证</StyledTag>
-            </TagsRow>
+
           </TitleSection>
 
           <ImageSection>
@@ -701,50 +690,225 @@ const CarDetailPage: React.FC<CarDetailPageProps> = ({ car }) => {
                           ))}
                         </FeaturesList>
                       </FeaturesSection>
+
+                      <InspectionSection>
+                        <SectionTitle>检测报告</SectionTitle>
+                        <InspectionCard>
+                          <InspectionHeader>
+                            <InspectionIcon>
+                              <CheckCircleOutlined style={{ fontSize: '24px', color: '#0277bd' }} />
+                            </InspectionIcon>
+                            <InspectionInfo>
+                              <InspectionTitle>车辆检测</InspectionTitle>
+                              <InspectionSubtitle>非事故车 · 链车认证 · 非火烧 · 非水泡</InspectionSubtitle>
+                            </InspectionInfo>
+                            <InspectionStatus>
+                              <CheckCircleOutlined style={{ color: '#4caf50', fontSize: '20px' }} />
+                              <span style={{ color: '#4caf50', fontWeight: '500' }}>已通过</span>
+                            </InspectionStatus>
+                          </InspectionHeader>
+                          <InspectionContent>
+                            <div style={{ marginBottom: '20px' }}>
+                              <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '10px' }}>
+                                <div style={{ background: '#f0f2f5', padding: '8px 16px', borderRadius: '4px', flex: 1, marginRight: '8px', textAlign: 'center' }}>
+                                  <div style={{ fontWeight: 'bold' }}>事故排查 (38项)</div>
+                                </div>
+                                <div style={{ background: '#e6f7ff', padding: '8px 16px', borderRadius: '4px', flex: 1, marginRight: '8px', textAlign: 'center' }}>
+                                  <div style={{ fontWeight: 'bold' }}>外观 (9项)</div>
+                                </div>
+                                <div style={{ background: '#f6ffed', padding: '8px 16px', borderRadius: '4px', flex: 1, textAlign: 'center' }}>
+                                  <div style={{ fontWeight: 'bold' }}>内饰 (9项)</div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div style={{ marginBottom: '16px' }}>
+                              <div style={{ fontWeight: 'bold', marginBottom: '8px', display: 'flex', alignItems: 'center' }}>
+                                <span>事故检测排查</span>
+                                <CheckCircleOutlined style={{ color: '#52c41a', marginLeft: '8px' }} />
+                                <span style={{ color: '#52c41a', marginLeft: '4px' }}>21项通过</span>
+                                <span style={{ color: '#fa8c16', marginLeft: '8px' }}>1项瑕疵</span>
+                              </div>
+                              <InspectionGrid>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>左前减震器座</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>右前减震器座</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>防火墙</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>水箱框架</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>左车顶边梁</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>右车顶边梁</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>左前纵梁</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>右前纵梁</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>左后纵梁</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>右后纵梁</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>左A柱封边</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>右A柱封边</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>左B柱封边</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>右B柱封边</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>左C柱封边</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>右C柱封边</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>左前翼子板内衬</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>右前翼子板内衬</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <span style={{ color: '#fa8c16' }}>⚠</span>
+                                  <span style={{ marginLeft: '8px' }}>后围板</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>后备箱底板</span>
+                                </InspectionItem>
+                              </InspectionGrid>
+                            </div>
+                            
+                            <div style={{ marginBottom: '16px' }}>
+                              <div style={{ fontWeight: 'bold', marginBottom: '8px', display: 'flex', alignItems: 'center' }}>
+                                <span>泡水检测</span>
+                                <CheckCircleOutlined style={{ color: '#52c41a', marginLeft: '8px' }} />
+                                <span style={{ color: '#52c41a', marginLeft: '4px' }}>9项通过</span>
+                              </div>
+                              <InspectionGrid>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>仪表台</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>座椅</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>主驾座椅滑轨</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>副驾座椅滑轨</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>车内线束</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>保险丝</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>安全带</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>点烟器座</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>顶棚</span>
+                                </InspectionItem>
+                              </InspectionGrid>
+                            </div>
+                            
+                            <div>
+                              <div style={{ fontWeight: 'bold', marginBottom: '8px', display: 'flex', alignItems: 'center' }}>
+                                <span>火烧检测</span>
+                                <CheckCircleOutlined style={{ color: '#52c41a', marginLeft: '8px' }} />
+                                <span style={{ color: '#52c41a', marginLeft: '4px' }}>7项通过</span>
+                              </div>
+                              <InspectionGrid>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>防火墙隔热棉</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>仪表台及附件</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>发动机舱塑料件</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>发动机舱橡胶</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>驾驶舱内线束及附接件</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>减震器周边胶体</span>
+                                </InspectionItem>
+                                <InspectionItem>
+                                  <CheckCircleOutlined style={{ color: '#52c41a', marginRight: '8px' }} />
+                                  <span>蓄电池及附件</span>
+                                </InspectionItem>
+                              </InspectionGrid>
+                            </div>
+                            <InspectionFooter>
+                              <InspectionDate>检测日期：2024年1月15日</InspectionDate>
+                              <InspectionButton>
+                                <Button type="link" icon={<EyeOutlined />}>查看详细报告</Button>
+                              </InspectionButton>
+                            </InspectionFooter>
+                          </InspectionContent>
+                        </InspectionCard>
+                      </InspectionSection>
                     </>
                   )
                 },
-                {
-                  key: 'history',
-                  label: '车辆历史',
-                  children: (
-                    <HistorySection>
-                      {car.history.map((item, index) => (
-                        <HistoryItem key={index}>
-                          <HistoryIcon>
-                            {item.icon === 'history' && <HistoryOutlined />}
-                            {item.icon === 'info' && <InfoCircleOutlined />}
-                            {item.icon === 'file' && <FileTextOutlined />}
-                          </HistoryIcon>
-                          <HistoryContent>
-                            <HistoryTitle>{item.title}</HistoryTitle>
-                            <HistoryDescription>{item.description}</HistoryDescription>
-                          </HistoryContent>
-                        </HistoryItem>
-                      ))}
-                    </HistorySection>
-                  )
-                },
-                {
-                  key: 'similar',
-                  label: '相似车辆',
-                  children: (
-                    <SimilarSection>
-                      <SimilarGrid>
-                        {car.similarCars.map((similarCar, index) => (
-                          <SimilarCard key={index}>
-                            <SimilarImage src={similarCar.image} alt={similarCar.title} />
-                            <SimilarContent>
-                              <SimilarTitle>{similarCar.title}</SimilarTitle>
-                              <SimilarPrice>¥{similarCar.price.toLocaleString()}</SimilarPrice>
-                              <SimilarDetails>{similarCar.mileage}</SimilarDetails>
-                            </SimilarContent>
-                          </SimilarCard>
-                        ))}
-                      </SimilarGrid>
-                    </SimilarSection>
-                  )
-                }
+
               ]}
             />
           </DetailSection>
@@ -757,12 +921,6 @@ const CarDetailPage: React.FC<CarDetailPageProps> = ({ car }) => {
               <PriceBadge>优惠价格</PriceBadge>
             </PriceHeader>
             <PriceSubtext>含税价 · 不含上牌费用</PriceSubtext>
-            
-            <EstimatedPayment>
-              <PaymentTitle>预计月供</PaymentTitle>
-              <PaymentAmount>¥{car.monthlyPayment.toLocaleString()}/月</PaymentAmount>
-              <PaymentSubtext>基于首付30%，贷款期限60个月，年利率4.5%</PaymentSubtext>
-            </EstimatedPayment>
 
             <ButtonGroup>
               <PrimaryButton type="primary" icon={<PhoneOutlined />} block>
@@ -805,4 +963,4 @@ const CarDetailPage: React.FC<CarDetailPageProps> = ({ car }) => {
   );
 };
 
-export default CarDetailPage; 
+export default CarDetailPage;

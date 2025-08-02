@@ -4,7 +4,7 @@ import CarCard from '../components/CarCard';
 import EnhancedFilters from '../components/EnhancedFilters';
 
 const PageContainer = styled.div`
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 24px;
 `;
@@ -28,58 +28,40 @@ const CarCount = styled.span`
   margin-left: 12px;
 `;
 
-const CarTypesFilter = styled.div`
-  display: flex;
-  gap: 12px;
-  margin: 24px 0;
-  overflow-x: auto;
-  padding-bottom: 12px;
-  white-space: nowrap;
-`;
 
-const CarTypeButton = styled.button<{ active?: boolean }>`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  padding: 12px 24px;
-  background-color: ${props => props.active ? 'var(--primary-color)' : 'var(--background-secondary)'};
-  color: ${props => props.active ? 'white' : 'var(--text-color)'};
-  border-radius: 8px;
-  font-weight: 500;
-  transition: all 0.2s ease;
-  
-  &:hover {
-    background-color: ${props => props.active ? 'var(--primary-color)' : '#EEEEEE'};
-  }
-  
-  svg {
-    width: 24px;
-    height: 24px;
-  }
-`;
+
 
 const ContentContainer = styled.div`
   display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 24px;
+  grid-template-columns: 250px 1fr;
+  gap: 20px;
 `;
 
 const FilterContainer = styled.div`
   border-right: 1px solid var(--border-color);
-  padding-right: 24px;
+  padding-right: 20px;
 `;
 
 const CarListContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
   align-items: start;  /* 防止卡片被拉伸 */
   
   & > * {
     height: auto;  /* 让卡片高度自适应内容 */
-    min-height: 500px;  /* 设置最小高度，原来是450px，增加50px */
-    max-height: 500px;  /* 设置最大高度，原来是450px，增加50px */
+  }
+  
+  @media (max-width: 1000px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  @media (max-width: 700px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  @media (max-width: 500px) {
+    grid-template-columns: 1fr;
   }
 `;
 
@@ -94,7 +76,9 @@ const Pagination = styled.div`
   z-index: 1;
 `;
 
-const PageButton = styled.button<{ active?: boolean }>`
+const PageButton = styled.button.withConfig({
+  shouldForwardProp: (prop) => !['active'].includes(prop)
+})<{ active?: boolean }>`
   width: 40px;
   height: 40px;
   display: flex;
@@ -161,12 +145,16 @@ const carData = [
     id: '1',
     image: '/images/Geely.jpg',
     title: 'BMW 850i xDrive',
+    brand: 'BMW',
     price: 55300,
     location: 'Budapest',
     locationCountry: 'HU',
+    vehicleType: 'sports',
+    energyType: 'petrol',
     specs: {
       mileage: 7700,
       fuelType: 'Petrol',
+      displacement: '4.4L',
       power: 390,
       driveType: '4WD'
     },
@@ -175,14 +163,18 @@ const carData = [
   },
   {
     id: '2',
-    image: 'https://source.unsplash.com/random/600x400/?mercedes',
+    image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzY2NjY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk1lcmNlZGVzLUJlbno8L3RleHQ+PC9zdmc+',
     title: 'Mercedes-Benz A 250 e',
+    brand: 'Mercedes-Benz',
     price: 32509,
     location: 'Rome',
     locationCountry: 'IT',
+    vehicleType: 'sedan',
+    energyType: 'hybrid',
     specs: {
       mileage: 4227,
       fuelType: 'Hybrid',
+      displacement: '1.3L',
       power: 160,
       driveType: 'FWD'
     },
@@ -191,14 +183,18 @@ const carData = [
   },
   {
     id: '3',
-    image: 'https://source.unsplash.com/random/600x400/?lexus',
+    image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzY2NjY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkxleHVzPC90ZXh0Pjwvc3ZnPg==',
     title: 'Lexus IS III Restyling 2',
+    brand: 'Lexus',
     price: 79038,
     location: 'Manchester',
     locationCountry: 'UK',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
     specs: {
       mileage: 1470,
       fuelType: 'Petrol',
+      displacement: '2.5L',
       power: 133,
       driveType: 'RWD'
     },
@@ -207,14 +203,18 @@ const carData = [
   },
   {
     id: '4',
-    image: 'https://source.unsplash.com/random/600x400/?kia',
+    image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzY2NjY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPktpYTwvdGV4dD48L3N2Zz4=',
     title: 'Kia Forte III',
+    brand: 'Kia',
     price: 40149,
     location: 'Athens',
     locationCountry: 'GR',
+    vehicleType: 'sedan',
+    energyType: 'electric',
     specs: {
       mileage: 9452,
       fuelType: 'Electric',
+      displacement: 'N/A',
       power: 366,
       driveType: '4WD'
     },
@@ -223,14 +223,18 @@ const carData = [
   },
   {
     id: '5',
-    image: 'https://source.unsplash.com/random/600x400/?audi',
+    image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzY2NjY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkF1ZGk8L3RleHQ+PC9zdmc+',
     title: 'Audi A6 V (C8)',
+    brand: 'Audi',
     price: 110049,
     location: 'London',
     locationCountry: 'UK',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
     specs: {
       mileage: 6000,
       fuelType: 'Petrol',
+      displacement: '2.0L',
       power: 250,
       driveType: '4WD'
     },
@@ -239,14 +243,18 @@ const carData = [
   },
   {
     id: '6',
-    image: 'https://source.unsplash.com/random/600x400/?toyota',
+    image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzY2NjY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPlRveW90YTwvdGV4dD48L3N2Zz4=',
     title: 'Toyota Camry VIII',
+    brand: 'Toyota',
     price: 39000,
     location: 'Berlin',
     locationCountry: 'DE',
+    vehicleType: 'sedan',
+    energyType: 'hybrid',
     specs: {
       mileage: 12000,
       fuelType: 'Hybrid',
+      displacement: '2.5L',
       power: 155,
       driveType: 'FWD'
     },
@@ -255,14 +263,18 @@ const carData = [
   },
   {
     id: '7',
-    image: 'https://source.unsplash.com/random/600x400/?porsche',
+    image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzY2NjY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPlBvcnNjaGU8L3RleHQ+PC9zdmc+',
     title: 'Porsche 911 GT3',
+    brand: 'Porsche',
     price: 185000,
     location: 'Stuttgart',
     locationCountry: 'DE',
+    vehicleType: 'sports',
+    energyType: 'petrol',
     specs: {
       mileage: 1200,
       fuelType: 'Petrol',
+      displacement: '4.0L',
       power: 510,
       driveType: 'RWD'
     },
@@ -271,14 +283,18 @@ const carData = [
   },
   {
     id: '8',
-    image: 'https://source.unsplash.com/random/600x400/?tesla',
+    image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzY2NjY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPlRlc2xhPC90ZXh0Pjwvc3ZnPg==',
     title: 'Tesla Model S Plaid',
+    brand: 'Tesla',
     price: 129990,
     location: 'Amsterdam',
     locationCountry: 'NL',
+    vehicleType: 'sedan',
+    energyType: 'electric',
     specs: {
       mileage: 3500,
       fuelType: 'Electric',
+      displacement: 'N/A',
       power: 1020,
       driveType: 'AWD'
     },
@@ -287,14 +303,18 @@ const carData = [
   },
   {
     id: '9',
-    image: 'https://source.unsplash.com/random/600x400/?volkswagen',
+    image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzY2NjY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPlZvbGtzd2FnZW48L3RleHQ+PC9zdmc+',
     title: 'Volkswagen Golf R',
+    brand: 'Volkswagen',
     price: 45000,
     location: 'Frankfurt',
     locationCountry: 'DE',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
     specs: {
       mileage: 8500,
       fuelType: 'Petrol',
+      displacement: '2.0L',
       power: 320,
       driveType: '4WD'
     },
@@ -303,14 +323,18 @@ const carData = [
   },
   {
     id: '10',
-    image: 'https://source.unsplash.com/random/600x400/?honda',
+    image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzY2NjY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkhvbmRhPC90ZXh0Pjwvc3ZnPg==',
     title: 'Honda Civic Type R',
+    brand: 'Honda',
     price: 42000,
     location: 'Paris',
     locationCountry: 'FR',
+    vehicleType: 'sports',
+    energyType: 'petrol',
     specs: {
       mileage: 5000,
       fuelType: 'Petrol',
+      displacement: '2.0L',
       power: 330,
       driveType: 'FWD'
     },
@@ -319,14 +343,18 @@ const carData = [
   },
   {
     id: '11',
-    image: 'https://source.unsplash.com/random/600x400/?maserati',
+    image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzY2NjY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk1hc2VyYXRpPC90ZXh0Pjwvc3ZnPg==',
     title: 'Maserati MC20',
+    brand: 'Maserati',
     price: 230000,
     location: 'Milan',
     locationCountry: 'IT',
+    vehicleType: 'sports',
+    energyType: 'petrol',
     specs: {
       mileage: 800,
       fuelType: 'Petrol',
+      displacement: '3.0L',
       power: 630,
       driveType: 'RWD'
     },
@@ -359,13 +387,16 @@ const BrandCardsContainer = styled.div`
   padding: 8px 0;
 `;
 
-const BrandCard = styled.div<{ isSelected: boolean }>`
+const BrandCard = styled.div.withConfig({
+  shouldForwardProp: (prop) => !['isSelected'].includes(prop)
+})<{ isSelected: boolean }>`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 110px;
-  padding: 10px 8px;
+  padding: 16px 12px;
+  min-height: 50px;
   border: 1px solid ${props => props.isSelected ? '#FF5722' : '#E0E0E0'};
   border-radius: 8px;
   background-color: ${props => props.isSelected ? '#FFF0EB' : 'white'};
@@ -430,7 +461,7 @@ const RemoveCardButton = styled.button`
   }
 `;
 
-// 删除品牌分类数据
+// 品牌数据
 const brandModels = [
   { brand: 'Mercedes-Benz', model: 'AMG GT, C 150' },
   { brand: 'BMW', model: 'X7, M2, X5' },
@@ -442,15 +473,33 @@ const brandModels = [
   { brand: 'Volkswagen', model: 'Golf, Tiguan, Polo' }
 ];
 
+// 车型数据
+const carTypes = [
+  { type: 'sedan', name: '轿车' },
+  { type: 'suv', name: 'SUV' },
+  { type: 'mpv', name: 'MPV' },
+  { type: 'sports', name: '跑车' }
+];
+
+// 能源类型数据
+const fuelTypes = [
+  { type: 'petrol', name: '汽油' },
+  { type: 'diesel', name: '柴油' },
+  { type: 'hybrid', name: '油电混合' },
+  { type: 'electric', name: '纯电' }
+];
+
 const BuyPage: React.FC = () => {
-  const [activeCarType, setActiveCarType] = useState('all');
+
   const [currentPage, setCurrentPage] = useState(1);
-  const [filters, setFilters] = useState<FilterState | null>(null);
+  // 移除未使用的filters状态变量
   const [filteredCars, setFilteredCars] = useState(carData);
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
+  const [selectedCarTypes, setSelectedCarTypes] = useState<string[]>([]);
+  const [selectedFuelTypes, setSelectedFuelTypes] = useState<string[]>([]);
   
   // 每页显示的车辆数量
-  const ITEMS_PER_PAGE = 4;
+  const ITEMS_PER_PAGE = 12;
   
   // 计算总页数
   const totalPages = Math.ceil(filteredCars.length / ITEMS_PER_PAGE);
@@ -479,14 +528,11 @@ const BuyPage: React.FC = () => {
   // 获取当前页面的车辆
   const currentCars = getCurrentCars();
 
-  const handleCarTypeChange = (type: string) => {
-    setActiveCarType(type);
-    // 这里应该添加按车型筛选的逻辑
-  };
+
+    
 
   // 更新筛选器处理函数
   const handleFilterChange = useCallback((newFilters: FilterState) => {
-    setFilters(newFilters);
     
     // 应用所有筛选条件
     let result = [...carData];
@@ -494,8 +540,31 @@ const BuyPage: React.FC = () => {
     // 1. 应用品牌筛选
     if (selectedBrands.length > 0) {
       result = result.filter(car => 
-        selectedBrands.some(brand => car.title.includes(brand))
+        selectedBrands.includes(car.brand)
       );
+    }
+    
+    // 1.5. 应用车型筛选（基于vehicleType字段）
+    if (selectedCarTypes.length > 0) {
+      result = result.filter(car => 
+        selectedCarTypes.includes(car.vehicleType)
+      );
+    }
+    
+    // 1.6. 应用能源类型筛选
+    if (selectedFuelTypes.length > 0) {
+      result = result.filter(car => {
+        const fuelType = car.specs.fuelType.toLowerCase();
+        return selectedFuelTypes.some(type => {
+          switch(type) {
+            case 'petrol': return fuelType === 'petrol';
+            case 'diesel': return fuelType === 'diesel';
+            case 'hybrid': return fuelType === 'hybrid';
+            case 'electric': return fuelType === 'electric';
+            default: return false;
+          }
+        });
+      });
     }
     
     // 2. 应用价格范围筛选
@@ -542,62 +611,39 @@ const BuyPage: React.FC = () => {
     
     // 更新筛选后的车辆列表
     setFilteredCars(result);
-  }, [selectedBrands]);
+  }, [selectedBrands, selectedCarTypes, selectedFuelTypes]);
 
   // 品牌选择相关函数
   const handleBrandCardClick = useCallback((brand: string) => {
-    // 更新选中的品牌
     setSelectedBrands(prev => {
-      const newBrands = prev.includes(brand)
+      const newBrands = prev.includes(brand) 
         ? prev.filter(b => b !== brand)
         : [...prev, brand];
-      
-      // 应用筛选条件
-      let result = [...carData];
-      
-      // 应用品牌筛选
-      if (newBrands.length > 0) {
-        result = result.filter(car =>
-          newBrands.some(b => car.title.includes(b))
-        );
-      }
-      
-      // 如果存在其他筛选条件，继续应用
-      if (filters) {
-        // 应用价格范围
-        if (filters.priceRange) {
-          const minPrice = parseFloat(filters.priceRange.min.replace(/\s/g, ''));
-          const maxPrice = parseFloat(filters.priceRange.max.replace(/\s/g, ''));
-          
-          if (!isNaN(minPrice)) {
-            result = result.filter(car => car.price >= minPrice);
-          }
-          
-          if (!isNaN(maxPrice)) {
-            result = result.filter(car => car.price <= maxPrice);
-          }
-        }
-        
-        // 应用其他筛选条件
-        if (filters.fuelTypes && filters.fuelTypes.length > 0) {
-          result = result.filter(car => 
-            filters.fuelTypes!.includes(car.specs.fuelType)
-          );
-        }
-        
-        if (filters.driveTypes && filters.driveTypes.length > 0) {
-          result = result.filter(car => 
-            filters.driveTypes!.includes(car.specs.driveType)
-          );
-        }
-      }
-      
-      // 更新筛选后的车辆列表
-      setFilteredCars(result);
-      
       return newBrands;
     });
-  }, [filters]);
+  }, []);
+  
+  // 车型选择相关函数
+  const handleCarTypeClick = useCallback((type: string) => {
+    setSelectedCarTypes(prev => {
+      const newTypes = prev.includes(type) 
+        ? prev.filter(t => t !== type)
+        : [...prev, type];
+      return newTypes;
+    });
+  }, []);
+  
+  // 能源类型选择相关函数
+  const handleFuelTypeClick = useCallback((type: string) => {
+    setSelectedFuelTypes(prev => {
+      const newTypes = prev.includes(type) 
+        ? prev.filter(t => t !== type)
+        : [...prev, type];
+      return newTypes;
+    });
+  }, []);
+  
+
 
   return (
     <PageContainer>
@@ -607,79 +653,11 @@ const BuyPage: React.FC = () => {
           <CarCount>{filteredCars.length} cars</CarCount>
         </div>
         
-        <CarTypesFilter>
-          <CarTypeButton 
-            active={activeCarType === 'all'} 
-            onClick={() => handleCarTypeChange('all')}
-          >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M3 12H21" stroke={activeCarType === 'all' ? 'white' : 'black'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              <path d="M3 6H21" stroke={activeCarType === 'all' ? 'white' : 'black'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              <path d="M3 18H21" stroke={activeCarType === 'all' ? 'white' : 'black'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-            All cars
-          </CarTypeButton>
-          
-          <CarTypeButton 
-            active={activeCarType === 'sedan'} 
-            onClick={() => handleCarTypeChange('sedan')}
-          >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M19 17H21V11L17 7H9L5 11V17H7" stroke={activeCarType === 'sedan' ? 'white' : 'black'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-              <circle cx="7" cy="17" r="2" stroke={activeCarType === 'sedan' ? 'white' : 'black'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-              <circle cx="19" cy="17" r="2" stroke={activeCarType === 'sedan' ? 'white' : 'black'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-            Sedan
-          </CarTypeButton>
-          
-          <CarTypeButton 
-            active={activeCarType === 'suv'} 
-            onClick={() => handleCarTypeChange('suv')}
-          >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M3 11L7 4H17L21 11M3 11V17H5M3 11H21M21 11V17H19M5 17H19M5 17C5 17 5 19 7 19C9 19 9 17 9 17M19 17C19 17 19 19 17 19C15 19 15 17 15 17" stroke={activeCarType === 'suv' ? 'white' : 'black'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-            SUV
-          </CarTypeButton>
-          
-          <CarTypeButton 
-            active={activeCarType === 'coupe'} 
-            onClick={() => handleCarTypeChange('coupe')}
-          >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M7 10L5 17H19L17 10L13 7H11L7 10Z" stroke={activeCarType === 'coupe' ? 'white' : 'black'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-              <path d="M5 17H3V19H5V17Z" stroke={activeCarType === 'coupe' ? 'white' : 'black'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-              <path d="M19 17H21V19H19V17Z" stroke={activeCarType === 'coupe' ? 'white' : 'black'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-            Coupe
-          </CarTypeButton>
-          
-          <CarTypeButton 
-            active={activeCarType === 'hatchback'} 
-            onClick={() => handleCarTypeChange('hatchback')}
-          >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 11L7 7H15L19 11M5 11V17H7M5 11H19M19 11V17H17M7 17H17M7 17C7 17 7 19 9 19C11 19 11 17 11 17M17 17C17 17 17 19 15 19C13 19 13 17 13 17" stroke={activeCarType === 'hatchback' ? 'white' : 'black'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-            Hatchback
-          </CarTypeButton>
-          
-          <CarTypeButton 
-            active={activeCarType === 'pickup'} 
-            onClick={() => handleCarTypeChange('pickup')}
-          >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M16 15H21V10L19 5H9L7 10V15H12" stroke={activeCarType === 'pickup' ? 'white' : 'black'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-              <path d="M14 5V15" stroke={activeCarType === 'pickup' ? 'white' : 'black'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-              <circle cx="7" cy="18" r="3" stroke={activeCarType === 'pickup' ? 'white' : 'black'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-              <circle cx="21" cy="18" r="3" stroke={activeCarType === 'pickup' ? 'white' : 'black'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-            Pickup
-          </CarTypeButton>
-        </CarTypesFilter>
+
       </PageHeader>
       
       {/* 品牌选择器 */}
+      {/* 横向筛选器 */}
       <BrandSelectionContainer>
         <BrandSelectionTitle>品牌筛选</BrandSelectionTitle>
         
@@ -716,11 +694,58 @@ const BuyPage: React.FC = () => {
                 )}
               </BrandCardLogo>
               <BrandCardName>{item.brand}</BrandCardName>
-              <BrandCardModel>{item.model}</BrandCardModel>
               {selectedBrands.includes(item.brand) && (
                 <RemoveCardButton onClick={(e) => {
                   e.stopPropagation();
                   handleBrandCardClick(item.brand);
+                }}>
+                  <svg width="10" height="10" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 3L3 9" stroke="#424242" strokeWidth="1.5" strokeLinecap="round" />
+                    <path d="M3 3L9 9" stroke="#424242" strokeWidth="1.5" strokeLinecap="round" />
+                  </svg>
+                </RemoveCardButton>
+              )}
+            </BrandCard>
+          ))}
+        </BrandCardsContainer>
+        
+        <BrandSelectionTitle style={{marginTop: '24px'}}>车型筛选</BrandSelectionTitle>
+        <BrandCardsContainer>
+          {carTypes.map(item => (
+            <BrandCard 
+              key={item.type} 
+              isSelected={selectedCarTypes.includes(item.type)}
+              onClick={() => handleCarTypeClick(item.type)}
+            >
+              <BrandCardName>{item.name}</BrandCardName>
+              {selectedCarTypes.includes(item.type) && (
+                <RemoveCardButton onClick={(e) => {
+                  e.stopPropagation();
+                  handleCarTypeClick(item.type);
+                }}>
+                  <svg width="10" height="10" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 3L3 9" stroke="#424242" strokeWidth="1.5" strokeLinecap="round" />
+                    <path d="M3 3L9 9" stroke="#424242" strokeWidth="1.5" strokeLinecap="round" />
+                  </svg>
+                </RemoveCardButton>
+              )}
+            </BrandCard>
+          ))}
+        </BrandCardsContainer>
+        
+        <BrandSelectionTitle style={{marginTop: '24px'}}>能源类型</BrandSelectionTitle>
+        <BrandCardsContainer>
+          {fuelTypes.map(item => (
+            <BrandCard 
+              key={item.type} 
+              isSelected={selectedFuelTypes.includes(item.type)}
+              onClick={() => handleFuelTypeClick(item.type)}
+            >
+              <BrandCardName>{item.name}</BrandCardName>
+              {selectedFuelTypes.includes(item.type) && (
+                <RemoveCardButton onClick={(e) => {
+                  e.stopPropagation();
+                  handleFuelTypeClick(item.type);
                 }}>
                   <svg width="10" height="10" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M9 3L3 9" stroke="#424242" strokeWidth="1.5" strokeLinecap="round" />
@@ -794,4 +819,4 @@ const BuyPage: React.FC = () => {
   );
 };
 
-export default BuyPage; 
+export default BuyPage;

@@ -41,7 +41,9 @@ const ResetButton = styled.button`
   }
 `;
 
-const CollapsibleHeader = styled.div<{ isOpen: boolean }>`
+const CollapsibleHeader = styled.div.withConfig({
+  shouldForwardProp: (prop) => !['isOpen'].includes(prop)
+})<{ isOpen: boolean }>`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,7 +57,9 @@ const CollapsibleHeader = styled.div<{ isOpen: boolean }>`
   }
 `;
 
-const CollapsibleContent = styled.div<{ isOpen: boolean }>`
+const CollapsibleContent = styled.div.withConfig({
+  shouldForwardProp: (prop) => !['isOpen'].includes(prop)
+})<{ isOpen: boolean }>`
   overflow: hidden;
   max-height: ${props => props.isOpen ? '1000px' : '0'};
   transition: max-height 0.3s ease-in-out;
@@ -166,7 +170,9 @@ const RangeHistogram = styled.div`
   padding: 0 8px;
 `;
 
-const HistogramBar = styled.div<{ height: number, active: boolean }>`
+const HistogramBar = styled.div.withConfig({
+  shouldForwardProp: (prop) => !['active'].includes(prop)
+})<{ height: number, active: boolean }>`
   flex: 1;
   height: ${props => props.height}%;
   min-height: 1px;
@@ -181,7 +187,9 @@ const FilterCheckboxes = styled.div`
   gap: 8px;
 `;
 
-const FilterCheckbox = styled.label<{ isActive: boolean }>`
+const FilterCheckbox = styled.label.withConfig({
+  shouldForwardProp: (prop) => !['isActive'].includes(prop)
+})<{ isActive: boolean }>`
   display: flex;
   align-items: center;
   gap: 8px;
@@ -206,7 +214,9 @@ const CheckboxLabel = styled.span`
   font-size: 0.9rem;
 `;
 
-const CheckboxTick = styled.div<{ isActive: boolean }>`
+const CheckboxTick = styled.div.withConfig({
+  shouldForwardProp: (prop) => !['isActive'].includes(prop)
+})<{ isActive: boolean }>`
   width: 16px;
   height: 16px;
   border-radius: 4px;
@@ -996,4 +1006,4 @@ const EnhancedFilters: React.FC<EnhancedFiltersProps> = ({ onFilterChange }) => 
   );
 };
 
-export default EnhancedFilters; 
+export default EnhancedFilters;
