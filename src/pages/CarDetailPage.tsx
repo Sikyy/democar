@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { Breadcrumb, Button, Tooltip, message, Tabs, Tag, Rate } from 'antd';
+import { Breadcrumb, Button, Tabs, Rate } from 'antd';
 import { CheckOutlined, 
   PhoneOutlined, MessageOutlined, EnvironmentOutlined, CarOutlined, 
   CheckCircleOutlined, 
-  ToolOutlined, SettingOutlined, SafetyOutlined, EyeOutlined } from '@ant-design/icons';
+   EyeOutlined } from '@ant-design/icons';
 
 // 主容器
 const Container = styled.div`
@@ -64,19 +64,7 @@ const Subtitle = styled.div`
 
 
 
-// 标签区域
-const TagsRow = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 16px;
-`;
 
-const StyledTag = styled(Tag)`
-  font-size: 12px;
-  padding: 2px 8px;
-  border-radius: 4px;
-`;
 
 // 图片区域
 const ImageSection = styled.div`
@@ -199,11 +187,6 @@ const Price = styled.div`
   color: #242d3d;
 `;
 
-const PriceBadge = styled.div`
-  font-size: 14px;
-  color: #0277bd;
-  font-weight: 500;
-`;
 
 const PriceSubtext = styled.div`
   font-size: 14px;
@@ -211,31 +194,7 @@ const PriceSubtext = styled.div`
   margin-bottom: 16px;
 `;
 
-const EstimatedPayment = styled.div`
-  background: #f5f9fc;
-  padding: 16px;
-  border-radius: 4px;
-  margin-bottom: 16px;
-`;
 
-const PaymentTitle = styled.div`
-  font-size: 16px;
-  font-weight: 500;
-  color: #242d3d;
-  margin-bottom: 8px;
-`;
-
-const PaymentAmount = styled.div`
-  font-size: 24px;
-  font-weight: 700;
-  color: #242d3d;
-  margin-bottom: 4px;
-`;
-
-const PaymentSubtext = styled.div`
-  font-size: 14px;
-  color: #5d636f;
-`;
 
 const ButtonGroup = styled.div`
   display: flex;
@@ -435,38 +394,8 @@ const InspectionItem = styled.div`
   border-radius: 6px;
 `;
 
-const InspectionItemIcon = styled.div`
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
 
-const InspectionItemContent = styled.div`
-  flex: 1;
-`;
 
-const InspectionItemTitle = styled.div`
-  font-size: 14px;
-  color: #242d3d;
-  margin-bottom: 2px;
-`;
-
-const InspectionItemResult = styled.div<{ status: 'good' | 'warning' | 'error' }>`
-  font-size: 12px;
-  font-weight: 500;
-  color: ${props => {
-    switch (props.status) {
-      case 'good': return '#4caf50';
-      case 'warning': return '#ff9800';
-      case 'error': return '#f44336';
-      default: return '#5d636f';
-    }
-  }};
-`;
 
 const InspectionFooter = styled.div`
   display: flex;
@@ -512,6 +441,9 @@ interface CarDetailPageProps {
     engine: string;
     drivetrain: string;
     vin: string;
+    seats: string;
+    hoursePower: string;
+    enginecapacity: string;
     stockNumber: string;
     year: number;
     make: string;
@@ -634,8 +566,12 @@ const CarDetailPage: React.FC<CarDetailPageProps> = ({ car }) => {
                           <SpecValue>{car.trim}</SpecValue>
                         </SpecItem>
                         <SpecItem>
-                          <SpecLabel>车身类型</SpecLabel>
+                          <SpecLabel>动力类型</SpecLabel>
                           <SpecValue>{car.bodyStyle}</SpecValue>
+                        </SpecItem>
+                        <SpecItem>
+                          <SpecLabel>排量</SpecLabel>
+                          <SpecValue>{car.enginecapacity}</SpecValue>
                         </SpecItem>
                         <SpecItem>
                           <SpecLabel>里程</SpecLabel>
@@ -650,32 +586,12 @@ const CarDetailPage: React.FC<CarDetailPageProps> = ({ car }) => {
                           <SpecValue>{car.interiorColor}</SpecValue>
                         </SpecItem>
                         <SpecItem>
-                          <SpecLabel>燃油经济性</SpecLabel>
-                          <SpecValue>{car.fuelEconomy}</SpecValue>
+                          <SpecLabel>座位数</SpecLabel>
+                          <SpecValue>{car.seats}</SpecValue>
                         </SpecItem>
                         <SpecItem>
-                          <SpecLabel>燃料类型</SpecLabel>
-                          <SpecValue>{car.fuelType}</SpecValue>
-                        </SpecItem>
-                        <SpecItem>
-                          <SpecLabel>变速箱</SpecLabel>
-                          <SpecValue>{car.transmission}</SpecValue>
-                        </SpecItem>
-                        <SpecItem>
-                          <SpecLabel>发动机</SpecLabel>
-                          <SpecValue>{car.engine}</SpecValue>
-                        </SpecItem>
-                        <SpecItem>
-                          <SpecLabel>驱动方式</SpecLabel>
-                          <SpecValue>{car.drivetrain}</SpecValue>
-                        </SpecItem>
-                        <SpecItem>
-                          <SpecLabel>VIN码</SpecLabel>
-                          <SpecValue>{car.vin}</SpecValue>
-                        </SpecItem>
-                        <SpecItem>
-                          <SpecLabel>库存编号</SpecLabel>
-                          <SpecValue>{car.stockNumber}</SpecValue>
+                          <SpecLabel>马力</SpecLabel>
+                          <SpecValue>{car.hoursePower}</SpecValue>
                         </SpecItem>
                       </SpecsGrid>
 
@@ -918,7 +834,6 @@ const CarDetailPage: React.FC<CarDetailPageProps> = ({ car }) => {
           <PriceCard>
             <PriceHeader>
               <Price>¥{car.price.toLocaleString()}</Price>
-              <PriceBadge>优惠价格</PriceBadge>
             </PriceHeader>
             <PriceSubtext>含税价 · 不含上牌费用</PriceSubtext>
 

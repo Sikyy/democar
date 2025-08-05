@@ -49,29 +49,6 @@ const ContactItem = styled.div`
   color: #333333;
 `;
 
-const SocialLinks = styled.div`
-  display: flex;
-  gap: 1rem;
-  margin-top: 2rem;
-`;
-
-const SocialIcon = styled.a`
-  width: 40px;
-  height: 40px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: black;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  
-  &:hover {
-    background-color: #f5f5f5;
-    border-color: #ccc;
-  }
-`;
 
 const RightSection = styled.div`
   flex: 1;
@@ -223,7 +200,7 @@ const BusinessPage: React.FC = () => {
         
         <RightSection>
           <FormCard>
-            <FormTitle>联系我们 / 7917</FormTitle>
+            <FormTitle>联系我们</FormTitle>
             <Form onSubmit={handleSubmit}>
               <InputRow>
                 <InputGroup>

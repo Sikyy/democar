@@ -426,15 +426,6 @@ const BrandCardName = styled.div`
   margin-bottom: 2px;
 `;
 
-const BrandCardModel = styled.div`
-  font-size: 0.7rem;
-  color: #757575;
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  width: 100%;
-`;
 
 const RemoveCardButton = styled.button`
   position: absolute;
