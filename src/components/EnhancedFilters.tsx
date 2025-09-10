@@ -615,7 +615,7 @@ const EnhancedFilters: React.FC<EnhancedFiltersProps> = ({ onFilterChange }) => 
                   onChange={(e) => setMinPrice(e.target.value)} 
                   onBlur={applyFilters}
                 />
-                <CurrencySymbol>€</CurrencySymbol>
+                <CurrencySymbol>¥</CurrencySymbol>
               </RangeInput>
               <RangeInput>
                 <Input 
@@ -624,7 +624,7 @@ const EnhancedFilters: React.FC<EnhancedFiltersProps> = ({ onFilterChange }) => 
                   onChange={(e) => setMaxPrice(e.target.value)} 
                   onBlur={applyFilters}
                 />
-                <CurrencySymbol>€</CurrencySymbol>
+                <CurrencySymbol>¥</CurrencySymbol>
               </RangeInput>
             </RangeInputs>
             
@@ -644,8 +644,8 @@ const EnhancedFilters: React.FC<EnhancedFiltersProps> = ({ onFilterChange }) => 
               </RangeSlider>
               
               <RangeLabels>
-                <span>0 €</span>
-                <span>200 000 €</span>
+                <span>0 ¥</span>
+                <span>200 000 ¥</span>
               </RangeLabels>
             </RangeSliderContainer>
             

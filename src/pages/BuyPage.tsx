@@ -143,200 +143,200 @@ interface FilterState {
 const carData = [
   {
     id: '1',
-    image: '/images/Geely.jpg',
-    title: 'BMW 850i xDrive',
-    brand: 'BMW',
-    price: 55300,
-    location: 'Budapest',
-    locationCountry: 'HU',
-    vehicleType: 'sports',
+    image: '/images/toyota/camry/1/1.jpg',
+    title: 'Toyota 凯美瑞 2021款 2.0G 豪华版',
+    brand: 'Toyota',
+    price: 106800,
+    location: 'Hangzhou',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
     energyType: 'petrol',
     specs: {
-      mileage: 7700,
+      mileage: 72000,
       fuelType: 'Petrol',
-      displacement: '4.4L',
-      power: 390,
-      driveType: '4WD'
+      displacement: '2.0L',
+      power: 178,
+      driveType: '2WD'
     },
-    description: 'A dream car for true connoisseurs of automotive art! The BMW 850i xDrive is the epitome of luxury, style and power. The combination of a powerful engine, premium interior and cutting-edge technology makes this car truly unique.',
+    description: '2021年8月上牌，丰田凯美瑞2.0G豪华版，一手7万多公里原版，一键启动，车道辅助，真皮电动座椅，抬头显示，大屏倒影等配置',
     isFeatured: true
   },
   {
     id: '2',
-    image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzY2NjY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk1lcmNlZGVzLUJlbno8L3RleHQ+PC9zdmc+',
-    title: 'Mercedes-Benz A 250 e',
-    brand: 'Mercedes-Benz',
-    price: 32509,
-    location: 'Rome',
-    locationCountry: 'IT',
+    image: '/images/toyota/camry/2/1.jpg',
+    title: 'Toyota 凯美瑞 2021款 2.0G 豪华版',
+    brand: 'Toyota',
+    price: 113800,
+    location: 'Hangzhou',
+    locationCountry: 'CN',
     vehicleType: 'sedan',
-    energyType: 'hybrid',
+    energyType: 'petrol',
     specs: {
-      mileage: 4227,
-      fuelType: 'Hybrid',
-      displacement: '1.3L',
-      power: 160,
-      driveType: 'FWD'
+      mileage: 41000,
+      fuelType: 'Petrol',
+      displacement: '2.0L',
+      power: 178,
+      driveType: '2WD'
     },
-    description: 'The perfect car for confident drivers looking for the perfect combination of elegance and eco-friendliness! The Mercedes-Benz A 250 e combines the iconic Mercedes design with innovative hybrid technology.',
+    description: '个人一手车，原厂大屏，360影像。原版原漆，抬显电动座椅.',
     isFeatured: false
   },
   {
     id: '3',
-    image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzY2NjY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkxleHVzPC90ZXh0Pjwvc3ZnPg==',
-    title: 'Lexus IS III Restyling 2',
-    brand: 'Lexus',
-    price: 79038,
-    location: 'Manchester',
-    locationCountry: 'UK',
-    vehicleType: 'sedan',
+    image: '/images/hyundai/tucson/1/1.jpg',
+    title: '途胜 2021款 途胜L 1.5T LUX两驱尊贵版',
+    brand: 'Tucson',
+    price: 139000,
+    location: 'Hangzhou',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
     energyType: 'petrol',
     specs: {
-      mileage: 1470,
+      mileage: 50000,
       fuelType: 'Petrol',
-      displacement: '2.5L',
-      power: 133,
-      driveType: 'RWD'
+      displacement: '1.5T',
+      power: 200,
+      driveType: '2WD'
     },
     description: 'The perfect combination of luxury, elegance and safety! The Lexus IS III Restyling 2 is a vehicle that will catch everyone\'s eye and offer uncompromising comfort to its owner.',
     isFeatured: false
   },
   {
     id: '4',
-    image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzY2NjY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPktpYTwvdGV4dD48L3N2Zz4=',
-    title: 'Kia Forte III',
-    brand: 'Kia',
-    price: 40149,
-    location: 'Athens',
-    locationCountry: 'GR',
+    image: '/images/mazda/cx5/1/1.jpg',
+    title: '马自达CX-5 2021款 2.0L 自动两驱智尊型',
+    brand: 'Mazda',
+    price: 138000,
+    location: 'Hangzhou',
+    locationCountry: 'CN',
     vehicleType: 'sedan',
-    energyType: 'electric',
+    energyType: 'petrol',
     specs: {
-      mileage: 9452,
-      fuelType: 'Electric',
-      displacement: 'N/A',
-      power: 366,
-      driveType: '4WD'
+      mileage: 72000,
+      fuelType: 'Petrol',
+      displacement: '2.0L',
+      power: 155,
+      driveType: '2WD'
     },
-    description: 'A great car for active city dwellers looking for style and economy! Kia Forte III combines dynamic design, spacious interior and excellent fuel efficiency.',
+    description: '马自达CX-5是一款紧凑型跨界SUV，以其“魂动”设计、卓越操控和可靠性能在二手车市场备受青睐。作为马自达的明星车型，二手CX-5凭借高保值率、较低维护成本和出色的驾驶体验，成为追求性价比和驾驶乐趣消费者的理想选择。',
     isFeatured: false
   },
   {
     id: '5',
-    image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzY2NjY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkF1ZGk8L3RleHQ+PC9zdmc+',
-    title: 'Audi A6 V (C8)',
-    brand: 'Audi',
-    price: 110049,
-    location: 'London',
-    locationCountry: 'UK',
-    vehicleType: 'sedan',
+    image: '/images/toyota/rav4/1/1.jpg',
+    title: 'RAV4荣放 2020款 双擎 2.5L CVT四驱精英版',
+    brand: 'Toyota',
+    price: 99000,
+    location: 'Hangzhou',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
     energyType: 'petrol',
     specs: {
-      mileage: 6000,
+      mileage: 130000,
       fuelType: 'Petrol',
-      displacement: '2.0L',
-      power: 250,
+      displacement: '2.5L',
+      power: 178,
       driveType: '4WD'
     },
-    description: 'Unmatched comfort and safety on the road! The Audi A6 V (C8) embodies the perfect balance of style, comfort, technology and driving dynamics.',
+    description: '丰田RAV4（Recreational Active Vehicle with 4-wheel drive）是一款紧凑型跨界SUV，自1995年推出以来，以其可靠耐用、宽敞实用和高保值率成为二手车市场的热门选择。作为紧凑型SUV的开创者之一，RAV4凭借卓越的品质和均衡性能，深受家庭用户和城市驾驶者的喜爱。',
     isFeatured: true
   },
   {
     id: '6',
-    image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzY2NjY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPlRveW90YTwvdGV4dD48L3N2Zz4=',
-    title: 'Toyota Camry VIII',
-    brand: 'Toyota',
-    price: 39000,
-    location: 'Berlin',
-    locationCountry: 'DE',
+    image: '/images/hyundai/sonata/1/1.jpg',
+    title: '索纳塔 2020款 270TGDi GLS DCT精英版',
+    brand: 'Hyundai',
+    price: 75800,
+    location: 'WenZhou',
+    locationCountry: 'CN',
     vehicleType: 'sedan',
-    energyType: 'hybrid',
+    energyType: 'petrol',
     specs: {
-      mileage: 12000,
-      fuelType: 'Hybrid',
-      displacement: '2.5L',
-      power: 155,
-      driveType: 'FWD'
+      mileage: 31000,
+      fuelType: 'Petrol',
+      displacement: '1.5T',
+      power: 170,
+      driveType: '2WD'
     },
     description: 'The ideal choice for those who appreciate reliability and quality! The Toyota Camry VIII offers impressive durability, excellent fuel efficiency and spacious interior.',
     isFeatured: false
   },
   {
     id: '7',
-    image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzY2NjY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPlBvcnNjaGU8L3RleHQ+PC9zdmc+',
-    title: 'Porsche 911 GT3',
-    brand: 'Porsche',
+    image: '/images/kia/k5/1/1.jpg',
+    title: '起亚K5 2020款 380T GT-Line 旗舰版',
+    brand: 'KIA',
     price: 185000,
-    location: 'Stuttgart',
-    locationCountry: 'DE',
-    vehicleType: 'sports',
+    location: 'DongGuan',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
     energyType: 'petrol',
     specs: {
-      mileage: 1200,
+      mileage: 70000,
       fuelType: 'Petrol',
-      displacement: '4.0L',
-      power: 510,
-      driveType: 'RWD'
+      displacement: '2.0T',
+      power: 240,
+      driveType: '2WD'
     },
     description: 'Experience pure driving excellence with the Porsche 911 GT3. This track-focused masterpiece delivers breathtaking performance and precision engineering at its finest.',
     isFeatured: true
   },
   {
     id: '8',
-    image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzY2NjY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPlRlc2xhPC90ZXh0Pjwvc3ZnPg==',
-    title: 'Tesla Model S Plaid',
-    brand: 'Tesla',
-    price: 129990,
-    location: 'Amsterdam',
-    locationCountry: 'NL',
+    image: '/images/kia/k3/1/1.jpg',
+    title: '起亚K3 2019款 1.5L CVT智享互联版',
+    brand: 'Kia',
+    price: 49800,
+    location: 'ZhangZhou',
+    locationCountry: 'CN',
     vehicleType: 'sedan',
-    energyType: 'electric',
+    energyType: 'petrol',
     specs: {
-      mileage: 3500,
-      fuelType: 'Electric',
-      displacement: 'N/A',
-      power: 1020,
-      driveType: 'AWD'
+      mileage: 91000,
+      fuelType: 'Petrol',
+      displacement: '1.5L',
+      power: 115,
+      driveType: '2WD'
     },
     description: 'The future of automotive performance is here. Tesla Model S Plaid combines ludicrous acceleration with cutting-edge technology and luxurious comfort.',
     isFeatured: true
   },
   {
     id: '9',
-    image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzY2NjY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPlZvbGtzd2FnZW48L3RleHQ+PC9zdmc+',
-    title: 'Volkswagen Golf R',
-    brand: 'Volkswagen',
-    price: 45000,
-    location: 'Frankfurt',
-    locationCountry: 'DE',
+    image: '/images/toyota/avalon/1/1.jpg',
+    title: '亚洲龙 2022款 2.0L 豪华版',
+    brand: 'Toyota',
+    price: 105800,
+    location: 'DongGuan',
+    locationCountry: 'CN',
     vehicleType: 'sedan',
     energyType: 'petrol',
     specs: {
-      mileage: 8500,
+      mileage: 88000,
       fuelType: 'Petrol',
       displacement: '2.0L',
-      power: 320,
-      driveType: '4WD'
+      power: 178,
+      driveType: '2WD'
     },
     description: 'The ultimate hot hatch. Volkswagen Golf R delivers exceptional performance and practicality in one refined package.',
     isFeatured: false
   },
   {
     id: '10',
-    image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzY2NjY2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkhvbmRhPC90ZXh0Pjwvc3ZnPg==',
-    title: 'Honda Civic Type R',
-    brand: 'Honda',
-    price: 42000,
-    location: 'Paris',
-    locationCountry: 'FR',
-    vehicleType: 'sports',
+    image: '/images/toyota/corolla/1/1.jpg',
+    title: '卡罗拉 2021款 1.2T S-CVT先锋PLUS版',
+    brand: 'Toyota',
+    price: 63800,
+    location: 'ChangSha',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
     energyType: 'petrol',
     specs: {
-      mileage: 5000,
+      mileage: 50000,
       fuelType: 'Petrol',
-      displacement: '2.0L',
-      power: 330,
-      driveType: 'FWD'
+      displacement: '1.2T',
+      power: 116,
+      driveType: '2WD'
     },
     description: 'The legendary Type R returns with more power and precision. This track-ready Honda Civic combines racing heritage with daily usability.',
     isFeatured: false
@@ -454,14 +454,11 @@ const RemoveCardButton = styled.button`
 
 // 品牌数据
 const brandModels = [
-  { brand: 'Mercedes-Benz', model: 'AMG GT, C 150' },
-  { brand: 'BMW', model: 'X7, M2, X5' },
-  { brand: 'Lexus', model: 'LX 570, RX 300, RX...' },
-  { brand: 'Audi', model: 'A6, Q7, RS6' },
-  { brand: 'Toyota', model: 'Land Cruiser, Camry' },
-  { brand: 'Honda', model: 'Civic, Accord, CR-V' },
-  { brand: 'Ford', model: 'Mustang, Explorer' },
-  { brand: 'Volkswagen', model: 'Golf, Tiguan, Polo' }
+  { brand: 'Toyota', model: '凯美瑞, 卡罗拉, RAV4' },
+  { brand: 'Honda', model: '雅阁, 思域, CR-V' },
+  { brand: 'Mazda', model: '阿特兹, CX-5, 昂克赛拉' },
+  { brand: 'Hyundai', model: '伊兰特, 途胜, 索纳塔' },
+  { brand: 'Kia', model: 'K5, 智跑, 狮跑' }
 ];
 
 // 车型数据
@@ -522,10 +519,10 @@ const BuyPage: React.FC = () => {
 
     
 
-  // 更新筛选器处理函数
+  // 处理EnhancedFilters的筛选变化
   const handleFilterChange = useCallback((newFilters: FilterState) => {
     
-    // 应用所有筛选条件
+    // 应用所有筛选条件，包括品牌/车型/能源类型
     let result = [...carData];
     
     // 1. 应用品牌筛选
@@ -535,14 +532,14 @@ const BuyPage: React.FC = () => {
       );
     }
     
-    // 1.5. 应用车型筛选（基于vehicleType字段）
+    // 2. 应用车型筛选（基于vehicleType字段）
     if (selectedCarTypes.length > 0) {
       result = result.filter(car => 
         selectedCarTypes.includes(car.vehicleType)
       );
     }
     
-    // 1.6. 应用能源类型筛选
+    // 3. 应用能源类型筛选
     if (selectedFuelTypes.length > 0) {
       result = result.filter(car => {
         const fuelType = car.specs.fuelType.toLowerCase();
@@ -558,7 +555,7 @@ const BuyPage: React.FC = () => {
       });
     }
     
-    // 2. 应用价格范围筛选
+    // 4. 应用价格范围筛选
     if (newFilters.priceRange) {
       const minPrice = parseFloat(newFilters.priceRange.min.replace(/\s/g, ''));
       const maxPrice = parseFloat(newFilters.priceRange.max.replace(/\s/g, ''));
@@ -572,7 +569,7 @@ const BuyPage: React.FC = () => {
       }
     }
     
-    // 3. 应用里程筛选
+    // 5. 应用里程筛选
     if (newFilters.mileage) {
       const minMileage = parseFloat(newFilters.mileage.min.replace(/\s/g, ''));
       const maxMileage = parseFloat(newFilters.mileage.max.replace(/\s/g, ''));
@@ -586,14 +583,14 @@ const BuyPage: React.FC = () => {
       }
     }
     
-    // 4. 应用燃料类型筛选
+    // 6. 应用燃料类型筛选
     if (newFilters.fuelTypes && newFilters.fuelTypes.length > 0) {
       result = result.filter(car => 
         newFilters.fuelTypes!.includes(car.specs.fuelType)
       );
     }
     
-    // 5. 应用驱动方式筛选
+    // 7. 应用驱动方式筛选
     if (newFilters.driveTypes && newFilters.driveTypes.length > 0) {
       result = result.filter(car => 
         newFilters.driveTypes!.includes(car.specs.driveType)
@@ -601,6 +598,43 @@ const BuyPage: React.FC = () => {
     }
     
     // 更新筛选后的车辆列表
+    setFilteredCars(result);
+  }, [selectedBrands, selectedCarTypes, selectedFuelTypes]);
+
+  // 应用所有筛选条件的函数
+  const applyAllFilters = useCallback(() => {
+    let result = [...carData];
+    
+    // 1. 应用品牌筛选
+    if (selectedBrands.length > 0) {
+      result = result.filter(car => 
+        selectedBrands.includes(car.brand)
+      );
+    }
+    
+    // 2. 应用车型筛选
+    if (selectedCarTypes.length > 0) {
+      result = result.filter(car => 
+        selectedCarTypes.includes(car.vehicleType)
+      );
+    }
+    
+    // 3. 应用能源类型筛选
+    if (selectedFuelTypes.length > 0) {
+      result = result.filter(car => {
+        const fuelType = car.specs.fuelType.toLowerCase();
+        return selectedFuelTypes.some(type => {
+          switch(type) {
+            case 'petrol': return fuelType === 'petrol';
+            case 'diesel': return fuelType === 'diesel';
+            case 'hybrid': return fuelType === 'hybrid';
+            case 'electric': return fuelType === 'electric';
+            default: return false;
+          }
+        });
+      });
+    }
+    
     setFilteredCars(result);
   }, [selectedBrands, selectedCarTypes, selectedFuelTypes]);
 
@@ -633,6 +667,11 @@ const BuyPage: React.FC = () => {
       return newTypes;
     });
   }, []);
+
+  // 当筛选条件变化时，重新应用所有筛选
+  useEffect(() => {
+    applyAllFilters();
+  }, [selectedBrands, selectedCarTypes, selectedFuelTypes, applyAllFilters]);
   
 
 

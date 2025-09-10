@@ -27,13 +27,15 @@ const FooterWrapper = styled.div`
 const carDetailsMap: { [key: string]: any } = {
   '1': {
     id: '1',
-    title: 'BMW 850i xDrive',
-    price: 553000,
+    title: 'Toyota 凯美瑞 2021款 2.0G 豪华版',
+    price: 106800,
     monthlyPayment: 9200,
     images: [
-      'https://p9-dcd-sign.byteimg.com/tos-cn-i-f042mdwyw7/6dfa232167dc4a1ea087986e59c7137f~tplv-f042mdwyw7-auto-webp:640:0.jpg?rk3s=23c6fcc1&x-expires=1754992517&x-signature=4%2FCuNp0zQ13dZ9Khu%2Bk3KTfty5Q%3D&psm=motor.business.sku_item',
-      'https://p9-dcd-sign.byteimg.com/tos-cn-i-f042mdwyw7/bbd690d1b99849b5837553720c612c96~tplv-f042mdwyw7-auto-webp:640:0.jpg?rk3s=23c6fcc1&x-expires=1754992517&x-signature=t34SdGNK4aZjYlJzTMf1auEzVq4%3D&psm=motor.business.sku_item',
-      'https://p9-dcd-sign.byteimg.com/tos-cn-i-f042mdwyw7/0421b2d04d5b48daaf14d58c720df8c0~tplv-f042mdwyw7-auto-webp:640:0.jpg?rk3s=23c6fcc1&x-expires=1754992517&x-signature=gV4E%2BmaVXVLwTt8%2B3fivUH0rwV0%3D&psm=motor.business.sku_item'
+      '/images/toyota/camry/1.jpg',
+      '/images/toyota/camry/2.jpg',
+      '/images/toyota/camry/3.jpg',
+      '/images/toyota/camry/4.jpg',
+      '/images/toyota/camry/5.jpg',
     ],
     condition: 'used' as const,
     special: true,
@@ -189,7 +191,7 @@ const carDetailsMap: { [key: string]: any } = {
         title: 'BMW 850i xDrive',
         price: 553000,
         mileage: '7,700公里',
-        image: '/images/Geely.jpg'
+        image: '/images/toyota/camry/1.jpg'
       },
       {
         id: '3',

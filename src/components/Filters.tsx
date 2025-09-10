@@ -353,7 +353,7 @@ const Filters: React.FC = () => {
                 value={minPrice} 
                 onChange={(e) => setMinPrice(e.target.value)} 
               />
-              <CurrencySymbol>€</CurrencySymbol>
+              <CurrencySymbol>¥</CurrencySymbol>
             </RangeInput>
             <RangeInput>
               <Input 
@@ -361,7 +361,7 @@ const Filters: React.FC = () => {
                 value={maxPrice} 
                 onChange={(e) => setMaxPrice(e.target.value)} 
               />
-              <CurrencySymbol>€</CurrencySymbol>
+              <CurrencySymbol>¥</CurrencySymbol>
             </RangeInput>
           </RangeInputs>
           

@@ -210,7 +210,7 @@ const CarCard: React.FC<CarCardProps> = ({
         <ImageContainer>
           {isFeatured && <FeaturedTag>Featured</FeaturedTag>}
           <CarImage src={image} alt={title} loading="lazy" />
-          <PriceTag>€{price.toLocaleString()}</PriceTag>
+          <PriceTag>¥{price.toLocaleString()}</PriceTag>
         </ImageContainer>
         
         <CardContent>
