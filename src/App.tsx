@@ -157,9 +157,208 @@ const carDetailsMap: { [key: string]: any } = {
       }
     ],
   },
-  // 途胜
+  // 凯美瑞3
   '3': {
     id: '3',
+    title: '凯美瑞 2021款 2.0S 锋尚版',
+    price: 103800,
+    images: [
+      '/images/toyota/camry/3/1.jpg',
+      '/images/toyota/camry/3/2.jpg',
+      '/images/toyota/camry/3/3.jpg',
+      '/images/toyota/camry/3/4.jpg',
+      '/images/toyota/camry/3/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '银灰色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.8L/100km',
+    fuelType: '汽油',
+    transmission: 'CVT无级变速(模拟10挡)',
+    engine: '2.0L L4',
+    drivetrain: '2WD',
+    seats: '5座',
+    hoursePower: '178马力',
+    enginecapacity: '1987cc',
+    year: 2021,
+    make: 'Toyota',
+    model: 'Camry',
+    trim: '2.0S 锋尚版',
+    bodyStyle: 'Sedan',
+    features: [
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '7,700公里',
+      distance: '3.2公里',
+      rating: 4.9,
+      reviews: 156,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2022年8月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '奔驰4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 凯美瑞4
+  '4': {
+    id: '4',
+    title: '凯美瑞 2019款 改款 双擎 2.5HS 锋尚版',
+    price: 126800,
+    images: [
+      '/images/toyota/camry/4/1.jpg',
+      '/images/toyota/camry/4/2.jpg',
+      '/images/toyota/camry/4/3.jpg',
+      '/images/toyota/camry/4/4.jpg',
+      '/images/toyota/camry/4/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: false,
+    mileage: '2019年',
+    exteriorColor: '红色',
+    interiorColor: '黑色',
+    fuelEconomy: '4.1L/100km',
+    fuelType: '混动',
+    transmission: '7挡手自一体',
+    engine: '2.5L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '178马力',
+    enginecapacity: '2487cc',
+    year: 2019,
+    make: 'Toyota',
+    model: 'Camry',
+    trim: '2.5HS 锋尚版',
+    bodyStyle: 'Sedan',
+    features: [
+      '自适应巡航',
+      '自动驻车',
+      '倒车影像',
+      '中控屏',
+      '无钥匙进入',
+      '无钥匙启动',
+      '主动刹车/主动安全',
+      '车道偏离预警'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '1,470公里',
+      distance: '4.1公里',
+      rating: 4.8,
+      reviews: 92,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2023年1月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '雷克萨斯4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  //凯美瑞5
+  '5': {
+    id: '5',
+    title: '凯美瑞 2019款 2.5G 豪华版 国VI',
+    price: 106800,
+    images: [
+      '/images/toyota/camry/5/1.jpg',
+      '/images/toyota/camry/5/2.jpg',
+      '/images/toyota/camry/5/3.jpg',
+      '/images/toyota/camry/5/4.jpg',
+      '/images/toyota/camry/5/5.jpg',
+      '/images/toyota/camry/5/6.jpg',
+    ],
+    condition: 'used' as const,
+    special: false,
+    mileage: '2019年',
+    exteriorColor: '黑色',
+    interiorColor: '黑色',
+    fuelEconomy: '2.5L/100km',
+    fuelType: '汽油',
+    transmission: '8挡手自一体',
+    engine: '2.5L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '209马力',
+    enginecapacity: '2487cc',
+    year: 2019,
+    make: 'Toyota',
+    model: 'Camry',
+    trim: '2.5G 豪华版',
+    bodyStyle: 'Sedan',
+    features: [
+      '自适应巡航',
+      '自动驻车',
+      '定速巡航',
+      '倒车影像',
+      '中控屏',
+      '无钥匙进入',
+      '无钥匙启动',
+      '主动刹车/主动安全'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '1,470公里',
+      distance: '4.1公里',
+      rating: 4.8,
+      reviews: 92,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2023年1月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '雷克萨斯4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 途胜1
+  '6': {
+    id: '6',
     title: '途胜 2021款 途胜L 1.5T LUX两驱尊贵版',
     price: 139000,
     images: [
@@ -223,9 +422,271 @@ const carDetailsMap: { [key: string]: any } = {
       }
     ],
   },
-  //
-  '4': {
-    id: '4',
+  //途胜2
+  '7': {
+    id: '7',
+    title: '途胜 2020款 280TGDi 双离合两驱时尚版 国VI',
+    price: 76800,
+    images: [
+      '/images/hyundai/tucson/2/1.jpg',
+      '/images/hyundai/tucson/2/2.jpg',
+      '/images/hyundai/tucson/2/3.jpg',
+      '/images/hyundai/tucson/2/4.jpg',
+      '/images/hyundai/tucson/2/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: false,
+    mileage: '2021年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '6.8L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.6T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '177马力',
+    enginecapacity: '1591cc',
+    year: 2021,
+    make: 'Hyundai',
+    model: 'Tucson',
+    trim: '280TGDi 双离合两驱时尚版',
+    bodyStyle: '紧凑型SUV',
+    features: [
+      '自动驻车',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '中控屏',
+      '无钥匙进入',
+      '无钥匙启动',
+      '自动大灯'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '1,470公里',
+      distance: '4.1公里',
+      rating: 4.8,
+      reviews: 92,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2023年1月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '雷克萨斯4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 途胜3
+  '8': {
+    id: '8',
+    title: '途胜 2020款 280TGDi 双离合两驱时尚版 国VI',
+    price: 129900,
+    images: [
+      '/images/hyundai/tucson/3/1.jpg',
+      '/images/hyundai/tucson/3/2.jpg',
+      '/images/hyundai/tucson/3/3.jpg',
+      '/images/hyundai/tucson/3/4.jpg',
+      '/images/hyundai/tucson/3/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: false,
+    mileage: '2022年',
+    exteriorColor: '深灰色',
+    interiorColor: '黑色',
+    fuelEconomy: '6.8L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.5T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '200马力',
+    enginecapacity: '1497cc',
+    year: 2022,
+    make: 'Hyundai',
+    model: 'Tucson',
+    trim: '1.5T LUX两驱尊贵版 N Line',
+    bodyStyle: '紧凑型SUV',
+    features: [
+      '自动驻车',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '1,470公里',
+      distance: '4.1公里',
+      rating: 4.8,
+      reviews: 92,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2023年1月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '雷克萨斯4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  //途胜4
+  '9': {
+    id: '9',
+    title: '途胜 2022款 途胜L 2.0L HEV LUX混动·尊贵版',
+    price: 129900,
+    images: [
+      '/images/hyundai/tucson/4/1.jpg',
+      '/images/hyundai/tucson/4/2.jpg',
+      '/images/hyundai/tucson/4/3.jpg',
+      '/images/hyundai/tucson/4/4.jpg',
+      '/images/hyundai/tucson/4/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: false,
+    mileage: '2022年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.7L/100km',
+    fuelType: '混动',
+    transmission: '6挡双离合',
+    engine: '2.0L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1999cc',
+    year: 2022,
+    make: 'Hyundai',
+    model: 'Tucson',
+    trim: '2.0L HEV LUX混动·尊贵版',
+    bodyStyle: '紧凑型SUV',
+    features: [
+      '自动驻车',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务',
+      '中控屏'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '1,470公里',
+      distance: '4.1公里',
+      rating: 4.8,
+      reviews: 92,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2023年1月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '雷克萨斯4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  //途胜5
+  '10': {
+    id: '10',
+    title: '途胜 2020款 280TGDi 双离合两驱智享版 国VI',
+    price: 129900,
+    images: [
+      '/images/hyundai/tucson/5/1.jpg',
+      '/images/hyundai/tucson/5/2.jpg',
+      '/images/hyundai/tucson/5/3.jpg',
+      '/images/hyundai/tucson/5/4.jpg',
+      '/images/hyundai/tucson/5/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: false,
+    mileage: '2020年',
+    exteriorColor: '黑色',
+    interiorColor: '黑色',
+    fuelEconomy: '6.8L/100km',
+    fuelType: '混动',
+    transmission: '7挡双离合',
+    engine: '1.6T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '177马力',
+    enginecapacity: '1591cc',
+    year: 2020,
+    make: 'Hyundai',
+    model: 'Tucson',
+    trim: '280TGDi 双离合两驱智享版 国VI',
+    bodyStyle: '紧凑型SUV',
+    features: [
+      '自动驻车',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '电动后尾门',
+      '无钥匙进入',
+      '无钥匙启动',
+      '主动刹车/主动安全'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '1,470公里',
+      distance: '4.1公里',
+      rating: 4.8,
+      reviews: 92,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2023年1月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '雷克萨斯4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  '11': {
+    id: '11',
     title: '马自达CX-5 2021款 2.0L 自动两驱智尊型',
     price: 138000,
     images: [
@@ -290,8 +751,8 @@ const carDetailsMap: { [key: string]: any } = {
     ],
   },
   //
-  '5': {
-    id: '5',
+  '12': {
+    id: '12',
     title: 'RAV4荣放 2020款 双擎 2.5L CVT四驱精英版',
     price: 99000,
     images: [
@@ -356,8 +817,8 @@ const carDetailsMap: { [key: string]: any } = {
     ],
   },
   // 索纳塔
-  '6': {
-    id: '6',
+  '13': {
+    id: '13',
     title: '索纳塔 2020款 270TGDi GLS DCT精英版',
     price: 75800,
     images: [
@@ -425,8 +886,8 @@ const carDetailsMap: { [key: string]: any } = {
     ],
   },
   // 起亚K5
-  '7': {
-    id: '7',
+  '14': {
+    id: '14',
     title: '起亚K5 2020款 380T GT-Line 旗舰版',
     price: 79800,
     images: [
@@ -492,8 +953,8 @@ const carDetailsMap: { [key: string]: any } = {
     ],
   },
   // 起亚K3
-  '8': {
-    id: '8',
+  '15': {
+    id: '15',
     title: '起亚K3 2019款 1.5L CVT智享互联版',
     price: 49800,
     images: [
@@ -558,8 +1019,8 @@ const carDetailsMap: { [key: string]: any } = {
     ],
   },
   // 亚洲龙
-  '9': {
-    id: '9',
+  '16': {
+    id: '16',
     title: '亚洲龙 2022款 2.0L 豪华版',
     price: 105800,
     images: [
@@ -624,8 +1085,8 @@ const carDetailsMap: { [key: string]: any } = {
     ],
   },
   // 卡罗拉
-  '10': {
-    id: '10',
+  '17': {
+    id: '17',
     title: '卡罗拉 2021款 1.2T S-CVT先锋PLUS版',
     price: 60800,
     images: [
@@ -690,8 +1151,8 @@ const carDetailsMap: { [key: string]: any } = {
     ],
   },
   // 雷凌双擎E+
-  '11': {
-    id: '11',
+  '18': {
+    id: '18',
     title: '雷凌双擎E+ 2019款 1.8PH GS CVT精英版',
     price: 42000,
     images: [
