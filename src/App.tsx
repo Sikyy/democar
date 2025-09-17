@@ -685,6 +685,7 @@ const carDetailsMap: { [key: string]: any } = {
       }
     ],
   },
+  // 马自达CX-5 1
   '11': {
     id: '11',
     title: '马自达CX-5 2021款 2.0L 自动两驱智尊型',
@@ -750,9 +751,276 @@ const carDetailsMap: { [key: string]: any } = {
       }
     ],
   },
-  //
+  // 马自达CX-5 2
   '12': {
     id: '12',
+    title: '马自达CX-5 2021款 2.0L 自动两驱黑骑士型',
+    price: 92900,
+    images: [
+      '/images/mazda/cx5/2/1.jpg',
+      '/images/mazda/cx5/2/2.jpg',
+      '/images/mazda/cx5/2/3.jpg',
+      '/images/mazda/cx5/2/4.jpg',
+      '/images/mazda/cx5/2/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: false,
+    mileage: '2021年',
+    exteriorColor: '深灰色',
+    interiorColor: '黑色',
+    fuelEconomy: '6.8L/100km',
+    fuelType: '汽油',
+    transmission: '6挡手自一体',
+    engine: '发动机',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '155马力',
+    enginecapacity: 'N/A',
+    year: 2021,
+    make: 'Mazda',
+    model: 'CX-5',
+    trim: '2.0L 自动两驱黑骑士型',
+    bodyStyle: '紧凑型SUV',
+    features: [
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '中控屏',
+      '电动后尾门'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '9,452公里',
+      distance: '6.3公里',
+      rating: 4.5,
+      reviews: 67,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2022年6月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '起亚4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 马自达CX-5 3
+  '13': {
+    id: '13',
+    title: '马自达CX-5 2020款 改款 2.0L 自动两驱智慧型',
+    price: 108000,
+    images: [
+      '/images/mazda/cx5/3/1.jpg',
+      '/images/mazda/cx5/3/2.jpg',
+      '/images/mazda/cx5/3/3.jpg',
+      '/images/mazda/cx5/3/4.jpg',
+      '/images/mazda/cx5/3/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: false,
+    mileage: '2020年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '6.8L/100km',
+    fuelType: '汽油',
+    transmission: '6挡手自一体',
+    engine: '发动机',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '155马力',
+    enginecapacity: 'N/A',
+    year: 2020,
+    make: 'Mazda',
+    model: 'CX-5',
+    trim: '2.0L 自动两驱智慧型',
+    bodyStyle: '紧凑型SUV',
+    features: [
+      '前后雷达',
+      '倒车影像',
+      '定速巡航',
+      '无钥匙进入',
+      '无钥匙启动',
+      'LED大灯',
+      '电动天窗',
+      '抬头显示',
+      '真皮座椅',
+      '自动空调'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '9,452公里',
+      distance: '6.3公里',
+      rating: 4.5,
+      reviews: 67,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2022年6月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '起亚4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 马自达CX-5 4
+  '14': {
+    id: '14',
+    title: '马自达CX-5 2020款 改款 2.0L 自动两驱智慧型',
+    price: 99800,
+    images: [
+      '/images/mazda/cx5/4/1.jpg',
+      '/images/mazda/cx5/4/2.jpg',
+      '/images/mazda/cx5/4/3.jpg',
+      '/images/mazda/cx5/4/4.jpg',
+      '/images/mazda/cx5/4/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: false,
+    mileage: '2021年',
+    exteriorColor: '红色',
+    interiorColor: '黑色',
+    fuelEconomy: '6.8L/100km',
+    fuelType: '汽油',
+    transmission: '6挡手自一体',
+    engine: '发动机',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '155马力',
+    enginecapacity: 'N/A',
+    year: 2021,
+    make: 'Mazda',
+    model: 'CX-5',
+    trim: '2.0L 自动两驱智慧型',
+    bodyStyle: '紧凑型SUV',
+    features: [
+      '无钥匙进入',
+      '一键启动',
+      '抬头显示',
+      '定速巡航',
+      '电动天窗',
+      '大屏导航',
+      '倒车影像',
+      '并线辅助',
+      '自动大灯'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '9,452公里',
+      distance: '6.3公里',
+      rating: 4.5,
+      reviews: 67,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2022年6月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '起亚4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 马自达CX-5 5
+  '15': {
+    id: '15',
+    title: '马自达CX-5 2021款 2.5L 自动四驱旗舰型',
+    price: 185000,
+    images: [
+      '/images/mazda/cx5/5/1.jpg',
+      '/images/mazda/cx5/5/2.jpg',
+      '/images/mazda/cx5/5/3.jpg',
+      '/images/mazda/cx5/5/4.jpg',
+      '/images/mazda/cx5/5/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: false,
+    mileage: '2021年',
+    exteriorColor: '银灰色',
+    interiorColor: '黑色',
+    fuelEconomy: '7.7L/100km',
+    fuelType: '汽油',
+    transmission: '6挡手自一体',
+    engine: '发动机',
+    drivetrain: '四驱',
+    seats: '5座',
+    hoursePower: '196马力',
+    enginecapacity: 'N/A',
+    year: 2021,
+    make: 'Mazda',
+    model: 'CX-5',
+    trim: '2.5L 自动四驱旗舰型',
+    bodyStyle: '紧凑型SUV',
+    features: [
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '中控屏',
+      '电动后尾门'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '9,452公里',
+      distance: '6.3公里',
+      rating: 4.5,
+      reviews: 67,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2022年6月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '起亚4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 丰田RAV4 1
+  '16': {
+    id: '16',
     title: 'RAV4荣放 2020款 双擎 2.5L CVT四驱精英版',
     price: 99000,
     images: [
@@ -816,9 +1084,273 @@ const carDetailsMap: { [key: string]: any } = {
       }
     ],
   },
+  // 丰田RAV4 2
+  '17': {
+    id: '17',
+    title: 'RAV4荣放 2021款 2.0L CVT四驱风尚版',
+    price: 168800,
+    images: [
+      '/images/toyota/rav4/2/1.jpg',
+      '/images/toyota/rav4/2/2.jpg',
+      '/images/toyota/rav4/2/3.jpg',
+      '/images/toyota/rav4/2/4.jpg',
+      '/images/toyota/rav4/2/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '6.3L/100km',
+    fuelType: '汽油',
+    transmission: 'CVT无级变速(模拟10挡)',
+    engine: '2.0L L4',
+    drivetrain: '四驱',
+    seats: '5座',
+    hoursePower: '171马力',
+    enginecapacity: '1987cc',
+    year: 2022,
+    make: 'Toyota',
+    model: 'RAV4',
+    trim: '2.0L CVT四驱风尚版',
+    bodyStyle: '紧凑型SUV',
+    features: [
+      '360全景影像',
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务',
+      '中控屏'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '13万公里',
+      distance: '2.8公里',
+      rating: 4.9,
+      reviews: 203,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2020年8月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '丰田4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 丰田RAV4 3
+  '18': {
+    id: '18',
+    title: 'RAV4荣放 2022款 2.0L CVT两驱风尚PLUS版',
+    price: 146800,
+    images: [
+      '/images/toyota/rav4/3/1.jpg',
+      '/images/toyota/rav4/3/2.jpg',
+      '/images/toyota/rav4/3/3.jpg',
+      '/images/toyota/rav4/3/4.jpg',
+      '/images/toyota/rav4/3/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.9L/100km',
+    fuelType: '汽油',
+    transmission: 'CVT无级变速(模拟10挡)',
+    engine: '2.0L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '171马力',
+    enginecapacity: '1987cc',
+    year: 2022,
+    make: 'Toyota',
+    model: 'RAV4',
+    trim: '2.0L CVT两驱风尚PLUS版',
+    bodyStyle: '紧凑型SUV',
+    features: [
+      '360全景影像',
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '13万公里',
+      distance: '2.8公里',
+      rating: 4.9,
+      reviews: 203,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2020年8月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '丰田4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 丰田RAV4 4
+  '19': {
+    id: '19',
+    title: 'RAV4荣放 2020款 双擎 2.5L CVT四驱旗舰版',
+    price: 177000,
+    images: [
+      '/images/toyota/rav4/4/1.jpg',
+      '/images/toyota/rav4/4/2.jpg',
+      '/images/toyota/rav4/4/3.jpg',
+      '/images/toyota/rav4/4/4.jpg',
+      '/images/toyota/rav4/4/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2020年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '5L/100km',
+    fuelType: '汽油',
+    transmission: 'E-CVT无级变速',
+    engine: '2.5L L4',
+    drivetrain: '四驱',
+    seats: '5座',
+    hoursePower: '178马力',
+    enginecapacity: '2487cc',
+    year: 2020,
+    make: 'Toyota',
+    model: 'RAV4',
+    trim: '2.5L CVT四驱旗舰版',
+    bodyStyle: '紧凑型SUV',
+    features: [
+      '360全景影像',
+      '自适应巡航',
+      '自动驻车',
+      '驻车雷达',
+      '语音识别控制系统',
+      '道路救援服务',
+      '中控屏',
+      '电动后尾门'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '13万公里',
+      distance: '2.8公里',
+      rating: 4.9,
+      reviews: 203,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2020年8月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '丰田4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 丰田RAV4 4
+  '20': {
+    id: '20',
+    title: 'RAV4荣放 2021款 2.0L CVT两驱都市版',
+    price: 89800,
+    images: [
+      '/images/toyota/rav4/5/1.jpg',
+      '/images/toyota/rav4/5/2.jpg',
+      '/images/toyota/rav4/5/3.jpg',
+      '/images/toyota/rav4/5/4.jpg',
+      '/images/toyota/rav4/5/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '黑色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.8L/100km',
+    fuelType: '汽油',
+    transmission: 'CVT无级变速(模拟10挡)',
+    engine: '2.0L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '171马力',
+    enginecapacity: '1987cc',
+    year: 2021,
+    make: 'Toyota',
+    model: 'RAV4',
+    trim: '2.0L CVT两驱都市版',
+    bodyStyle: '紧凑型SUV',
+    features: [
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '道路救援服务',
+      '中控屏',
+      '主动刹车/主动安全',
+      '前方碰撞预警',
+      '车道偏离预警'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '13万公里',
+      distance: '2.8公里',
+      rating: 4.9,
+      reviews: 203,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2020年8月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '丰田4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
   // 索纳塔
-  '13': {
-    id: '13',
+  '21': {
+    id: '21',
     title: '索纳塔 2020款 270TGDi GLS DCT精英版',
     price: 75800,
     images: [
@@ -886,8 +1418,8 @@ const carDetailsMap: { [key: string]: any } = {
     ],
   },
   // 起亚K5
-  '14': {
-    id: '14',
+  '22': {
+    id: '22',
     title: '起亚K5 2020款 380T GT-Line 旗舰版',
     price: 79800,
     images: [
@@ -953,8 +1485,8 @@ const carDetailsMap: { [key: string]: any } = {
     ],
   },
   // 起亚K3
-  '15': {
-    id: '15',
+  '23': {
+    id: '23',
     title: '起亚K3 2019款 1.5L CVT智享互联版',
     price: 49800,
     images: [
@@ -1019,8 +1551,8 @@ const carDetailsMap: { [key: string]: any } = {
     ],
   },
   // 亚洲龙
-  '16': {
-    id: '16',
+  '24': {
+    id: '24',
     title: '亚洲龙 2022款 2.0L 豪华版',
     price: 105800,
     images: [
@@ -1085,8 +1617,8 @@ const carDetailsMap: { [key: string]: any } = {
     ],
   },
   // 卡罗拉
-  '17': {
-    id: '17',
+  '25': {
+    id: '25',
     title: '卡罗拉 2021款 1.2T S-CVT先锋PLUS版',
     price: 60800,
     images: [
@@ -1151,8 +1683,8 @@ const carDetailsMap: { [key: string]: any } = {
     ],
   },
   // 雷凌双擎E+
-  '18': {
-    id: '18',
+  '26': {
+    id: '26',
     title: '雷凌双擎E+ 2019款 1.8PH GS CVT精英版',
     price: 42000,
     images: [
