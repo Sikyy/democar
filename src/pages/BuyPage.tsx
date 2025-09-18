@@ -553,6 +553,7 @@ const carData = [
     description: '丰田RAV4（Recreational Active Vehicle with 4-wheel drive）是一款紧凑型跨界SUV，自1995年推出以来，以其可靠耐用、宽敞实用和高保值率成为二手车市场的热门选择。作为紧凑型SUV的开创者之一，RAV4凭借卓越的品质和均衡性能，深受家庭用户和城市驾驶者的喜爱。',
     isFeatured: true
   },
+  //索纳塔 1
   {
     id: '21',
     image: '/images/hyundai/sonata/1/1.jpg',
@@ -573,8 +574,93 @@ const carData = [
     description: 'The ideal choice for those who appreciate reliability and quality! The Toyota Camry VIII offers impressive durability, excellent fuel efficiency and spacious interior.',
     isFeatured: false
   },
+  //索纳塔 2
   {
     id: '22',
+    image: '/images/hyundai/sonata/2/1.jpg',
+    title: '索纳塔 2020款 380TGDi GLS 自动豪华版',
+    brand: 'Hyundai',
+    price: 85000,
+    location: 'WenZhou',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 40000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 240,
+      driveType: '2WD'
+    },
+    description: '车况精品，无重大事故，无火烧泡水，无加装改装配置。让您买的放心，省心，开心。底盘结构:无明显磨损发动机舱:运转良好外观:车身无结构性损伤内饰:干净整洁 漆面:保养良好车源',
+    isFeatured: false
+  },
+  //索纳塔 3
+  {
+    id: '23',
+    image: '/images/hyundai/sonata/3/1.jpg',
+    title: '索纳塔 2020款 380TGDi TOP 自动旗舰版',
+    brand: 'Hyundai',
+    price: 85000,
+    location: 'WenZhou',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 46000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 240,
+      driveType: '2WD'
+    },
+    description: '全车原版原漆，无任何事故，享有3年10公里质保，全车4s店保养，0出险，支持线下试乘试驾，公里数少。本店购车享有终身免费道路救援。购车享有更多豪华礼包等你来拿。',
+    isFeatured: false
+  },
+  //索纳塔 4
+  {
+    id: '24',
+    image: '/images/hyundai/sonata/4/1.jpg',
+    title: '索纳塔 2020款 380TGDi GLS 自动豪华版',
+    brand: 'Hyundai',
+    price: 86800,
+    location: 'DongGuan',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 32000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 240,
+      driveType: '2WD'
+    },
+    description: '原版车况，已过三方查博士，东莞本地1手车，内饰外观九成新，车况毫无瑕疵，多种驾驶模式，确保无事故，无水泡，无火烧，无切割',
+    isFeatured: false
+  },
+  //索纳塔 5
+  {
+    id: '25',
+    image: '/images/hyundai/sonata/5/1.jpg',
+    title: '索纳塔 2020款 270TGDi GLS DCT精英版',
+    brand: 'Hyundai',
+    price: 69800,
+    location: 'DongGuan',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 103000,
+      fuelType: 'Petrol',
+      displacement: '1.5T',
+      power: 170,
+      driveType: '2WD'
+    },
+    description: '陕西鑫亚特集团是西北汽车贸易，旗下众合名车，总面积30000平米，是集汽车金融、车商库融、汽车进出口、汽车贸易供应链、二手车平台、二手车业务、车务等相关服务为一体的综合性汽车服务领航企业。集团自成立以来，始终坚持为会员提供专业化、高品质的全方位汽车服务，并积极推进汽车文化发展，倡导由“车”至“人”“人”至“家”的汽车服务理念.凭着专业的技术，优质的服务和先进的设备。',
+    isFeatured: false
+  },
+  //起亚K5 1
+  {
+    id: '26',
     image: '/images/kia/k5/1/1.jpg',
     title: '起亚K5 2020款 380T GT-Line 旗舰版',
     brand: 'KIA',
@@ -593,8 +679,92 @@ const carData = [
     description: 'Experience pure driving excellence with the Porsche 911 GT3. This track-focused masterpiece delivers breathtaking performance and precision engineering at its finest.',
     isFeatured: true
   },
+  //起亚K5 2
   {
-    id: '23',
+    id: '27',
+    image: '/images/kia/k5/2/1.jpg',
+    title: '起亚K5 2020款 270T CVVD 豪华版',
+    brand: 'KIA',
+    price: 121800,
+    location: 'WuHan',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 53000,
+      fuelType: 'Petrol',
+      displacement: '1.5T',
+      power: 170,
+      driveType: '2WD'
+    },
+    description: '原版原漆。出厂时间2020年12月，上牌时间2021年1月。20款豪华。实表5.3万公里，到手不需要其他投资。视频已拍好。检测已做。',
+    isFeatured: true
+  },
+  //起亚K5 3
+  {
+    id: '28',
+    image: '/images/kia/k5/3/1.jpg',
+    title: '起亚K5 2021款 380T GT-Line 旗舰版',
+    brand: 'KIA',
+    price: 118000,
+    location: 'LanZhou',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 50000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 240,
+      driveType: '2WD'
+    },
+    description: '2021款起亚K5 380T GT - Line旗舰版。它在2022年6月20日首次上牌，实表五万三千公里，更换左前大灯，三方检测S级，仅有机盖、左前翼子板划痕补漆！ 和同级别竞品车型相比，起亚K5这款车的优势十分明显。它配备了车侧盲区影像、360全景影像和车道偏离预警等实用功能，很多竞品车型要么只有部分配置，要么需要额外花钱选装。而且，它的空间宽敞，内饰精美，做工精致，干净整洁，在驾乘体验上要比一些竞品更胜一筹',
+    isFeatured: true
+  },
+  //起亚K5 4
+  {
+    id: '29',
+    image: '/images/kia/k5/4/1.jpg',
+    title: '起亚K5 2020款 380T GT-Line 尊贵版',
+    brand: 'KIA',
+    price: 83800,
+    location: 'DongGuan',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 84000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 240,
+      driveType: '2WD'
+    },
+    description: '2020款起亚K5 380T GT - Line尊贵版。这款车在2020年10月09日首次上牌，表显里程8.40万公里，排量2.0T，蓝色车身搭配深色内饰，时尚又大气。 和同级别竞品相比，起亚K5有着独特的优势。很多竞品车型可能外观设计比较普通，而起亚K5外观线条流畅，造型动感，回头率超高。在配置上，它配备了自动大灯、语音识别控制、外后视镜电动折叠等实用功能',
+    isFeatured: true
+  },
+  //起亚K5 5
+  {
+    id: '30',
+    image: '/images/kia/k5/5/1.jpg',
+    title: '起亚K5 2021款 270T CVVD 焕新版',
+    brand: 'KIA',
+    price: 126800,
+    location: 'HaErBin',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 28000,
+      fuelType: 'Petrol',
+      displacement: '1.5T',
+      power: 170,
+      driveType: '2WD'
+    },
+    description: '起亚K5凯酷 4门5座三厢车 发动机1.5T 170马力L4 最大功率125KW （170PS）发动机型号G4FS 前置前驱 前后驻车雷达 倒车影像 定速巡航 真皮多功能方向盘 主驾驶电动座椅 可开全景天窗 全车一键升降式车窗',
+    isFeatured: true
+  },
+  {
+    id: '31',
     image: '/images/kia/k3/1/1.jpg',
     title: '起亚K3 2019款 1.5L CVT智享互联版',
     brand: 'Kia',
@@ -614,7 +784,7 @@ const carData = [
     isFeatured: true
   },
   {
-    id: '24',
+    id: '32',
     image: '/images/toyota/avalon/1/1.jpg',
     title: '亚洲龙 2022款 2.0L 豪华版',
     brand: 'Toyota',
@@ -634,7 +804,7 @@ const carData = [
     isFeatured: false
   },
   {
-    id: '25',
+    id: '33',
     image: '/images/toyota/corolla/1/1.jpg',
     title: '卡罗拉 2021款 1.2T S-CVT先锋PLUS版',
     brand: 'Toyota',
@@ -654,7 +824,7 @@ const carData = [
     isFeatured: false
   },
   {
-    id: '26',
+    id: '34',
     image: '/images/toyota/leiling/1/1.jpg',
     title: '雷凌双擎E+ 2019款 1.8PH GS CVT精英版',
     brand: 'Toyota',

@@ -1348,7 +1348,7 @@ const carDetailsMap: { [key: string]: any } = {
       }
     ],
   },
-  // 索纳塔
+  // 索纳塔 1
   '21': {
     id: '21',
     title: '索纳塔 2020款 270TGDi GLS DCT精英版',
@@ -1417,9 +1417,285 @@ const carDetailsMap: { [key: string]: any } = {
       }
     ],
   },
-  // 起亚K5
+  // 索纳塔 2
   '22': {
     id: '22',
+    title: '索纳塔 2020款 380TGDi GLS 自动豪华版',
+    price: 85000,
+    images: [
+      '/images/hyundai/sonata/2/1.jpg',
+      '/images/hyundai/sonata/2/2.jpg',
+      '/images/hyundai/sonata/2/3.jpg',
+      '/images/hyundai/sonata/2/4.jpg',
+      '/images/hyundai/sonata/2/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: false,
+    mileage: '2021年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '6.8L/100km',
+    fuelType: '汽油',
+    transmission: '8挡手自一体',
+    engine: '2.0T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '240马力',
+    enginecapacity: '1975cc',
+    year: 2021,
+    make: 'Hyundai',
+    model: 'Sonata',
+    trim: '380TGDi GLS 自动豪华版',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务',
+      '中控屏',
+      '无钥匙启动',
+      '自动空调'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '3.1万公里',
+      distance: '5.2公里',
+      rating: 4.7,
+      reviews: 89,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2020年12月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '现代4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 索纳塔 3
+  '23': {
+    id: '23',
+    title: '索纳塔 2020款 380TGDi TOP 自动旗舰版',
+    price: 85000,
+    images: [
+      '/images/hyundai/sonata/3/1.jpg',
+      '/images/hyundai/sonata/3/2.jpg',
+      '/images/hyundai/sonata/3/3.jpg',
+      '/images/hyundai/sonata/3/4.jpg',
+      '/images/hyundai/sonata/3/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: false,
+    mileage: '2021年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '6.8L/100km',
+    fuelType: '汽油',
+    transmission: '8挡手自一体',
+    engine: '2.0T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '240马力',
+    enginecapacity: '1975cc',
+    year: 2021,
+    make: 'Hyundai',
+    model: 'Sonata',
+    trim: '380TGDi TOP 自动旗舰版',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务',
+      '中控屏',
+      '无钥匙启动',
+      '自动空调'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '3.1万公里',
+      distance: '5.2公里',
+      rating: 4.7,
+      reviews: 89,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2020年12月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '现代4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 索纳塔 4
+  '24': {
+    id: '24',
+    title: '索纳塔 2020款 380TGDi GLS 自动豪华版',
+    price: 86800,
+    images: [
+      '/images/hyundai/sonata/4/1.jpg',
+      '/images/hyundai/sonata/4/2.jpg',
+      '/images/hyundai/sonata/4/3.jpg',
+      '/images/hyundai/sonata/4/4.jpg',
+      '/images/hyundai/sonata/4/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: false,
+    mileage: '2021年',
+    exteriorColor: '红色',
+    interiorColor: '黑色',
+    fuelEconomy: '6.8L/100km',
+    fuelType: '汽油',
+    transmission: '8挡手自一体',
+    engine: '2.0T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '240马力',
+    enginecapacity: '1975cc',
+    year: 2021,
+    make: 'Hyundai',
+    model: 'Sonata',
+    trim: '380TGDi GLS 自动豪华版',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务',
+      '中控屏',
+      '无钥匙启动',
+      '自动空调'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '3.1万公里',
+      distance: '5.2公里',
+      rating: 4.7,
+      reviews: 89,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2020年12月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '现代4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 索纳塔 4
+  '25': {
+    id: '25',
+    title: '索纳塔 2020款 270TGDi GLS DCT精英版',
+    price: 69800,
+    images: [
+      '/images/hyundai/sonata/5/1.jpg',
+      '/images/hyundai/sonata/5/2.jpg',
+      '/images/hyundai/sonata/5/3.jpg',
+      '/images/hyundai/sonata/5/4.jpg',
+      '/images/hyundai/sonata/5/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: false,
+    mileage: '2021年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.6L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.5T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '170马力',
+    enginecapacity: '1497cc',
+    year: 2021,
+    make: 'Hyundai',
+    model: 'Sonata',
+    trim: '270TGDi GLS DCT精英版',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务',
+      '中控屏',
+      '无钥匙启动',
+      '自动空调'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '3.1万公里',
+      distance: '5.2公里',
+      rating: 4.7,
+      reviews: 89,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2020年12月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '现代4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 起亚K5 1
+  '26': {
+    id: '26',
     title: '起亚K5 2020款 380T GT-Line 旗舰版',
     price: 79800,
     images: [
@@ -1484,9 +1760,271 @@ const carDetailsMap: { [key: string]: any } = {
       }
     ],
   },
+  // 起亚K5 2
+  '27': {
+    id: '27',
+    title: '起亚K5 2020款 270T CVVD 豪华版',
+    price: 121800,
+    images: [
+      '/images/kia/k5/2/1.jpg',
+      '/images/kia/k5/2/2.jpg',
+      '/images/kia/k5/2/3.jpg',
+      '/images/kia/k5/2/4.jpg',
+      '/images/kia/k5/2/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '黑色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.6L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.5T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '170马力',
+    enginecapacity: '1497cc',
+    year: 2021,
+    make: 'KIA',
+    model: 'K5',
+    trim: '270T CVVD 豪华版',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '道路救援服务'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '7万公里',
+      distance: '3.8公里',
+      rating: 4.8,
+      reviews: 156,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2020年5月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '起亚4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 起亚K5 3
+  '28': {
+    id: '28',
+    title: '起亚K5 2021款 380T GT-Line 旗舰版',
+    price: 118000,
+    images: [
+      '/images/kia/k5/3/1.jpg',
+      '/images/kia/k5/3/2.jpg',
+      '/images/kia/k5/3/3.jpg',
+      '/images/kia/k5/3/4.jpg',
+      '/images/kia/k5/3/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '深灰色',
+    interiorColor: '黑色',
+    fuelEconomy: '6.8L/100km',
+    fuelType: '汽油',
+    transmission: '8挡手自一体',
+    engine: '2.0T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '240马力',
+    enginecapacity: '1957cc',
+    year: 2022,
+    make: 'KIA',
+    model: 'K5',
+    trim: '380T GT-Line 旗舰版',
+    bodyStyle: '中型轿车',
+    features: [
+      '360全景影像',
+      '自适应巡航',
+      '自动驻车',
+      '驻车雷达',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '7万公里',
+      distance: '3.8公里',
+      rating: 4.8,
+      reviews: 156,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2020年5月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '起亚4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 起亚K5 4
+  '29': {
+    id: '29',
+    title: '起亚K5 2020款 380T GT-Line 尊贵版',
+    price: 83800,
+    images: [
+      '/images/kia/k5/4/1.jpg',
+      '/images/kia/k5/4/2.jpg',
+      '/images/kia/k5/4/3.jpg',
+      '/images/kia/k5/4/4.jpg',
+      '/images/kia/k5/4/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2020年',
+    exteriorColor: '蓝色',
+    interiorColor: '黑色',
+    fuelEconomy: '6.8L/100km',
+    fuelType: '汽油',
+    transmission: '8挡手自一体',
+    engine: '2.0T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '240马力',
+    enginecapacity: '1957cc',
+    year: 2020,
+    make: 'KIA',
+    model: 'K5',
+    trim: '380T GT-Line 尊贵版',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '7万公里',
+      distance: '3.8公里',
+      rating: 4.8,
+      reviews: 156,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2020年5月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '起亚4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 起亚K5 5
+  '30': {
+    id: '30',
+    title: '起亚K5 2021款 270T CVVD 焕新版',
+    price: 126800,
+    images: [
+      '/images/kia/k5/5/1.jpg',
+      '/images/kia/k5/5/2.jpg',
+      '/images/kia/k5/5/3.jpg',
+      '/images/kia/k5/5/4.jpg',
+      '/images/kia/k5/5/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '深灰色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.6L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.5T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '170马力',
+    enginecapacity: '1497cc',
+    year: 2021,
+    make: 'KIA',
+    model: 'K5',
+    trim: '270T CVVD 焕新版',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '7万公里',
+      distance: '3.8公里',
+      rating: 4.8,
+      reviews: 156,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2020年5月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '起亚4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
   // 起亚K3
-  '23': {
-    id: '23',
+  '31': {
+    id: '31',
     title: '起亚K3 2019款 1.5L CVT智享互联版',
     price: 49800,
     images: [
@@ -1551,8 +2089,8 @@ const carDetailsMap: { [key: string]: any } = {
     ],
   },
   // 亚洲龙
-  '24': {
-    id: '24',
+  '32': {
+    id: '32',
     title: '亚洲龙 2022款 2.0L 豪华版',
     price: 105800,
     images: [
@@ -1617,8 +2155,8 @@ const carDetailsMap: { [key: string]: any } = {
     ],
   },
   // 卡罗拉
-  '25': {
-    id: '25',
+  '33': {
+    id: '33',
     title: '卡罗拉 2021款 1.2T S-CVT先锋PLUS版',
     price: 60800,
     images: [
@@ -1683,8 +2221,8 @@ const carDetailsMap: { [key: string]: any } = {
     ],
   },
   // 雷凌双擎E+
-  '26': {
-    id: '26',
+  '34': {
+    id: '34',
     title: '雷凌双擎E+ 2019款 1.8PH GS CVT精英版',
     price: 42000,
     images: [
