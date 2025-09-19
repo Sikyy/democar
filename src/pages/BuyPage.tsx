@@ -763,6 +763,7 @@ const carData = [
     description: '起亚K5凯酷 4门5座三厢车 发动机1.5T 170马力L4 最大功率125KW （170PS）发动机型号G4FS 前置前驱 前后驻车雷达 倒车影像 定速巡航 真皮多功能方向盘 主驾驶电动座椅 可开全景天窗 全车一键升降式车窗',
     isFeatured: true
   },
+  //起亚K3 1
   {
     id: '31',
     image: '/images/kia/k3/1/1.jpg',
@@ -783,8 +784,93 @@ const carData = [
     description: 'The future of automotive performance is here. Tesla Model S Plaid combines ludicrous acceleration with cutting-edge technology and luxurious comfort.',
     isFeatured: true
   },
+  //起亚K3 2
   {
     id: '32',
+    image: '/images/kia/k3/2/1.jpg',
+    title: '起亚K3 2019款 1.5L CVT新锐版',
+    brand: 'Kia',
+    price: 40900,
+    location: 'JiNan',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 27900,
+      fuelType: 'Petrol',
+      displacement: '1.5L',
+      power: 115,
+      driveType: '2WD'
+    },
+    description: 'The future of automotive performance is here. Tesla Model S Plaid combines ludicrous acceleration with cutting-edge technology and luxurious comfort.',
+    isFeatured: true
+  },
+  //起亚K3 3
+  {
+    id: '33',
+    image: '/images/kia/k3/3/1.jpg',
+    title: '起亚K3 2021款 1.5L IVT 时尚版',
+    brand: 'Kia',
+    price: 74800,
+    location: 'WuHan',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 37000,
+      fuelType: 'Petrol',
+      displacement: '1.5L',
+      power: 115,
+      driveType: '2WD'
+    },
+    description: '原版原漆，实表3.7万公里。符合出口时间。已经清洗整备好，到手不需要其他投资。',
+    isFeatured: true
+  },
+  //起亚K3 4
+  {
+    id: '34',
+    image: '/images/kia/k3/4/1.jpg',
+    title: '起亚K3 2021款 1.4T DCT GT-Line智驾运动版',
+    brand: 'Kia',
+    price: 92000,
+    location: 'WeiFang',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 32500,
+      fuelType: 'Petrol',
+      displacement: '1.4L',
+      power: 130,
+      driveType: '2WD'
+    },
+    description: '所有车辆收购前经过严格检验，并辅以查询维保记录和出险记录等大数据查证，确保每台车车况真实。所售车辆有第三方检测报告，享90天内回购保障，让每一位奔联达严选而来的用户，买的明明白白，用着放心、舒心！',
+    isFeatured: true
+  },
+  //起亚K3 5
+  {
+    id: '35',
+    image: '/images/kia/k3/5/1.jpg',
+    title: '起亚K3 2021款 1.5L IVT 青春版',
+    brand: 'Kia',
+    price: 56800,
+    location: 'YinChuan',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 86000,
+      fuelType: 'Petrol',
+      displacement: '1.5L',
+      power: 115,
+      driveType: '2WD'
+    },
+    description: '车况相当好，无色差，内饰精美、干净整洁，空间宽敞，一家人出行也不会觉得拥挤。它的做工精致，功能都正常，发动机和变速箱运转良好，底盘紧凑，开起来特别稳。自动大灯、自动驻车、上坡辅助这些配置也都有，日常驾驶更轻松。',
+    isFeatured: true
+  },
+  //亚洲龙 1
+  {
+    id: '36',
     image: '/images/toyota/avalon/1/1.jpg',
     title: '亚洲龙 2022款 2.0L 豪华版',
     brand: 'Toyota',
@@ -803,8 +889,92 @@ const carData = [
     description: 'The ultimate hot hatch. Volkswagen Golf R delivers exceptional performance and practicality in one refined package.',
     isFeatured: false
   },
+  //亚洲龙 2
   {
-    id: '33',
+    id: '37',
+    image: '/images/toyota/avalon/2/1.jpg',
+    title: '亚洲龙 2019款 双擎 2.5L XLE尊贵版 国VI',
+    brand: 'Toyota',
+    price: 126800,
+    location: 'DongGuan',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 58000,
+      fuelType: 'Petrol',
+      displacement: '2.5L',
+      power: 178,
+      driveType: '2WD'
+    },
+    description: '车况相当不错。支持第三方检测，漆面完好，发动机和变速箱运转良好，内饰精美，深色内饰看着既大气又耐脏。它的配置也很丰富，有语音识别控制、车道偏离预警、外后视镜电动折叠等，能让驾驶更轻松、更安全。',
+    isFeatured: false
+  },
+  //亚洲龙 3
+  {
+    id: '38',
+    image: '/images/toyota/avalon/3/1.jpg',
+    title: '亚洲龙 2019款 2.5L Touring尊贵版 国VI',
+    brand: 'Toyota',
+    price: 136800,
+    location: 'GuangZhou',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 55000,
+      fuelType: 'Petrol',
+      displacement: '2.5L',
+      power: 209,
+      driveType: '2WD'
+    },
+    description: '车况相当不错。支持第三方检测，漆面完好，发动机和变速箱运转良好，内饰精美，深色内饰看着既大气又耐脏。它的配置也很丰富，有语音识别控制、车道偏离预警、外后视镜电动折叠等，能让驾驶更轻松、更安全。',
+    isFeatured: false
+  },
+  //亚洲龙 4
+  {
+    id: '39',
+    image: '/images/toyota/avalon/4/1.jpg',
+    title: '亚洲龙 2019款 2.0L 豪华版 国VI',
+    brand: 'Toyota',
+    price: 106800,
+    location: 'GuangZhou',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 46000,
+      fuelType: 'Petrol',
+      displacement: '2.0L',
+      power: 178,
+      driveType: '2WD'
+    },
+    description: '车况相当不错。支持第三方检测，漆面完好，发动机和变速箱运转良好，内饰精美，深色内饰看着既大气又耐脏。它的配置也很丰富，有语音识别控制、车道偏离预警、外后视镜电动折叠等，能让驾驶更轻松、更安全。',
+    isFeatured: false
+  },
+  //亚洲龙 5
+  {
+    id: '40',
+    image: '/images/toyota/avalon/5/1.jpg',
+    title: '亚洲龙 2019款 双擎 2.5L XLE尊贵版 国VI',
+    brand: 'Toyota',
+    price: 133800,
+    location: 'DongGuan',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'hybrid',
+    specs: {
+      mileage: 46000,
+      fuelType: 'Hybrid',
+      displacement: '2.5L',
+      power: 178,
+      driveType: '2WD'
+    },
+    description: '车况相当不错。支持第三方检测，漆面完好，发动机和变速箱运转良好，内饰精美，深色内饰看着既大气又耐脏。它的配置也很丰富，有语音识别控制、车道偏离预警、外后视镜电动折叠等，能让驾驶更轻松、更安全。',
+    isFeatured: false
+  },
+  {
+    id: '41',
     image: '/images/toyota/corolla/1/1.jpg',
     title: '卡罗拉 2021款 1.2T S-CVT先锋PLUS版',
     brand: 'Toyota',
@@ -824,7 +994,7 @@ const carData = [
     isFeatured: false
   },
   {
-    id: '34',
+    id: '46',
     image: '/images/toyota/leiling/1/1.jpg',
     title: '雷凌双擎E+ 2019款 1.8PH GS CVT精英版',
     brand: 'Toyota',

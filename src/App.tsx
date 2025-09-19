@@ -2022,7 +2022,7 @@ const carDetailsMap: { [key: string]: any } = {
       }
     ],
   },
-  // 起亚K3
+  // 起亚K3 1
   '31': {
     id: '31',
     title: '起亚K3 2019款 1.5L CVT智享互联版',
@@ -2088,9 +2088,272 @@ const carDetailsMap: { [key: string]: any } = {
       }
     ],
   },
-  // 亚洲龙
+  // 起亚K3 2
   '32': {
     id: '32',
+    title: '起亚K3 2019款 1.5L CVT新锐版',
+    price: 40900,
+    images: [
+      '/images/kia/k3/2/1.jpg',
+      '/images/kia/k3/2/2.jpg',
+      '/images/kia/k3/2/3.jpg',
+      '/images/kia/k3/2/4.jpg',
+      '/images/kia/k3/2/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2020年',
+    exteriorColor: '红色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.1L/100km',
+    fuelType: '汽油',
+    transmission: 'CVT无级变速(模拟8挡)',
+    engine: '1.5L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '115马力',
+    enginecapacity: '1497cc',
+    year: 2020,
+    make: 'Kia',
+    model: 'K3',
+    trim: '1.5L CVT新锐版',
+    bodyStyle: '紧凑型轿车',
+    features: [
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '中控屏',
+      '无钥匙进入',
+      '无钥匙启动'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '9.1万公里',
+      distance: '4.5公里',
+      rating: 4.6,
+      reviews: 78,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年10月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '起亚4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 起亚K3 3
+  '33': {
+    id: '33',
+    title: '起亚K3 2021款 1.5L IVT 时尚版',
+    price: 74800,
+    images: [
+      '/images/kia/k3/3/1.jpg',
+      '/images/kia/k3/3/2.jpg',
+      '/images/kia/k3/3/3.jpg',
+      '/images/kia/k3/3/4.jpg',
+      '/images/kia/k3/3/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.4L/100km',
+    fuelType: '汽油',
+    transmission: 'CVT无级变速(模拟8挡)',
+    engine: '1.5L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '115马力',
+    enginecapacity: '1497cc',
+    year: 2021,
+    make: 'Kia',
+    model: 'K3',
+    trim: '1.5L IVT 时尚版',
+    bodyStyle: '紧凑型轿车',
+    features: [
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '中控屏',
+      '感应式后尾门',
+      '无钥匙进入'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '9.1万公里',
+      distance: '4.5公里',
+      rating: 4.6,
+      reviews: 78,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年10月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '起亚4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 起亚K3 4
+  '34': {
+    id: '34',
+    title: '起亚K3 2021款 1.4T DCT GT-Line智驾运动版',
+    price: 92000,
+    images: [
+      '/images/kia/k3/4/1.jpg',
+      '/images/kia/k3/4/2.jpg',
+      '/images/kia/k3/4/3.jpg',
+      '/images/kia/k3/4/4.jpg',
+      '/images/kia/k3/4/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.3L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '130马力',
+    enginecapacity: '1353cc',
+    year: 2022,
+    make: 'Kia',
+    model: 'K3',
+    trim: '1.4T DCT GT-Line智驾运动版',
+    bodyStyle: '紧凑型轿车',
+    features: [
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '9.1万公里',
+      distance: '4.5公里',
+      rating: 4.6,
+      reviews: 78,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年10月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '起亚4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 起亚K3 5
+  '35': {
+    id: '35',
+    title: '起亚K3 2021款 1.5L IVT 青春版',
+    price: 56800,
+    images: [
+      '/images/kia/k3/5/1.jpg',
+      '/images/kia/k3/5/2.jpg',
+      '/images/kia/k3/5/3.jpg',
+      '/images/kia/k3/5/4.jpg',
+      '/images/kia/k3/5/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '蓝色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.4L/100km',
+    fuelType: '汽油',
+    transmission: 'CVT无级变速(模拟8挡)',
+    engine: '1.5L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '115马力',
+    enginecapacity: '1497cc',
+    year: 2021,
+    make: 'Kia',
+    model: 'K3',
+    trim: '1.5L IVT 青春版',
+    bodyStyle: '紧凑型轿车',
+    features: [
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '倒车影像',
+      '中控屏',
+      '胎压监测系统',
+      '自动大灯'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '9.1万公里',
+      distance: '4.5公里',
+      rating: 4.6,
+      reviews: 78,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年10月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '起亚4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 亚洲龙 1
+  '36': {
+    id: '36',
     title: '亚洲龙 2022款 2.0L 豪华版',
     price: 105800,
     images: [
@@ -2154,9 +2417,207 @@ const carDetailsMap: { [key: string]: any } = {
       }
     ],
   },
+  // 亚洲龙 2
+  '37': {
+    id: '37',
+    title: '亚洲龙 2019款 双擎 2.5L XLE尊贵版 国VI',
+    price: 126800,
+    images: [
+      '/images/toyota/avalon/2/1.jpg',
+      '/images/toyota/avalon/2/2.jpg',
+      '/images/toyota/avalon/2/3.jpg',
+      '/images/toyota/avalon/2/4.jpg',
+      '/images/toyota/avalon/2/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: false,
+    mileage: '2022年',
+    exteriorColor: '黑色',
+    interiorColor: '黑色',
+    fuelEconomy: '4.3L/100km',
+    fuelType: '混动',
+    transmission: 'E-CVT无级变速',
+    engine: '2.5L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '178马力',
+    enginecapacity: '2487cc',
+    year: 2022,
+    make: 'Toyota',
+    model: 'Avalon',
+    trim: '双擎 2.5L XLE尊贵版 国VI',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动驾驶系统',
+      '360全景影像',
+      '自适应巡航',
+      '自动驻车',
+      '驻车雷达',
+      '语音识别控制系统',
+      '中控屏',
+      '无钥匙进入'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '8.8万公里',
+      distance: '3.9公里',
+      rating: 4.8,
+      reviews: 134,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2022年3月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '丰田4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 亚洲龙 4
+  '39': {
+    id: '39',
+    title: '亚洲龙 2019款 2.0L 豪华版 国VI',
+    price: 106800,
+    images: [
+      '/images/toyota/avalon/4/1.jpg',
+      '/images/toyota/avalon/4/2.jpg',
+      '/images/toyota/avalon/4/3.jpg',
+      '/images/toyota/avalon/4/4.jpg',
+      '/images/toyota/avalon/4/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: false,
+    mileage: '2020年',
+    exteriorColor: '银灰色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.8L/100km',
+    fuelType: '汽油',
+    transmission: 'CVT无级变速(模拟10挡)',
+    engine: '2.0L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '178马力',
+    enginecapacity: '1987cc',
+    year: 2021,
+    make: 'Toyota',
+    model: 'Avalon',
+    trim: '2.0L 豪华版 国VI',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动驾驶系统',
+      '自适应巡航',
+      '自动驻车',
+      '倒车影像',
+      '中控屏',
+      '无钥匙进入',
+      '无钥匙启动',
+      '主动刹车/主动安全'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '8.8万公里',
+      distance: '3.9公里',
+      rating: 4.8,
+      reviews: 134,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2022年3月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '丰田4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 亚洲龙 5
+  '40': {
+    id: '40',
+    title: '亚洲龙 2019款 双擎 2.5L XLE尊贵版 国VI',
+    price: 133800,
+    images: [
+      '/images/toyota/avalon/5/1.jpg',
+      '/images/toyota/avalon/5/2.jpg',
+      '/images/toyota/avalon/5/3.jpg',
+      '/images/toyota/avalon/5/4.jpg',
+      '/images/toyota/avalon/5/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: false,
+    mileage: '2021年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '4.3L/100km',
+    fuelType: '汽油',
+    transmission: 'E-CVT无级变速',
+    engine: '2.5L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '178马力',
+    enginecapacity: '2487cc',
+    year: 2021,
+    make: 'Toyota',
+    model: 'Avalon',
+    trim: '双擎 2.5L XLE尊贵版 国VI',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动驾驶系统',
+      '360全景影像',
+      '自适应巡航',
+      '自动驻车',
+      '驻车雷达',
+      '语音识别控制系统',
+      '中控屏',
+      '无钥匙进入'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '8.8万公里',
+      distance: '3.9公里',
+      rating: 4.8,
+      reviews: 134,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2022年3月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '丰田4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
   // 卡罗拉
-  '33': {
-    id: '33',
+  '41': {
+    id: '41',
     title: '卡罗拉 2021款 1.2T S-CVT先锋PLUS版',
     price: 60800,
     images: [
@@ -2221,8 +2682,8 @@ const carDetailsMap: { [key: string]: any } = {
     ],
   },
   // 雷凌双擎E+
-  '34': {
-    id: '34',
+  '46': {
+    id: '46',
     title: '雷凌双擎E+ 2019款 1.8PH GS CVT精英版',
     price: 42000,
     images: [
