@@ -2615,7 +2615,7 @@ const carDetailsMap: { [key: string]: any } = {
       }
     ],
   },
-  // 卡罗拉
+  // 卡罗拉 1
   '41': {
     id: '41',
     title: '卡罗拉 2021款 1.2T S-CVT先锋PLUS版',
@@ -2681,7 +2681,271 @@ const carDetailsMap: { [key: string]: any } = {
       }
     ],
   },
-  // 雷凌双擎E+
+  // 卡罗拉 2
+  '42': {
+    id: '42',
+    title: '卡罗拉 2021款 双擎 1.8L E-CVT精英版',
+    price: 63800,
+    images: [
+      '/images/toyota/corolla/2/1.jpg',
+      '/images/toyota/corolla/2/2.jpg',
+      '/images/toyota/corolla/2/3.jpg',
+      '/images/toyota/corolla/2/4.jpg',
+      '/images/toyota/corolla/2/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: false,
+    mileage: '2021年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '4.1L/100km',
+    fuelType: '混动',
+    transmission: 'E-CVT无级变速',
+    engine: '1.8L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '98马力',
+    enginecapacity: '1798cc',
+    year: 2021,
+    make: 'Toyota',
+    model: 'Corolla',
+    trim: '双擎 1.8L E-CVT精英版',
+    bodyStyle: '紧凑型轿车',
+    features: [
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务',
+      '中控屏'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '5万公里',
+      distance: '4.7公里',
+      rating: 4.7,
+      reviews: 167,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2021年9月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '丰田4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 卡罗拉 3
+  '43': {
+    id: '43',
+    title: '卡罗拉 2021款 1.5L CVT精英版',
+    price: 65000,
+    images: [
+      '/images/toyota/corolla/3/1.jpg',
+      '/images/toyota/corolla/3/2.jpg',
+      '/images/toyota/corolla/3/3.jpg',
+      '/images/toyota/corolla/3/4.jpg',
+      '/images/toyota/corolla/3/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: false,
+    mileage: '2022年',
+    exteriorColor: '深灰色',
+    interiorColor: '米色',
+    fuelEconomy: '5.2L/100km',
+    fuelType: '汽油',
+    transmission: 'CVT无级变速(模拟10挡)',
+    engine: '1.5L L3',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '121马力',
+    enginecapacity: '1490cc',
+    year: 2022,
+    make: 'Toyota',
+    model: 'Corolla',
+    trim: '1.5L CVT精英版',
+    bodyStyle: '紧凑型轿车',
+    features: [
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务',
+      '中控屏'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '5万公里',
+      distance: '4.7公里',
+      rating: 4.7,
+      reviews: 167,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2021年9月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '丰田4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 卡罗拉 4
+  '44': {
+    id: '44',
+    title: '卡罗拉 2021款 1.2T S-CVT精英版',
+    price: 76800,
+    images: [
+      '/images/toyota/corolla/4/1.jpg',
+      '/images/toyota/corolla/4/2.jpg',
+      '/images/toyota/corolla/4/3.jpg',
+      '/images/toyota/corolla/4/4.jpg',
+      '/images/toyota/corolla/4/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: false,
+    mileage: '2021年',
+    exteriorColor: '深灰色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.5L/100km',
+    fuelType: '汽油',
+    transmission: 'CVT无级变速(模拟10挡)',
+    engine: '1.2T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '116马力',
+    enginecapacity: '1197cc',
+    year: 2021,
+    make: 'Toyota',
+    model: 'Corolla',
+    trim: '1.2T S-CVT精英版',
+    bodyStyle: '紧凑型轿车',
+    features: [
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务',
+      '中控屏'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '5万公里',
+      distance: '4.7公里',
+      rating: 4.7,
+      reviews: 167,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2021年9月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '丰田4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 卡罗拉 5
+  '45': {
+    id: '45',
+    title: '卡罗拉 2021款 1.2T S-CVT精英PLUS版',
+    price: 59800,
+    images: [
+      '/images/toyota/corolla/5/1.jpg',
+      '/images/toyota/corolla/5/2.jpg',
+      '/images/toyota/corolla/5/3.jpg',
+      '/images/toyota/corolla/5/4.jpg',
+      '/images/toyota/corolla/5/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: false,
+    mileage: '2021年',
+    exteriorColor: '黑色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.6L/100km',
+    fuelType: '汽油',
+    transmission: 'CVT无级变速(模拟10挡)',
+    engine: '1.2T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '116马力',
+    enginecapacity: '1197cc',
+    year: 2021,
+    make: 'Toyota',
+    model: 'Corolla',
+    trim: '1.2T S-CVT精英PLUS版',
+    bodyStyle: '紧凑型轿车',
+    features: [
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务',
+      '中控屏'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '5万公里',
+      distance: '4.7公里',
+      rating: 4.7,
+      reviews: 167,
+      logo: 'https://img1.baidu.com/it/u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2021年9月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '丰田4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 雷凌 1
   '46': {
     id: '46',
     title: '雷凌双擎E+ 2019款 1.8PH GS CVT精英版',
@@ -2744,7 +3008,270 @@ const carDetailsMap: { [key: string]: any } = {
       }
     ],
   },
-  
+  // 雷凌 2
+  '47': {
+    id: '47',
+    title: '雷凌 2021款 185T CVT运动版',
+    price: 55800,
+    images: [
+      '/images/toyota/leiling/2/1.jpg',
+      '/images/toyota/leiling/2/2.jpg',
+      '/images/toyota/leiling/2/3.jpg',
+      '/images/toyota/leiling/2/4.jpg',
+      '/images/toyota/leiling/2/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2020年',
+    exteriorColor: '红色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.7L/100km',
+    fuelType: '汽油',
+    transmission: 'CVT无级变速(模拟10挡)',
+    engine: '1.2T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '116马力',
+    enginecapacity: '1197cc',
+    year: 2020,
+    make: 'Toyota',
+    model: 'Leiling',
+    trim: '185T CVT运动版',
+    bodyStyle: '紧凑型轿车',
+    features: [
+      '自适应巡航',
+      '自动驻车',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务',
+      '中控屏'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '丰田4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 雷凌 3
+  '48': {
+    id: '48',
+    title: '雷凌 2022款 双擎 1.8H E-CVT运动版',
+    price: 65800,
+    images: [
+      '/images/toyota/leiling/3/1.jpg',
+      '/images/toyota/leiling/3/2.jpg',
+      '/images/toyota/leiling/3/3.jpg',
+      '/images/toyota/leiling/3/4.jpg',
+      '/images/toyota/leiling/3/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '银灰色',
+    interiorColor: '黑色',
+    fuelEconomy: '4.2L/100km',
+    fuelType: '混合动力',
+    transmission: 'E-CVT无级变速',
+    engine: '1.8L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '98马力',
+    enginecapacity: '1798cc',
+    year: 2021,
+    make: 'Toyota',
+    model: 'Leiling',
+    trim: '1.8H E-CVT运动版',
+    bodyStyle: '紧凑型轿车',
+    features: [
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '丰田4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 雷凌 4
+  '49': {
+    id: '49',
+    title: '雷凌 2022款 双擎 1.8H E-CVT运动版',
+    price: 66600,
+    images: [
+      '/images/toyota/leiling/4/1.jpg',
+      '/images/toyota/leiling/4/2.jpg',
+      '/images/toyota/leiling/4/3.jpg',
+      '/images/toyota/leiling/4/4.jpg',
+      '/images/toyota/leiling/4/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '蓝色',
+    interiorColor: '黑色',
+    fuelEconomy: '4.2L/100km',
+    fuelType: '混合动力',
+    transmission: 'E-CVT无级变速',
+    engine: '1.8L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '98马力',
+    enginecapacity: '1798cc',
+    year: 2021,
+    make: 'Toyota',
+    model: 'Leiling',
+    trim: '1.8H E-CVT运动版',
+    bodyStyle: '紧凑型轿车',
+    features: [
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '丰田4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 雷凌 5
+  '50': {
+    id: '50',
+    title: '雷凌 2021款 185T CVT运动版',
+    price: 59800,
+    images: [
+      '/images/toyota/leiling/5/1.jpg',
+      '/images/toyota/leiling/5/2.jpg',
+      '/images/toyota/leiling/5/3.jpg',
+      '/images/toyota/leiling/5/4.jpg',
+      '/images/toyota/leiling/5/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '黑色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.7L/100km',
+    fuelType: '汽油',
+    transmission: 'CVT无级变速(模拟10挡)',
+    engine: '1.2T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '116马力',
+    enginecapacity: '1197cc',
+    year: 2021,
+    make: 'Toyota',
+    model: 'Leiling',
+    trim: '185T CVT运动版',
+    bodyStyle: '紧凑型轿车',
+    features: [
+      '自适应巡航',
+      '自动驻车',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务',
+      '中控屏'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '丰田4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
 };
 
 // 包装组件，用于获取参数并提供模拟数据

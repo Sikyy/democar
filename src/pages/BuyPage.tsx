@@ -973,6 +973,7 @@ const carData = [
     description: '车况相当不错。支持第三方检测，漆面完好，发动机和变速箱运转良好，内饰精美，深色内饰看着既大气又耐脏。它的配置也很丰富，有语音识别控制、车道偏离预警、外后视镜电动折叠等，能让驾驶更轻松、更安全。',
     isFeatured: false
   },
+  //卡罗拉 1
   {
     id: '41',
     image: '/images/toyota/corolla/1/1.jpg',
@@ -993,6 +994,91 @@ const carData = [
     description: 'The legendary Type R returns with more power and precision. This track-ready Honda Civic combines racing heritage with daily usability.',
     isFeatured: false
   },
+  //卡罗拉 2
+  {
+    id: '42',
+    image: '/images/toyota/corolla/2/1.jpg',
+    title: '卡罗拉 2021款 双擎 1.8L E-CVT精英版',
+    brand: 'Toyota',
+    price: 63800,
+    location: 'ChiFeng',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'hybrid',
+    specs: {
+      mileage: 66200,
+      fuelType: 'Hybrid',
+      displacement: '1.8L',
+      power: 98,
+      driveType: '2WD'
+    },
+    description: '动力系统：搭载1.8L自然吸气发动机，最大功率72kW，最大扭矩142N·m，电动机总功率53kW，总扭矩163N·m，系统综合功率90kW，匹配E-CVT无级变速箱，NEDC综合油耗4.1L/100km。​- 底盘悬挂：驱动方式为前置前驱，前悬挂为麦弗逊式独立悬挂，后悬挂为双叉臂式独立悬挂。',
+    isFeatured: false
+  },
+  //卡罗拉 3
+  {
+    id: '43',
+    image: '/images/toyota/corolla/3/1.jpg',
+    title: '卡罗拉 2021款 1.5L CVT精英版',
+    brand: 'Toyota',
+    price: 65000,
+    location: 'JinHua',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 21000,
+      fuelType: 'Petrol',
+      displacement: '1.5L',
+      power: 121,
+      driveType: '2WD'
+    },
+    description: '【外观情况】好 【车漆情况】好 【发变情况】好',
+    isFeatured: false
+  },
+  //卡罗拉 4
+  {
+    id: '44',
+    image: '/images/toyota/corolla/4/1.jpg',
+    title: '卡罗拉 2021款 1.2T S-CVT精英版',
+    brand: 'Toyota',
+    price: 76800,
+    location: 'MuDanJiang',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 36000,
+      fuelType: 'Petrol',
+      displacement: '1.2T',
+      power: 116,
+      driveType: '2WD'
+    },
+    description: '车况精品，内饰干净，欢迎选购，资料齐全，各种配合',
+    isFeatured: false
+  },
+  //卡罗拉 5
+  {
+    id: '44',
+    image: '/images/toyota/corolla/5/1.jpg',
+    title: '卡罗拉 2021款 1.2T S-CVT精英PLUS版',
+    brand: 'Toyota',
+    price: 59800,
+    location: 'HaiKou',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 75000,
+      fuelType: 'Petrol',
+      displacement: '1.2T',
+      power: 116,
+      driveType: '2WD'
+    },
+    description: '这辆车保养的很好，整车外观内饰还很新，外观没有明显的刮蹭，内饰各个按键也没有太多使用痕迹，是一款里外保养的都很不错的二手车。',
+    isFeatured: false
+  },
+  //雷凌 1
   {
     id: '46',
     image: '/images/toyota/leiling/1/1.jpg',
@@ -1012,7 +1098,91 @@ const carData = [
     },
     description: 'Italian excellence meets supercar performance. The Maserati MC20 represents the pinnacle of automotive design and engineering.',
     isFeatured: true
-  }
+  },
+  //雷凌 2
+  {
+    id: '47',
+    image: '/images/toyota/leiling/2/1.jpg',
+    title: '雷凌 2021款 185T CVT运动版',
+    brand: 'Toyota',
+    price: 55800,
+    location: 'HuiZhou',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 71000,
+      fuelType: 'Petrol',
+      displacement: '1.2T',
+      power: 116,
+      driveType: '2WD'
+    },
+    description: '个人一手车，全程4S店维护保养，安全行驶7万公里，全车原版，仅有右前叶喷漆，其余都原版原漆，磨损低，配置高，流线漂亮，手续齐全，价格实惠。',
+    isFeatured: true
+  },
+  //雷凌 3
+  {
+    id: '48',
+    image: '/images/toyota/leiling/3/1.jpg',
+    title: '雷凌 2022款 双擎 1.8H E-CVT运动版',
+    brand: 'Toyota',
+    price: 65800,
+    location: 'DongGuan',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'hybrid',
+    specs: {
+      mileage: 51000,
+      fuelType: 'Hybrid',
+      displacement: '1.8L',
+      power: 98,
+      driveType: '2WD'
+    },
+    description: ' 这台雷凌排量1.8L，车身是银灰色，内饰为深色，车辆是非营运性质。咱们再看看车况，发动机和变速箱运转良好，底盘紧凑，而且还是原版原漆，外观崭新，内饰也精美，里程数又低，个人一手车，整体车况极佳',
+    isFeatured: true
+  },
+  //雷凌 4
+  {
+    id: '49',
+    image: '/images/toyota/leiling/4/1.jpg',
+    title: '雷凌 2022款 双擎 1.8H E-CVT运动版',
+    brand: 'Toyota',
+    price: 66600,
+    location: 'YangZhou',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'hybrid',
+    specs: {
+      mileage: 58000,
+      fuelType: 'Hybrid',
+      displacement: '1.8L',
+      power: 98,
+      driveType: '2WD'
+    },
+    description: ' 2022款丰田雷凌双擎1.8H E - CVT运动版。这台车于2022年9月首次上牌，表显里程仅5.00万公里，对于一辆不到两年的车来说，这个里程数相当低。 和同级别竞品相比，雷凌双擎优势明显。像某些竞品虽然也有混动车型，但在油耗和可靠性上远不如雷凌。丰田雷凌双擎的1.8L发动机搭配E - CVT变速箱，动力输出平稳，油耗极低，日常使用成本大幅降低',
+    isFeatured: true
+  },
+  //雷凌 5
+  {
+    id: '50',
+    image: '/images/toyota/leiling/5/1.jpg',
+    title: '雷凌 2021款 185T CVT运动版',
+    brand: 'Toyota',
+    price: 59800,
+    location: 'FoShan',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 61000,
+      fuelType: 'Petrol',
+      displacement: '1.2T',
+      power: 116,
+      driveType: '2WD'
+    },
+    description: '2021年6月丰田雷凌双擎运动版，自波1.8，天窗，导航，真皮，多功能方向盘，17寸大铃寸，无匙进入，一健启动，后排出风口',
+    isFeatured: true
+  },
 ];
 
 // 添加品牌选择器容器样式
