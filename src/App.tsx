@@ -3272,6 +3272,930 @@ const carDetailsMap: { [key: string]: any } = {
       }
     ],
   },
+  // 大众高尔夫 1
+  '51': {
+    id: '51',
+    title: '高尔夫 2021款 280TSI DSG R-Line',
+    price: 93500,
+    images: [
+      '/images/volkswagen/golf/1/1.jpg',
+      '/images/volkswagen/golf/1/2.jpg',
+      '/images/volkswagen/golf/1/3.jpg',
+      '/images/volkswagen/golf/1/4.jpg',
+      '/images/volkswagen/golf/1/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.5L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2021,
+    make: 'Volkswagen',
+    model: 'Golf',
+    trim: '280TSI DSG R-Line',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动泊车入位',
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 大众高尔夫 2
+  '52': {
+    id: '52',
+    title: '高尔夫 2021款 280TSI DSG R-Line',
+    price: 78800,
+    images: [
+      '/images/volkswagen/golf/2/1.jpg',
+      '/images/volkswagen/golf/2/2.jpg',
+      '/images/volkswagen/golf/2/3.jpg',
+      '/images/volkswagen/golf/2/4.jpg',
+      '/images/volkswagen/golf/2/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '黑色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.5L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2021,
+    make: 'Volkswagen',
+    model: 'Golf',
+    trim: '280TSI DSG R-Line',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动泊车入位',
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 大众高尔夫 3
+  '53': {
+    id: '53',
+    title: '高尔夫 2021款 280TSI DSG R-Line',
+    price: 93800,
+    images: [
+      '/images/volkswagen/golf/3/1.jpg',
+      '/images/volkswagen/golf/3/2.jpg',
+      '/images/volkswagen/golf/3/3.jpg',
+      '/images/volkswagen/golf/3/4.jpg',
+      '/images/volkswagen/golf/3/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '蓝色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.5L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2021,
+    make: 'Volkswagen',
+    model: 'Golf',
+    trim: '280TSI DSG R-Line',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动泊车入位',
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 大众高尔夫 4
+  '54': {
+    id: '54',
+    title: '高尔夫 2021款 280TSI DSG R-Line',
+    price: 129000,
+    images: [
+      '/images/volkswagen/golf/4/1.jpg',
+      '/images/volkswagen/golf/4/2.jpg',
+      '/images/volkswagen/golf/4/3.jpg',
+      '/images/volkswagen/golf/4/4.jpg',
+      '/images/volkswagen/golf/4/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '深灰色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.5L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2021,
+    make: 'Volkswagen',
+    model: 'Golf',
+    trim: '280TSI DSG R-Line',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动泊车入位',
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 大众高尔夫 5
+  '55': {
+    id: '55',
+    title: '高尔夫 2021款 280TSI DSG R-Line',
+    price: 82000,
+    images: [
+      '/images/volkswagen/golf/5/1.jpg',
+      '/images/volkswagen/golf/5/2.jpg',
+      '/images/volkswagen/golf/5/3.jpg',
+      '/images/volkswagen/golf/5/4.jpg',
+      '/images/volkswagen/golf/5/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '红色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.5L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2021,
+    make: 'Volkswagen',
+    model: 'Golf',
+    trim: '280TSI DSG R-Line',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动泊车入位',
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 探影 1
+  '56': {
+    id: '56',
+    title: '探影 2021款 280TSI DSG R-Line智联版',
+    price: 93800,
+    images: [
+      '/images/volkswagen/tacqua/1/1.jpg',
+      '/images/volkswagen/tacqua/1/2.jpg',
+      '/images/volkswagen/tacqua/1/3.jpg',
+      '/images/volkswagen/tacqua/1/4.jpg',
+      '/images/volkswagen/tacqua/1/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.7L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2022,
+    make: 'Volkswagen',
+    model: 'Tacqua',
+    trim: '280TSI DSG R-Line智联版',
+    bodyStyle: '中型轿车',
+    features: [
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '中控屏',
+      '远程控制',
+      '主动刹车/主动安全'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 探影 2
+  '57': {
+    id: '57',
+    title: '探影 2020款 1.5L 自动 悦Pro',
+    price: 63800,
+    images: [
+      '/images/volkswagen/tacqua/2/1.jpg',
+      '/images/volkswagen/tacqua/2/2.jpg',
+      '/images/volkswagen/tacqua/2/3.jpg',
+      '/images/volkswagen/tacqua/2/4.jpg',
+      '/images/volkswagen/tacqua/2/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '银灰色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.9L/100km',
+    fuelType: '汽油',
+    transmission: '6挡手自一体',
+    engine: '1.5L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '113马力',
+    enginecapacity: '1498cc',
+    year: 2021,
+    make: 'Volkswagen',
+    model: 'Tacqua',
+    trim: '2020款 1.5L 自动 悦Pro',
+    bodyStyle: '中型轿车',
+    features: [
+      '上坡辅助',
+      '定速巡航',
+      '倒车影像',
+      '无钥匙进入',
+      '无钥匙启动',
+      '主动刹车/主动安全',
+      '防眩目内后视镜',
+      '雨量感应式雨刷'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 探影 3
+  '58': {
+    id: '58',
+    title: '探影 2021款 1.5L 自动 悦智联版',
+    price: 69800,
+    images: [
+      '/images/volkswagen/tacqua/3/1.jpg',
+      '/images/volkswagen/tacqua/3/2.jpg',
+      '/images/volkswagen/tacqua/3/3.jpg',
+      '/images/volkswagen/tacqua/3/4.jpg',
+      '/images/volkswagen/tacqua/3/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '红色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.9L/100km',
+    fuelType: '汽油',
+    transmission: '6挡手自一体',
+    engine: '1.5L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '113马力',
+    enginecapacity: '1498cc',
+    year: 2021,
+    make: 'Volkswagen',
+    model: 'Tacqua',
+    trim: '2020款 1.5L 自动 悦Pro',
+    bodyStyle: '中型轿车',
+    features: [
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '中控屏',
+      '远程控制',
+      '胎压监测系统'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 探影 4
+  '59': {
+    id: '59',
+    title: '探影 2021款 280TSI DSG 悦Pro智联版',
+    price: 77500,
+    images: [
+      '/images/volkswagen/tacqua/4/1.jpg',
+      '/images/volkswagen/tacqua/4/2.jpg',
+      '/images/volkswagen/tacqua/4/3.jpg',
+      '/images/volkswagen/tacqua/4/4.jpg',
+      '/images/volkswagen/tacqua/4/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '白色',
+    interiorColor: '深色',
+    fuelEconomy: '5.7L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2021,
+    make: 'Volkswagen',
+    model: 'Tacqua',
+    trim: '2021款 280TSI DSG 悦Pro智联版',
+    bodyStyle: '中型轿车',
+    features: [
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '中控屏',
+      '远程控制',
+      '无钥匙进入'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 探影 5
+  '60': {
+    id: '60',
+    title: '探影 2021款 200TSI DSG R-Line智联版',
+    price: 88800,
+    images: [
+      '/images/volkswagen/tacqua/5/1.jpg',
+      '/images/volkswagen/tacqua/5/2.jpg',
+      '/images/volkswagen/tacqua/5/3.jpg',
+      '/images/volkswagen/tacqua/5/4.jpg',
+      '/images/volkswagen/tacqua/5/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.6L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '151马力',
+    enginecapacity: '1197cc',
+    year: 2022,
+    make: 'Volkswagen',
+    model: 'Tacqua',
+    trim: '2021款 200TSI DSG R-Line智联版',
+    bodyStyle: '中型轿车',
+    features: [
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '中控屏',
+      '远程控制',
+      '胎压监测系统'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 探岳 1
+  '61': {
+    id: '61',
+    title: '探岳 2020款 380TSI 豪华智联版Pro 四驱',
+    price: 115800,
+    images: [
+      '/images/volkswagen/tayron/1/1.jpg',
+      '/images/volkswagen/tayron/1/2.jpg',
+      '/images/volkswagen/tayron/1/3.jpg',
+      '/images/volkswagen/tayron/1/4.jpg',
+      '/images/volkswagen/tayron/1/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2020年',
+    exteriorColor: '咖啡色',
+    interiorColor: '黑色',
+    fuelEconomy: '7.5L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '2.0T L4',
+    drivetrain: '四驱',
+    seats: '5座',
+    hoursePower: '220马力',
+    enginecapacity: '1984cc',
+    year: 2020,
+    make: 'Volkswagen',
+    model: 'Tacqua',
+    trim: '2020款 380TSI 豪华智联版Pro 四驱',
+    bodyStyle: '中型轿车',
+    features: [
+      '360全景影像',
+      '自适应巡航',
+      '自动驻车',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 探岳 2
+  '62': {
+    id: '62',
+    title: '探岳 2020款 380TSI 豪华智联版Pro 四驱',
+    price: 102800,
+    images: [
+      '/images/volkswagen/tayron/2/1.jpg',
+      '/images/volkswagen/tayron/2/2.jpg',
+      '/images/volkswagen/tayron/2/3.jpg',
+      '/images/volkswagen/tayron/2/4.jpg',
+      '/images/volkswagen/tayron/2/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2020年',
+    exteriorColor: '黑色',
+    interiorColor: '黑色',
+    fuelEconomy: '7.5L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '2.0T L4',
+    drivetrain: '四驱',
+    seats: '5座',
+    hoursePower: '220马力',
+    enginecapacity: '1984cc',
+    year: 2020,
+    make: 'Volkswagen',
+    model: 'Tacqua',
+    trim: '2020款 380TSI 豪华智联版Pro 四驱',
+    bodyStyle: '中型轿车',
+    features: [
+      '360全景影像',
+      '自适应巡航',
+      '自动驻车',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 探岳 3
+  '63': {
+    id: '63',
+    title: '探岳 2020款 380TSI R-Line智联版 四驱',
+    price: 105900,
+    images: [
+      '/images/volkswagen/tayron/3/1.jpg',
+      '/images/volkswagen/tayron/3/2.jpg',
+      '/images/volkswagen/tayron/3/3.jpg',
+      '/images/volkswagen/tayron/3/4.jpg',
+      '/images/volkswagen/tayron/3/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2020年',
+    exteriorColor: '黑色',
+    interiorColor: '黑色',
+    fuelEconomy: '7.5L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '2.0T L4',
+    drivetrain: '四驱',
+    seats: '5座',
+    hoursePower: '220马力',
+    enginecapacity: '1984cc',
+    year: 2020,
+    make: 'Volkswagen',
+    model: 'Tacqua',
+    trim: '2020款 380TSI R-Line智联版 四驱',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动驻车',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '中控屏',
+      '无钥匙进入',
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 探岳 4
+  '64': {
+    id: '64',
+    title: '探岳 2023款 380TSI 四驱R-Line Pro智慧版',
+    price: 183000,
+    images: [
+      '/images/volkswagen/tayron/4/1.jpg',
+      '/images/volkswagen/tayron/4/2.jpg',
+      '/images/volkswagen/tayron/4/3.jpg',
+      '/images/volkswagen/tayron/4/4.jpg',
+      '/images/volkswagen/tayron/4/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '蓝色',
+    interiorColor: '黑色',
+    fuelEconomy: '7.92L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '2.0T L4',
+    drivetrain: '四驱',
+    seats: '5座',
+    hoursePower: '220马力',
+    enginecapacity: '1984cc',
+    year: 2020,
+    make: 'Volkswagen',
+    model: 'Tacqua',
+    trim: '2023款 380TSI 四驱R-Line Pro智慧版',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动泊车入位',
+      '360全景影像',
+      '自适应巡航',
+      '自动驻车',
+      '驻车雷达',
+      '语音识别控制系统',
+      '车联网',
+      '中控屏'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
 };
 
 // 包装组件，用于获取参数并提供模拟数据

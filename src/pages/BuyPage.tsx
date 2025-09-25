@@ -768,7 +768,7 @@ const carData = [
     id: '31',
     image: '/images/kia/k3/1/1.jpg',
     title: '起亚K3 2019款 1.5L CVT智享互联版',
-    brand: 'Kia',
+    brand: 'KIA',
     price: 49800,
     location: 'ZhangZhou',
     locationCountry: 'CN',
@@ -789,7 +789,7 @@ const carData = [
     id: '32',
     image: '/images/kia/k3/2/1.jpg',
     title: '起亚K3 2019款 1.5L CVT新锐版',
-    brand: 'Kia',
+    brand: 'KIA',
     price: 40900,
     location: 'JiNan',
     locationCountry: 'CN',
@@ -810,7 +810,7 @@ const carData = [
     id: '33',
     image: '/images/kia/k3/3/1.jpg',
     title: '起亚K3 2021款 1.5L IVT 时尚版',
-    brand: 'Kia',
+    brand: 'KIA',
     price: 74800,
     location: 'WuHan',
     locationCountry: 'CN',
@@ -831,7 +831,7 @@ const carData = [
     id: '34',
     image: '/images/kia/k3/4/1.jpg',
     title: '起亚K3 2021款 1.4T DCT GT-Line智驾运动版',
-    brand: 'Kia',
+    brand: 'KIA',
     price: 92000,
     location: 'WeiFang',
     locationCountry: 'CN',
@@ -852,7 +852,7 @@ const carData = [
     id: '35',
     image: '/images/kia/k3/5/1.jpg',
     title: '起亚K3 2021款 1.5L IVT 青春版',
-    brand: 'Kia',
+    brand: 'KIA',
     price: 56800,
     location: 'YinChuan',
     locationCountry: 'CN',
@@ -1183,6 +1183,321 @@ const carData = [
     description: '2021年6月丰田雷凌双擎运动版，自波1.8，天窗，导航，真皮，多功能方向盘，17寸大铃寸，无匙进入，一健启动，后排出风口',
     isFeatured: true
   },
+  //大众高尔夫 1
+  {
+    id: '51',
+    image: '/images/volkswagen/golf/1/1.jpg',
+    title: '高尔夫 2021款 280TSI DSG R-Line',
+    brand: 'Volkswagen',
+    price: 93500,
+    location: 'HangZhou',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 20000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '2021款大众高尔夫280TSI DSG R - Line。和同级别竞品相比，高尔夫的优势十分明显。像思域这类竞品，在驾驶质感上就和高尔夫有差距，高尔夫的底盘紧凑扎实，开起来更稳。 这款高尔夫首次上牌是2021年7月，表显里程仅2万公里，是个人一手车。车况相当好，发动机和变速箱运转良好，底盘紧凑，没有漏油渗油的情况。',
+    isFeatured: true
+  },
+  //大众高尔夫 2
+  {
+    id: '52',
+    image: '/images/volkswagen/golf/2/1.jpg',
+    title: '高尔夫 2021款 280TSI DSG R-Line',
+    brand: 'Volkswagen',
+    price: 78800,
+    location: 'ChengDu',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 95800,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '2021款大众高尔夫280TSI DSG R - Line。和同级别竞品相比，高尔夫的优势十分明显。像思域这类竞品，在驾驶质感上就和高尔夫有差距，高尔夫的底盘紧凑扎实，开起来更稳。 这款高尔夫首次上牌是2021年7月，表显里程仅2万公里，是个人一手车。车况相当好，发动机和变速箱运转良好，底盘紧凑，没有漏油渗油的情况。',
+    isFeatured: true
+  },
+  //大众高尔夫 2
+  {
+    id: '52',
+    image: '/images/volkswagen/golf/2/1.jpg',
+    title: '高尔夫 2021款 280TSI DSG R-Line',
+    brand: 'Volkswagen',
+    price: 78800,
+    location: 'ChengDu',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 95800,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '2021款大众高尔夫280TSI DSG R - Line。和同级别竞品相比，高尔夫的优势十分明显。像思域这类竞品，在驾驶质感上就和高尔夫有差距，高尔夫的底盘紧凑扎实，开起来更稳。 这款高尔夫首次上牌是2021年7月，表显里程仅2万公里，是个人一手车。车况相当好，发动机和变速箱运转良好，底盘紧凑，没有漏油渗油的情况。',
+    isFeatured: true
+  },
+  //大众高尔夫 3
+  {
+    id: '53',
+    image: '/images/volkswagen/golf/3/1.jpg',
+    title: '高尔夫 2021款 280TSI DSG R-Line',
+    brand: 'Volkswagen',
+    price: 93800,
+    location: 'ChengDu',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 53000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '2021款大众高尔夫280TSI DSG R - Line。和同级别竞品相比，高尔夫的优势十分明显。像思域这类竞品，在驾驶质感上就和高尔夫有差距，高尔夫的底盘紧凑扎实，开起来更稳。 这款高尔夫首次上牌是2021年7月，表显里程仅2万公里，是个人一手车。车况相当好，发动机和变速箱运转良好，底盘紧凑，没有漏油渗油的情况。',
+    isFeatured: true
+  },
+  //大众高尔夫 4
+  {
+    id: '54',
+    image: '/images/volkswagen/golf/4/1.jpg',
+    title: '高尔夫 2021款 280TSI DSG R-Line',
+    brand: 'Volkswagen',
+    price: 129000,
+    location: 'WeiFang',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 41000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '2021款大众高尔夫280TSI DSG R - Line。和同级别竞品相比，高尔夫的优势十分明显。像思域这类竞品，在驾驶质感上就和高尔夫有差距，高尔夫的底盘紧凑扎实，开起来更稳。 这款高尔夫首次上牌是2021年7月，表显里程仅2万公里，是个人一手车。车况相当好，发动机和变速箱运转良好，底盘紧凑，没有漏油渗油的情况。',
+    isFeatured: true
+  },
+  //大众高尔夫 5
+  {
+    id: '55',
+    image: '/images/volkswagen/golf/5/1.jpg',
+    title: '高尔夫 2021款 280TSI DSG R-Line',
+    brand: 'Volkswagen',
+    price: 82000,
+    location: 'ChangZhou',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 60000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '2021款大众高尔夫280TSI DSG R - Line。和同级别竞品相比，高尔夫的优势十分明显。像思域这类竞品，在驾驶质感上就和高尔夫有差距，高尔夫的底盘紧凑扎实，开起来更稳。 这款高尔夫首次上牌是2021年7月，表显里程仅2万公里，是个人一手车。车况相当好，发动机和变速箱运转良好，底盘紧凑，没有漏油渗油的情况。',
+    isFeatured: true
+  },
+  //大众探影 1
+  {
+    id: '56',
+    image: '/images/volkswagen/tacqua/1/1.jpg',
+    title: '探影 2021款 280TSI DSG R-Line智联版',
+    brand: 'Volkswagen',
+    price: 93800,
+    location: 'ChongQing',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 37500,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '原版原漆，车辆具体信息请电话咨询销售员。',
+    isFeatured: true
+  },
+  //大众探影 2
+  {
+    id: '57',
+    image: '/images/volkswagen/tacqua/2/1.jpg',
+    title: '探影 2020款 1.5L 自动 悦Pro',
+    brand: 'Volkswagen',
+    price: 63800,
+    location: 'DongGuan',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 49000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '这台车发动机变速箱运转良好，底盘紧凑，而且是原版原漆，漆面完好无色差，车身外观也没有明显划痕或凹陷，就跟新车似的。它还是个人一手车，没有越野史，整体车况极佳。内饰是深色的，精美又干净整洁，做工精致，功能也都正常，空间宽敞，日常家用或者短途旅行都很合适',
+    isFeatured: true
+  },
+  //大众探影 3
+  {
+    id: '58',
+    image: '/images/volkswagen/tacqua/3/1.jpg',
+    title: '探影 2021款 1.5L 自动 悦智联版',
+    brand: 'Volkswagen',
+    price: 69800,
+    location: 'WuHan',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 60000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 113,
+      driveType: '2WD'
+    },
+    description: '极品 原版原漆 真实公里数 加了座椅加热 高配 液晶仪表 加 全景天窗 资料视频齐全',
+    isFeatured: true
+  },
+  //大众探影 4
+  {
+    id: '59',
+    image: '/images/volkswagen/tacqua/4/1.jpg',
+    title: '探影 2021款 280TSI DSG 悦Pro智联版',
+    brand: 'Volkswagen',
+    price: 77500,
+    location: 'XiNing',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 80000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '这辆探影首次上牌是2021年5月，表显里程8万公里，白色车身搭配深色内饰，整体看起来非常协调',
+    isFeatured: true
+  },
+  //大众探影 5
+  {
+    id: '60',
+    image: '/images/volkswagen/tacqua/5/1.jpg',
+    title: '探影 2021款 200TSI DSG R-Line智联版',
+    brand: 'Volkswagen',
+    price: 88800,
+    location: 'FoShan',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 40100,
+      fuelType: 'Petrol',
+      displacement: '1.2T',
+      power: 116,
+      driveType: '2WD'
+    },
+    description: '这辆探影空间上，探影虽然车身小巧，但内部空间布局合理，相当宽敞，能满足日常家用和出行需求，比一些竞品车型更实用。而且它内饰精美，细节之处尽显品质，不像部分竞品那样粗糙。在配置方面，倒车影像、车联网、上坡辅助等实用功能一应俱全，在驾驶便利性和安全性上远超不少竞品',
+    isFeatured: true
+  },
+  //大众探岳 1
+  {
+    id: '61',
+    image: '/images/volkswagen/tayron/1/1.jpg',
+    title: '探岳 2020款 380TSI 豪华智联版Pro 四驱',
+    brand: 'Volkswagen',
+    price: 115800,
+    location: 'BeiJing',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 75000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 220,
+      driveType: '4WD'
+    },
+    description: '【外观情况】原漆 【车漆情况】原漆 【新旧程度】新 【发变情况】完美 【历史用途】家用',
+    isFeatured: true
+  },
+  //大众探岳 2
+  {
+    id: '62',
+    image: '/images/volkswagen/tayron/2/1.jpg',
+    title: '探岳 2020款 380TSI 豪华智联版Pro 四驱',
+    brand: 'Volkswagen',
+    price: 102800,
+    location: 'ChengDu',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 72000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 220,
+      driveType: '4WD'
+    },
+    description: ' 这款探岳首次上牌时间是2020年10月19日，表显里程只有7.20万公里，里程数较低。车况极佳，原版原漆，内饰干净整洁，深色内饰显得既稳重又大气。2.0T的排量，动力强劲，能轻松应对各种路况。而且它还配备了车道偏离预警、上坡辅助、车联网等实用的配置，使用起来既安全又便捷。 ',
+    isFeatured: true
+  },
+  //大众探岳 3
+  {
+    id: '63',
+    image: '/images/volkswagen/tayron/3/1.jpg',
+    title: '探岳 2020款 380TSI R-Line智联版 四驱',
+    brand: 'Volkswagen',
+    price: 105900,
+    location: 'QingDao',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 79500,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 220,
+      driveType: '4WD'
+    },
+    description: ' 无',
+    isFeatured: true
+  },
+  //大众探岳 4
+  {
+    id: '64',
+    image: '/images/volkswagen/tayron/4/1.jpg',
+    title: '探岳 2023款 380TSI 四驱R-Line Pro智慧版',
+    brand: 'Volkswagen',
+    price: 183000,
+    location: 'WeiFang',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 8000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 220,
+      driveType: '4WD'
+    },
+    description: ' 无',
+    isFeatured: true
+  },
 ];
 
 // 添加品牌选择器容器样式
@@ -1276,11 +1591,13 @@ const RemoveCardButton = styled.button`
 
 // 品牌数据
 const brandModels = [
-  { brand: 'Toyota', model: '凯美瑞, 卡罗拉, RAV4' },
+  { brand: 'Toyota', model: '凯美瑞, 卡罗拉, RAV4, 亚洲龙, 雷凌' },
   { brand: 'Honda', model: '雅阁, 思域, CR-V' },
   { brand: 'Mazda', model: '阿特兹, CX-5, 昂克赛拉' },
   { brand: 'Hyundai', model: '伊兰特, 途胜, 索纳塔' },
-  { brand: 'Kia', model: 'K5, 智跑, 狮跑' }
+  { brand: 'KIA', model: 'K5, 智跑, 狮跑, 起亚K5, 起亚K3' },
+  { brand: 'Tucson', model: '途胜' },
+  { brand: 'Volkswagen', model: '高尔夫, 探岳' }
 ];
 
 // 车型数据
