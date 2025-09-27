@@ -1498,6 +1498,363 @@ const carData = [
     description: ' 无',
     isFeatured: true
   },
+  //大众探岳 5
+  {
+    id: '65',
+    image: '/images/volkswagen/tayron/5/1.jpg',
+    title: '探岳 2019款 380TSI 四驱旗舰型 国V',
+    brand: 'Volkswagen',
+    price: 92800,
+    location: 'HaiKou',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 68000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 220,
+      driveType: '4WD'
+    },
+    description: ' 2019款大众探岳380TSI四驱旗舰型国V。探岳搭载2.0T发动机，动力强劲，开起来超带感，而且探岳还有自适应巡航、语音识别控制、车道偏离预警，座椅通风加热，这些实用的高科技配置，很多竞品都没有这么丰富。这款车首次上牌时间是2018年10月23日，表显里程才6.80万公里，里程数较低。发动机变速箱运转良好，无漏油渗油情况，全程4S店保养，车况极佳，是原版一面补漆，漆面完好，外观崭新，就像一辆八成新的车。车内空间宽敞，内饰是深色的，精美又干净整洁，各项功能也都正常，极具性价比',
+    isFeatured: true
+  },
+  //斯柯达 明锐 1
+  {
+    id: '66',
+    image: '/images/skoda/octavia/1/1.jpg',
+    title: '明锐 2021款 PRO TSI280 DSG旗舰版',
+    brand: 'Skoda',
+    price: 139800,
+    location: 'ZhengZhou',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 24000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: ' 七档干式双离合，涡轮增压，电动助力，通风盘式，ABS防抱死，车身稳定控制，胎压报警，ISOFIX儿童座椅接口，车道偏离预警，主动刹车，驾驶模式切换，发动机启停，前后驻车雷达，360影像，全速自适应巡航，倒车车侧预警，卫星导航，并线辅助，道路交通标识别，辅助泊车入位，运动套件，电动后备箱/记忆，遥控钥匙',
+    isFeatured: true
+  },
+  //斯柯达 明锐 2
+  {
+    id: '67',
+    image: '/images/skoda/octavia/2/1.jpg',
+    title: '明锐 2021款 PRO TSI280 DSG旗舰版',
+    brand: 'Skoda',
+    price: 126000,
+    location: 'HaErBin',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 35300,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: ' 七最新到店 明锐 配置丰富 多功能方向盘 全景天窗 一件启动 电动座椅 空间大 省油安全系数高 欢迎品鉴',
+    isFeatured: true
+  },
+  //斯柯达 明锐 3
+  {
+    id: '68',
+    image: '/images/skoda/octavia/3/1.jpg',
+    title: '明锐 2021款 PRO TSI280 DSG旗舰版',
+    brand: 'Skoda',
+    price: 108800,
+    location: 'FuZhou',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 58000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: ' 1.4T7挡双离合，电动天窗，无钥匙进入，全液晶仪表，多功能方向盘，一键启动，抬头显示，座椅电动/加热/通风，运动/经济/舒适驾驶模式切换，车内氛围灯，电动后备箱，自动电子驻车，车道保持辅助，辅助泊车，主动刹车，前后驻车雷达，360环影，LED大灯，转向辅助，感应雨刷，后视镜加热/折叠……等等',
+    isFeatured: true
+  },
+  //斯柯达 明锐 4
+  {
+    id: '69',
+    image: '/images/skoda/octavia/4/1.jpg',
+    title: '明锐 2021款 PRO TSI280 DSG旗舰版',
+    brand: 'Skoda',
+    price: 109800,
+    location: 'XinXiang',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 68000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '【车辆名称】明锐 2021款 PRO TSI280 DSG旗舰版 【驱动方式】2WD 【颜 色】灰色 【出厂时间】2021-09 【交强日期】 【行驶里程】68000km 【车辆排量】 1.4T 150马力 L4 最大功率(kW)110(150Ps) 【钥 匙】2把 【车 况】原漆',
+    isFeatured: true
+  },
+  //斯柯达 明锐 5
+  {
+    id: '70',
+    image: '/images/skoda/octavia/5/1.jpg',
+    title: '明锐 2019款 TSI230 DSG智行豪华版 国V',
+    brand: 'Skoda',
+    price: 47800,
+    location: 'ShangHai',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 135900,
+      fuelType: 'Petrol',
+      displacement: '1.2T',
+      power: 116,
+      driveType: '2WD'
+    },
+    description: '【外观情况】无刮擦 【新旧程度】车况精品 【发变情况】质保一年，不限公里数 【维修保养】全程4s店保养',
+    isFeatured: true
+  },
+  //斯柯达 速派 1
+  {
+    id: '71',
+    image: '/images/skoda/superb/1/1.jpg',
+    title: '速派 2022款 TSI280 DSG尊享版',
+    brand: 'Skoda',
+    price: 139800,
+    location: 'HaErBin',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 24400,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '原版原漆 门上一个崩点需要处理 挡风玻璃一个崩点。当地已过完户。全程4S店记录。',
+    isFeatured: true
+  },
+  //斯柯达 速派 2
+  {
+    id: '72',
+    image: '/images/skoda/superb/2/1.jpg',
+    title: '速派 2022款 TSI280 DSG尊享版',
+    brand: 'Skoda',
+    price: 83800,
+    location: 'HuaiAn',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 67000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '车况好 原车漆 空间大 省油好开 配置丰富 性价比超高 主流车型',
+    isFeatured: true
+  },
+  //斯柯达 速派 2
+  {
+    id: '72',
+    image: '/images/skoda/superb/2/1.jpg',
+    title: '速派 2022款 TSI280 DSG尊享版',
+    brand: 'Skoda',
+    price: 83800,
+    location: 'HuaiAn',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 67000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '车况好 原车漆 空间大 省油好开 配置丰富 性价比超高 主流车型',
+    isFeatured: true
+  },
+  //斯柯达 速派 3
+  {
+    id: '73',
+    image: '/images/skoda/superb/3/1.jpg',
+    title: '速派 2021款 TSI280 DSG标准版',
+    brand: 'Skoda',
+    price: 75800,
+    location: 'LuoYang',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 85000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '本地车，实际一手，全车原版原漆，车况无可挑剔，内饰刚花2000多包的真皮座椅，超级省油，6个多油',
+    isFeatured: true
+  },
+  //斯柯达 速派 4
+  {
+    id: '74',
+    image: '/images/skoda/superb/4/1.jpg',
+    title: '速派 2021款 TSI280 DSG标准版',
+    brand: 'Skoda',
+    price: 139800,
+    location: 'MuDanJiang',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 28000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '原版原漆，外观零划痕、精品车况',
+    isFeatured: true
+  },
+  //斯柯达 速派 5
+  {
+    id: '75',
+    image: '/images/skoda/superb/5/1.jpg',
+    title: '速派 2022款 TSI330 DSG奢享版',
+    brand: 'Skoda',
+    price: 125800,
+    location: 'MuDanJiang',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 55000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 186,
+      driveType: '2WD'
+    },
+    description: '原版原漆，外观零划痕、精品车况',
+    isFeatured: true
+  },
+  //斯柯达 柯迪亚克 1
+  {
+    id: '76',
+    image: '/images/skoda/kodiaq/1/1.jpg',
+    title: '柯迪亚克 2020款 TSI330 7座两驱豪华优享版',
+    brand: 'Skoda',
+    price: 82800,
+    location: 'WuHan',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 104800,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 186,
+      driveType: '2WD'
+    },
+    description: '无',
+    isFeatured: true
+  },
+  //斯柯达 柯迪亚克 2
+  {
+    id: '77',
+    image: '/images/skoda/kodiaq/2/1.jpg',
+    title: '柯迪亚克 2020款 TSI330 7座两驱豪华优享版',
+    brand: 'Skoda',
+    price: 103600,
+    location: 'XiAn',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 22000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 186,
+      driveType: '2WD'
+    },
+    description: '实表2.2万公里 双电动座椅，多功能方向盘，全景大天窗 液晶仪表 更换左前门 左前叶子，右前叶子板，喷漆',
+    isFeatured: true
+  },
+  //斯柯达 柯迪亚克 3
+  {
+    id: '78',
+    image: '/images/skoda/kodiaq/3/1.jpg',
+    title: '柯迪亚克 2022款 TSI330 5座两驱奢享版',
+    brand: 'Skoda',
+    price: 165800,
+    location: 'HaErBin',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 10000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 186,
+      driveType: '2WD'
+    },
+    description: '原版原漆斯柯达柯迪亚克，1万公里实表，新款，零瑕疵，电动座椅，电动天窗',
+    isFeatured: true
+  },
+  //斯柯达 柯迪亚克 4
+  {
+    id: '79',
+    image: '/images/skoda/kodiaq/4/1.jpg',
+    title: '柯迪亚克 2022款 TSI330 7座两驱奢享版',
+    brand: 'Skoda',
+    price: 166800,
+    location: 'HaErBin',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 24000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 186,
+      driveType: '2WD'
+    },
+    description: '斯科达 柯迪亚克2022款TSI330 七座 两驱奢享版 上牌时间：2022年9月22日 公 里 数：2.4万公里 配 置：全景电动天窗 一键启动 大屏导航 倒车影像 倒车雷达 自动驻车 巡航定速 本市个人一手车，全车原版原漆，家庭用车公里数也非常小。',
+    isFeatured: true
+  },
+  //斯柯达 柯迪亚克 5
+  {
+    id: '80',
+    image: '/images/skoda/kodiaq/5/1.jpg',
+    title: '柯迪亚克 2022款 TSI330 7座两驱奢享版',
+    brand: 'Skoda',
+    price: 172800,
+    location: 'ZhengZhou',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 5000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 186,
+      driveType: '2WD'
+    },
+    description: '全车原版原漆，保实表，无拆卸无换件，现车随时过户',
+    isFeatured: true
+  },
 ];
 
 // 添加品牌选择器容器样式
@@ -1597,7 +1954,8 @@ const brandModels = [
   { brand: 'Hyundai', model: '伊兰特, 途胜, 索纳塔' },
   { brand: 'KIA', model: 'K5, 智跑, 狮跑, 起亚K5, 起亚K3' },
   { brand: 'Tucson', model: '途胜' },
-  { brand: 'Volkswagen', model: '高尔夫, 探岳' }
+  { brand: 'Volkswagen', model: '高尔夫, 探岳' },
+  { brand: 'Skoda', model: '明锐, 速派, 柯迪亚克' }
 ];
 
 // 车型数据

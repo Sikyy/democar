@@ -4196,6 +4196,1062 @@ const carDetailsMap: { [key: string]: any } = {
       }
     ],
   },
+  // 探岳 5
+  '65': {
+    id: '65',
+    title: '探岳 2019款 380TSI 四驱旗舰型 国V',
+    price: 92800,
+    images: [
+      '/images/volkswagen/tayron/5/1.jpg',
+      '/images/volkswagen/tayron/5/2.jpg',
+      '/images/volkswagen/tayron/5/3.jpg',
+      '/images/volkswagen/tayron/5/4.jpg',
+      '/images/volkswagen/tayron/5/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2019年',
+    exteriorColor: '黄色',
+    interiorColor: '黑色',
+    fuelEconomy: '7.1L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '2.0T L4',
+    drivetrain: '四驱',
+    seats: '5座',
+    hoursePower: '220马力',
+    enginecapacity: '1984cc',
+    year: 2019,
+    make: 'Volkswagen',
+    model: 'Tacqua',
+    trim: '探岳 2019款 380TSI 四驱旗舰型 国V',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动泊车入位',
+      '360全景影像',
+      '自适应巡航',
+      '自动驻车',
+      '驻车雷达',
+      '语音识别控制系统',
+      '中控屏',
+      '电动后尾门'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 明锐 1
+  '66': {
+    id: '66',
+    title: '明锐 2021款 PRO TSI280 DSG旗舰版',
+    price: 139800,
+    images: [
+      '/images/skoda/octavia/1/1.jpg',
+      '/images/skoda/octavia/1/2.jpg',
+      '/images/skoda/octavia/1/3.jpg',
+      '/images/skoda/octavia/1/4.jpg',
+      '/images/skoda/octavia/1/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '紫色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.5L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2021,
+    make: 'Skoda',
+    model: 'Octavia',
+    trim: '明锐 2021款 PRO TSI280 DSG旗舰版',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动泊车入位',
+      '360全景影像',
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '语音识别控制系统',
+      '车联网'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 明锐 2
+  '67': {
+    id: '67',
+    title: '明锐 2021款 PRO TSI280 DSG旗舰版',
+    price: 126000,
+    images: [
+      '/images/skoda/octavia/2/1.jpg',
+      '/images/skoda/octavia/2/2.jpg',
+      '/images/skoda/octavia/2/3.jpg',
+      '/images/skoda/octavia/2/4.jpg',
+      '/images/skoda/octavia/2/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.5L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2021,
+    make: 'Skoda',
+    model: 'Octavia',
+    trim: '明锐 2021款 PRO TSI280 DSG旗舰版',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动泊车入位',
+      '360全景影像',
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '语音识别控制系统',
+      '车联网'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 明锐 3
+  '68': {
+    id: '68',
+    title: '明锐 2021款 PRO TSI280 DSG旗舰版',
+    price: 108800,
+    images: [
+      '/images/skoda/octavia/3/1.jpg',
+      '/images/skoda/octavia/3/2.jpg',
+      '/images/skoda/octavia/3/3.jpg',
+      '/images/skoda/octavia/3/4.jpg',
+      '/images/skoda/octavia/3/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '深灰色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.5L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2021,
+    make: 'Skoda',
+    model: 'Octavia',
+    trim: '明锐 2021款 PRO TSI280 DSG旗舰版',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动泊车入位',
+      '360全景影像',
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '语音识别控制系统',
+      '车联网'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 明锐 4
+  '69': {
+    id: '69',
+    title: '明锐 2021款 PRO TSI280 DSG旗舰版',
+    price: 109800,
+    images: [
+      '/images/skoda/octavia/4/1.jpg',
+      '/images/skoda/octavia/4/2.jpg',
+      '/images/skoda/octavia/4/3.jpg',
+      '/images/skoda/octavia/4/4.jpg',
+      '/images/skoda/octavia/4/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '银灰色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.5L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2021,
+    make: 'Skoda',
+    model: 'Octavia',
+    trim: '明锐 2021款 PRO TSI280 DSG旗舰版',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动泊车入位',
+      '360全景影像',
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '语音识别控制系统',
+      '车联网'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 明锐 5
+  '70': {
+    id: '70',
+    title: '明锐 2019款 TSI230 DSG智行豪华版 国V',
+    price: 47800,
+    images: [
+      '/images/skoda/octavia/5/1.jpg',
+      '/images/skoda/octavia/5/2.jpg',
+      '/images/skoda/octavia/5/3.jpg',
+      '/images/skoda/octavia/5/4.jpg',
+      '/images/skoda/octavia/5/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2020年',
+    exteriorColor: '黑色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.2L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.2T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '116马力',
+    enginecapacity: '1197cc',
+    year: 2020,
+    make: 'Skoda',
+    model: 'Octavia',
+    trim: '明锐 2019款 TSI230 DSG智行豪华版 国V',
+    bodyStyle: '中型轿车',
+    features: [
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '车联网',
+      '中控屏',
+      '胎压监测系统',
+      '车内空气净化'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 速派 1
+  '71': {
+    id: '71',
+    title: '速派 2022款 TSI280 DSG尊享版',
+    price: 139800,
+    images: [
+      '/images/skoda/superb/1/1.jpg',
+      '/images/skoda/superb/1/2.jpg',
+      '/images/skoda/superb/1/3.jpg',
+      '/images/skoda/superb/1/4.jpg',
+      '/images/skoda/superb/1/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '黑色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.9L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2022,
+    make: 'Skoda',
+    model: 'Superb',
+    trim: '速派 2022款 TSI280 DSG尊享版',
+    bodyStyle: '中型轿车',
+    features: [
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '车联网',
+      '中控屏',
+      '胎压监测系统',
+      '车内空气净化'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 速派 2
+  '72': {
+    id: '72',
+    title: '速派 2022款 TSI280 DSG尊享版',
+    price: 83800,
+    images: [
+      '/images/skoda/superb/2/1.jpg',
+      '/images/skoda/superb/2/2.jpg',
+      '/images/skoda/superb/2/3.jpg',
+      '/images/skoda/superb/2/4.jpg',
+      '/images/skoda/superb/2/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '银灰色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.9L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2022,
+    make: 'Skoda',
+    model: 'Superb',
+    trim: '速派 2022款 TSI280 DSG尊享版',
+    bodyStyle: '中型轿车',
+    features: [
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '车联网',
+      '中控屏',
+      '胎压监测系统',
+      '车内空气净化'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 速派 3
+  '73': {
+    id: '73',
+    title: '速派 2021款 TSI280 DSG标准版',
+    price: 75800,
+    images: [
+      '/images/skoda/superb/3/1.jpg',
+      '/images/skoda/superb/3/2.jpg',
+      '/images/skoda/superb/3/3.jpg',
+      '/images/skoda/superb/3/4.jpg',
+      '/images/skoda/superb/3/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.9L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2022,
+    make: 'Skoda',
+    model: 'Superb',
+    trim: '速派 2021款 TSI280 DSG标准版',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动驻车',
+      '定速巡航',
+      '驻车雷达',
+      '车联网',
+      '中控屏',
+      '远程控制',
+      '胎压监测系统',
+      '雨量感应式雨刷'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 速派 4
+  '74': {
+    id: '74',
+    title: '速派 2021款 TSI280 DSG标准版',
+    price: 139800,
+    images: [
+      '/images/skoda/superb/4/1.jpg',
+      '/images/skoda/superb/4/2.jpg',
+      '/images/skoda/superb/4/3.jpg',
+      '/images/skoda/superb/4/4.jpg',
+      '/images/skoda/superb/4/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '深灰色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.9L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2021,
+    make: 'Skoda',
+    model: 'Superb',
+    trim: '速派 2021款 TSI280 DSG标准版',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动驻车',
+      '定速巡航',
+      '驻车雷达',
+      '车联网',
+      '中控屏',
+      '远程控制',
+      '胎压监测系统',
+      '雨量感应式雨刷'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 速派 5
+  '75': {
+    id: '75',
+    title: '速派 2022款 TSI280 DSG奢享版',
+    price: 125800,
+    images: [
+      '/images/skoda/superb/5/1.jpg',
+      '/images/skoda/superb/5/2.jpg',
+      '/images/skoda/superb/5/3.jpg',
+      '/images/skoda/superb/5/4.jpg',
+      '/images/skoda/superb/5/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '6.1L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '2.0T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '186马力',
+    enginecapacity: '1984cc',
+    year: 2022,
+    make: 'Skoda',
+    model: 'Superb',
+    trim: '速派 2022款 TSI330 DSG奢享版',
+    bodyStyle: '中型轿车',
+    features: [
+      '自动泊车入位',
+      '自动驻车',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别系统',
+      '车联网',
+      '中控屏'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 柯迪亚克 1
+  '76': {
+    id: '76',
+    title: '柯迪亚克 2020款 TSI330 7座两驱豪华优享版',
+    price: 82800,
+    images: [
+      '/images/skoda/kodiaq/1/1.jpg',
+      '/images/skoda/kodiaq/1/2.jpg',
+      '/images/skoda/kodiaq/1/3.jpg',
+      '/images/skoda/kodiaq/1/4.jpg',
+      '/images/skoda/kodiaq/1/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2020年',
+    exteriorColor: '黑色',
+    interiorColor: '黑色',
+    fuelEconomy: '6.9L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '2.0T L4',
+    drivetrain: '前驱',
+    seats: '7座',
+    hoursePower: '186马力',
+    enginecapacity: '1984cc',
+    year: 2020,
+    make: 'Skoda',
+    model: 'Kodiaq',
+    trim: '柯迪亚克 2020款 TSI330 7座两驱豪华优享版',
+    bodyStyle: 'SUV',
+    features: [
+      '自动泊车入位',
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别系统',
+      '中控屏'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 柯迪亚克 2
+  '77': {
+    id: '77',
+    title: '柯迪亚克 2020款 TSI330 7座两驱豪华优享版',
+    price: 103600,
+    images: [
+      '/images/skoda/kodiaq/2/1.jpg',
+      '/images/skoda/kodiaq/2/2.jpg',
+      '/images/skoda/kodiaq/2/3.jpg',
+      '/images/skoda/kodiaq/2/4.jpg',
+      '/images/skoda/kodiaq/2/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '6.9L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '2.0T L4',
+    drivetrain: '前驱',
+    seats: '7座',
+    hoursePower: '186马力',
+    enginecapacity: '1984cc',
+    year: 2020,
+    make: 'Skoda',
+    model: 'Kodiaq',
+    trim: '柯迪亚克 2021款 TSI330 7座两驱豪华优享版',
+    bodyStyle: 'SUV',
+    features: [
+      '自动泊车入位',
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别系统',
+      '车联网'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 柯迪亚克 3
+  '78': {
+    id: '78',
+    title: '柯迪亚克 2022款 TSI330 5座两驱奢享版',
+    price: 165800,
+    images: [
+      '/images/skoda/kodiaq/3/1.jpg',
+      '/images/skoda/kodiaq/3/2.jpg',
+      '/images/skoda/kodiaq/3/3.jpg',
+      '/images/skoda/kodiaq/3/4.jpg',
+      '/images/skoda/kodiaq/3/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '蓝色',
+    interiorColor: '黑色',
+    fuelEconomy: '7L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '2.0T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '186马力',
+    enginecapacity: '1984cc',
+    year: 2022,
+    make: 'Skoda',
+    model: 'Kodiaq',
+    trim: '柯迪亚克 2022款 TSI330 5座两驱奢享版',
+    bodyStyle: 'SUV',
+    features: [
+      '自动泊车入位',
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别系统',
+      '车联网'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 柯迪亚克 4
+  '79': {
+    id: '79',
+    title: '柯迪亚克 2022款 TSI330 7座两驱奢享版',
+    price: 166800,
+    images: [
+      '/images/skoda/kodiaq/4/1.jpg',
+      '/images/skoda/kodiaq/4/2.jpg',
+      '/images/skoda/kodiaq/4/3.jpg',
+      '/images/skoda/kodiaq/4/4.jpg',
+      '/images/skoda/kodiaq/4/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '深灰色',
+    interiorColor: '黑色',
+    fuelEconomy: '7.1L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '2.0T L4',
+    drivetrain: '前驱',
+    seats: '7座',
+    hoursePower: '186马力',
+    enginecapacity: '1984cc',
+    year: 2022,
+    make: 'Skoda',
+    model: 'Kodiaq',
+    trim: '柯迪亚克 2022款 TSI330 7座两驱奢享版',
+    bodyStyle: 'SUV',
+    features:[
+      '自动泊车入位',
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别系统',
+      '车联网'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 柯迪亚克 5
+  '80': {
+    id: '80',
+    title: '柯迪亚克 2022款 TSI330 7座两驱奢享版',
+    price: 172800,
+    images: [
+      '/images/skoda/kodiaq/5/1.jpg',
+      '/images/skoda/kodiaq/5/2.jpg',
+      '/images/skoda/kodiaq/5/3.jpg',
+      '/images/skoda/kodiaq/5/4.jpg',
+      '/images/skoda/kodiaq/5/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '7.1L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '2.0T L4',
+    drivetrain: '前驱',
+    seats: '7座',
+    hoursePower: '186马力',
+    enginecapacity: '1984cc',
+    year: 2022,
+    make: 'Skoda',
+    model: 'Kodiaq',
+    trim: '柯迪亚克 2022款 TSI330 7座两驱奢享版',
+    bodyStyle: 'SUV',
+    features:[
+      '自动泊车入位',
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别系统',
+      '车联网'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
 };
 
 // 包装组件，用于获取参数并提供模拟数据
