@@ -1855,6 +1855,216 @@ const carData = [
     description: '全车原版原漆，保实表，无拆卸无换件，现车随时过户',
     isFeatured: true
   },
+  //奥迪 Q3 1
+  {
+    id: '81',
+    image: '/images/audi/q3/1/1.jpg',
+    title: '奥迪Q3 2021款 40 TFSI 时尚动感型',
+    brand: 'Audi',
+    price: 124300,
+    location: 'NanJing',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 52000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 186,
+      driveType: '2WD'
+    },
+    description: '21年Q340时尚动感，21年3月上牌，目前行驶5.2万公里，欢迎来电咨询',
+    isFeatured: true
+  },
+  //奥迪 Q3 2
+  {
+    id: '82',
+    image: '/images/audi/q3/2/1.jpg',
+    title: '奥迪Q3 2021款 35 TFSI 进取动感型',
+    brand: 'Audi',
+    price: 105800,
+    location: 'ShangHai',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 93000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 186,
+      driveType: '2WD'
+    },
+    description: '这款车首次上牌时间是2021年5月，表显里程9.30万公里，白色车身搭配深色内饰，外观时尚大气，内饰沉稳耐脏。排量为1.4T，非营运车辆',
+    isFeatured: true
+  },
+  //奥迪 Q3 3
+  {
+    id: '83',
+    image: '/images/audi/q3/3/1.jpg',
+    title: '奥迪Q3 2020款 35 TFSI 时尚动感型',
+    brand: 'Audi',
+    price: 106900,
+    location: 'FoShan',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 76000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '2020款奥迪Q3 35 TFSI时尚动感型。这车是2021年1月12日首次上牌的，表显里程才7.60万公里，非营运车辆，个人一手车。 从车况来说，它可以说是相当出色。没有漏油渗油的问题，底盘紧凑，发动机和变速箱运转良好，漆面也完好无损，而且全程都在4S店保养',
+    isFeatured: true
+  },
+  //奥迪 Q3 4
+  {
+    id: '84',
+    image: '/images/audi/q3/4/1.jpg',
+    title: '奥迪Q3 2021款 35 TFSI 进享人生版',
+    brand: 'Audi',
+    price: 159800,
+    location: 'NanNing',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 22000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '原版原漆2021款奥迪Q3 35 TFSI进享人生版。和同级别竞品宝马X1、奔驰GLA相比，这款奥迪Q3在外观、性能和性价比上都不落下风。 先说说外观，红色车身相当惹眼，外观崭新，车身外观完好无明显划痕或凹陷，漆面完好无色差，颜值远超部分竞品。内饰是深色系，精美且做工精致，干净整洁，空间也很宽敞',
+    isFeatured: true
+  },
+  //奥迪 Q3 5
+  {
+    id: '85',
+    image: '/images/audi/q3/5/1.jpg',
+    title: '奥迪Q3 2022款 35 TFSI 时尚致雅型',
+    brand: 'Audi',
+    price: 165800,
+    location: 'ZhengZhou',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 40500,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '全车原版原漆，保实表，无拆卸无换件，现车随时过户',
+    isFeatured: true
+  },
+  //奥迪Q3 Sportback 1
+  {
+    id: '86',
+    image: '/images/audi/q3sportback/1/1.jpg',
+    title: '奥迪Q3 Sportback 2020款 40 TFSI 时尚型',
+    brand: 'Audi',
+    price: 126800,
+    location: 'WenZhou',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 46000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 186,
+      driveType: '2WD'
+    },
+    description: '保证无重大事故，无泡水，无火烧，支持第三方检测。原版原漆车况',
+    isFeatured: true
+  },
+  //奥迪Q3 Sportback 2
+  {
+    id: '87',
+    image: '/images/audi/q3sportback/2/1.jpg',
+    title: '奥迪Q3 Sportback 2020款 40 TFSI 时尚型',
+    brand: 'Audi',
+    price: 108800,
+    location: 'WuXi',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 90000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 186,
+      driveType: '2WD'
+    },
+    description: '21年5月上牌奥迪Q3 Sportback时尚版，行驶了9万公里，多功能方向盘带换挡拨片，定速巡航，一键启动，倒车影像，全景天窗，翻毛皮座椅，电动尾门，车况精品，优价出售！',
+    isFeatured: true
+  },
+  //奥迪Q3 Sportback 3
+  {
+    id: '88',
+    image: '/images/audi/q3sportback/3/1.jpg',
+    title: '奥迪Q3 Sportback 2020款 40 TFSI 时尚型',
+    brand: 'Audi',
+    price: 136800,
+    location: 'DongGuan',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 68000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 186,
+      driveType: '2WD'
+    },
+    description: '2021年7月上牌的奥迪Q3 Sportback 2020款40 TFSI时尚型。白色车身搭配深色内饰，外观时尚动感，内饰精美且做工精致，干净整洁。 和同级别竞品相比，这款车优势明显。它搭载2.0T的发动机，动力强劲，在日常驾驶和高速行驶中都能轻松应对，而很多竞品车型在动力上表现就稍显逊色。表显里程仅6.8万公里，里程数较低，相比一些同年限但里程数高的竞品，后续使用起来更让人放心。',
+    isFeatured: true
+  },
+  //奥迪Q3 Sportback 4
+  {
+    id: '89',
+    image: '/images/audi/q3sportback/4/1.jpg',
+    title: '奥迪Q3 Sportback 2020款 40 TFSI 时尚型',
+    brand: 'Audi',
+    price: 163800,
+    location: 'ChangSha',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 25000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 186,
+      driveType: '2WD'
+    },
+    description: '【外观情况】车子铁件原漆 公里数实表，喜欢的抓紧',
+    isFeatured: true
+  },
+  //奥迪Q3 Sportback 5
+  {
+    id: '90',
+    image: '/images/audi/q3sportback/5/1.jpg',
+    title: '奥迪Q3 Sportback 2022款 35 TFSI 进取型',
+    brand: 'Audi',
+    price: 181800,
+    location: 'NingBo',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 46000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '【车漆情况】原版原漆 实表 【新旧程度】99新',
+    isFeatured: true
+  },
 ];
 
 // 添加品牌选择器容器样式

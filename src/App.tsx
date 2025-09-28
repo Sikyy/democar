@@ -5252,6 +5252,666 @@ const carDetailsMap: { [key: string]: any } = {
       }
     ],
   },
+  // 奥迪 q3 1
+  '81': {
+    id: '81',
+    title: '奥迪Q3 2021款 40 TFSI 时尚动感型',
+    price: 124300,
+    images: [
+      '/images/audi/q3/1/1.jpg',
+      '/images/audi/q3/1/2.jpg',
+      '/images/audi/q3/1/3.jpg',
+      '/images/audi/q3/1/4.jpg',
+      '/images/audi/q3/1/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '深灰色',
+    interiorColor: '灰红色',
+    fuelEconomy: '6.8L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '2.0T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '186马力',
+    enginecapacity: '1984cc',
+    year: 2021,
+    make: 'Audi',
+    model: 'Q3',
+    trim: '40 TFSI 时尚动感型',
+    bodyStyle: 'SUV',
+    features:[
+      '自动泊车入位',
+      '自动驻车',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '中控屏',
+      '电动后尾门',
+      '无钥匙进入'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 奥迪 q3 2
+  '82': {
+    id: '82',
+    title: '奥迪Q3 2021款 35 TFSI 进取动感型',
+    price: 105800,
+    images: [
+      '/images/audi/q3/2/1.jpg',
+      '/images/audi/q3/2/2.jpg',
+      '/images/audi/q3/2/3.jpg',
+      '/images/audi/q3/2/4.jpg',
+      '/images/audi/q3/2/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '6.7L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2021,
+    make: 'Audi',
+    model: 'Q3',
+    trim: '2021款 35 TFSI 进取动感型',
+    bodyStyle: 'SUV',
+    features:[
+      '自动驻车',
+      '定速巡航',
+      '驻车雷达',
+      '中控屏',
+      '电动后尾门',
+      '主动刹车/主动安全',
+      '前方碰撞预警',
+      '胎压监测系统'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 奥迪 q3 3
+  '83': {
+    id: '83',
+    title: '奥迪Q3 2020款 35 TFSI 时尚动感型',
+    price: 106900,
+    images: [
+      '/images/audi/q3/3/1.jpg',
+      '/images/audi/q3/3/2.jpg',
+      '/images/audi/q3/3/3.jpg',
+      '/images/audi/q3/3/4.jpg',
+      '/images/audi/q3/3/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '蓝色',
+    interiorColor: '黑色',
+    fuelEconomy: '6.7L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2021,
+    make: 'Audi',
+    model: 'Q3',
+    trim: '2020款 35 TFSI 时尚动感型',
+    bodyStyle: 'SUV',
+    features:[
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '中控屏',
+      '电动后尾门',
+      '无钥匙进入'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 奥迪 q3 4
+  '84': {
+    id: '84',
+    title: '奥迪Q3 2021款 35 TFSI 进享人生版',
+    price: 159800,
+    images: [
+      '/images/audi/q3/4/1.jpg',
+      '/images/audi/q3/4/2.jpg',
+      '/images/audi/q3/4/3.jpg',
+      '/images/audi/q3/4/4.jpg',
+      '/images/audi/q3/4/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '红色',
+    interiorColor: '黑色',
+    fuelEconomy: '6.7L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2021,
+    make: 'Audi',
+    model: 'Q3',
+    trim: '2021款 35 TFSI 进享人生版',
+    bodyStyle: 'SUV',
+    features:[
+      '自动泊车入位',
+      '自动驻车',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '中控屏',
+      '电动后尾门',
+      '无钥匙进入'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 奥迪 q3 5
+  '85': {
+    id: '85',
+    title: '奥迪Q3 2022款 35 TFSI 时尚致雅型',
+    price: 165800,
+    images: [
+      '/images/audi/q3/5/1.jpg',
+      '/images/audi/q3/5/2.jpg',
+      '/images/audi/q3/5/3.jpg',
+      '/images/audi/q3/5/4.jpg',
+      '/images/audi/q3/5/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '绿色',
+    interiorColor: '黑色',
+    fuelEconomy: '6.7L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2022,
+    make: 'Audi',
+    model: 'Q3',
+    trim: '2022款 35 TFSI 时尚致雅型',
+    bodyStyle: 'SUV',
+    features:[
+      '自动泊车入位',
+      '自动驻车',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '中控屏',
+      '电动后尾门',
+      '无钥匙进入'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 奥迪 q3sportback 1
+  '86': {
+    id: '86',
+    title: '奥迪Q3 Sportback 2020款 40 TFSI 时尚型',
+    price: 126800,
+    images: [
+      '/images/audi/q3sportback/1/1.jpg',
+      '/images/audi/q3sportback/1/2.jpg',
+      '/images/audi/q3sportback/1/3.jpg',
+      '/images/audi/q3sportback/1/4.jpg',
+      '/images/audi/q3sportback/1/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2020年',
+    exteriorColor: '深灰色',
+    interiorColor: '黑色',
+    fuelEconomy: '7L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '2.0T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '186马力',
+    enginecapacity: '1984cc',
+    year: 2020,
+    make: 'Audi',
+    model: 'Q3 Sportback',
+    trim: '2020款 40 TFSI 时尚型',
+    bodyStyle: 'SUV',
+    features:[
+      '自动驻车',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '中控屏',
+      '电动后尾门',
+      '无钥匙进入',
+      '无钥匙启动'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 奥迪 q3sportback 2
+  '87': {
+    id: '87',
+    title: '奥迪Q3 Sportback 2020款 40 TFSI 时尚型',
+    price: 108800,
+    images: [
+      '/images/audi/q3sportback/2/1.jpg',
+      '/images/audi/q3sportback/2/2.jpg',
+      '/images/audi/q3sportback/2/3.jpg',
+      '/images/audi/q3sportback/2/4.jpg',
+      '/images/audi/q3sportback/2/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '蓝色',
+    interiorColor: '黑色',
+    fuelEconomy: '7L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '2.0T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '186马力',
+    enginecapacity: '1984cc',
+    year: 2021,
+    make: 'Audi',
+    model: 'Q3 Sportback',
+    trim: '2020款 40 TFSI 时尚型',
+    bodyStyle: 'SUV',
+    features:[
+      '自动驻车',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '中控屏',
+      '电动后尾门',
+      '无钥匙进入',
+      '无钥匙启动'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 奥迪 q3sportback 3
+  '88': {
+    id: '88',
+    title: '奥迪Q3 Sportback 2020款 40 TFSI 时尚型',
+    price: 136800,
+    images: [
+      '/images/audi/q3sportback/3/1.jpg',
+      '/images/audi/q3sportback/3/2.jpg',
+      '/images/audi/q3sportback/3/3.jpg',
+      '/images/audi/q3sportback/3/4.jpg',
+      '/images/audi/q3sportback/3/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '7L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '2.0T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '186马力',
+    enginecapacity: '1984cc',
+    year: 2021,
+    make: 'Audi',
+    model: 'Q3 Sportback',
+    trim: '2020款 40 TFSI 时尚型',
+    bodyStyle: 'SUV',
+    features:[
+      '自动驻车',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '中控屏',
+      '电动后尾门',
+      '无钥匙进入',
+      '无钥匙启动'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 奥迪 q3sportback 4
+  '89': {
+    id: '89',
+    title: '奥迪Q3 Sportback 2020款 40 TFSI 时尚型',
+    price: 163800,
+    images: [
+      '/images/audi/q3sportback/4/1.jpg',
+      '/images/audi/q3sportback/4/2.jpg',
+      '/images/audi/q3sportback/4/3.jpg',
+      '/images/audi/q3sportback/4/4.jpg',
+      '/images/audi/q3sportback/4/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '绿色',
+    interiorColor: '黑色',
+    fuelEconomy: '7L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '2.0T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '186马力',
+    enginecapacity: '1984cc',
+    year: 2021,
+    make: 'Audi',
+    model: 'Q3 Sportback',
+    trim: '2020款 40 TFSI 时尚型',
+    bodyStyle: 'SUV',
+    features:[
+      '自动驻车',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '中控屏',
+      '电动后尾门',
+      '无钥匙进入',
+      '无钥匙启动'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 奥迪 q3sportback 5
+  '90': {
+    id: '90',
+    title: '奥迪Q3 Sportback 2022款 35 TFSI 进取型',
+    price: 181800,
+    images: [
+      '/images/audi/q3sportback/5/1.jpg',
+      '/images/audi/q3sportback/5/2.jpg',
+      '/images/audi/q3sportback/5/3.jpg',
+      '/images/audi/q3sportback/5/4.jpg',
+      '/images/audi/q3sportback/5/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '黑色',
+    interiorColor: '黑色',
+    fuelEconomy: '6.7L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2022,
+    make: 'Audi',
+    model: 'Q3 Sportback',
+    trim: '2022款 35 TFSI 进取型',
+    bodyStyle: 'SUV',
+    features:[
+      '自动驻车',
+      '驻车雷达',
+      '倒车影像',
+      '中控屏',
+      '电动后尾门',
+      '无钥匙进入',
+      '无钥匙启动',
+      '主动刹车/主动安全'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
 };
 
 // 包装组件，用于获取参数并提供模拟数据
