@@ -5912,6 +5912,666 @@ const carDetailsMap: { [key: string]: any } = {
       }
     ],
   },
+  // 沃尔沃XC60 1
+  '91': {
+    id: '91',
+    title: '沃尔沃XC60 2021款 T5 四驱智远豪华版',
+    price: 164900,
+    images: [
+      '/images/volvo/xc60/1/1.jpg',
+      '/images/volvo/xc60/1/2.jpg',
+      '/images/volvo/xc60/1/3.jpg',
+      '/images/volvo/xc60/1/4.jpg',
+      '/images/volvo/xc60/1/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '蓝色',
+    interiorColor: '黑色',
+    fuelEconomy: '7.9L/100km',
+    fuelType: '汽油',
+    transmission: '8挡手自一体',
+    engine: '2.0T L4',
+    drivetrain: '四驱',
+    seats: '5座',
+    hoursePower: '250马力',
+    enginecapacity: '1969cc',
+    year: 2021,
+    make: 'Volvo',
+    model: 'XC60',
+    trim: '2021款 T5 四驱智远豪华版',
+    bodyStyle: 'SUV',
+    features:[
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 沃尔沃XC60 2
+  '92': {
+    id: '92',
+    title: '沃尔沃XC60 2021款 T5 四驱智逸豪华版',
+    price: 133800,
+    images: [
+      '/images/volvo/xc60/2/1.jpg',
+      '/images/volvo/xc60/2/2.jpg',
+      '/images/volvo/xc60/2/3.jpg',
+      '/images/volvo/xc60/2/4.jpg',
+      '/images/volvo/xc60/2/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2020年',
+    exteriorColor: '咖啡色',
+    interiorColor: '黑色',
+    fuelEconomy: '7.9L/100km',
+    fuelType: '汽油',
+    transmission: '8挡手自一体',
+    engine: '2.0T L4',
+    drivetrain: '四驱',
+    seats: '5座',
+    hoursePower: '250马力',
+    enginecapacity: '1969cc',
+    year: 2020,
+    make: 'Volvo',
+    model: 'XC60',
+    trim: '2021款 T5 四驱智逸豪华版',
+    bodyStyle: 'SUV',
+    features:[
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 沃尔沃XC60 3
+  '93': {
+    id: '93',
+    title: '沃尔沃XC60 2021款 T5 四驱智逸豪华版',
+    price: 133800,
+    images: [
+      '/images/volvo/xc60/3/1.jpg',
+      '/images/volvo/xc60/3/2.jpg',
+      '/images/volvo/xc60/3/3.jpg',
+      '/images/volvo/xc60/3/4.jpg',
+      '/images/volvo/xc60/3/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '咖啡色',
+    interiorColor: '黑色',
+    fuelEconomy: '7.9L/100km',
+    fuelType: '汽油',
+    transmission: '8挡手自一体',
+    engine: '2.0T L4',
+    drivetrain: '四驱',
+    seats: '5座',
+    hoursePower: '250马力',
+    enginecapacity: '1969cc',
+    year: 2020,
+    make: 'Volvo',
+    model: 'XC60',
+    trim: '2021款 T5 四驱智逸豪华版',
+    bodyStyle: 'SUV',
+    features:[
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 沃尔沃XC60 4
+  '94': {
+    id: '94',
+    title: '沃尔沃XC60 2022款 B5 四驱智远豪华版',
+    price: 172800,
+    images: [
+      '/images/volvo/xc60/4/1.jpg',
+      '/images/volvo/xc60/4/2.jpg',
+      '/images/volvo/xc60/4/3.jpg',
+      '/images/volvo/xc60/4/4.jpg',
+      '/images/volvo/xc60/4/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '蓝色',
+    interiorColor: '黑色',
+    fuelEconomy: '7.9L/100km',
+    fuelType: '汽油',
+    transmission: '8挡手自一体',
+    engine: '2.0T L4 48V轻混',
+    drivetrain: '四驱',
+    seats: '5座',
+    hoursePower: '250马力',
+    enginecapacity: '1969cc',
+    year: 2021,
+    make: 'Volvo',
+    model: 'XC60',
+    trim: '2022款 B5 四驱智远豪华版',
+    bodyStyle: 'SUV',
+    features:[
+      '自适应巡航',
+      '自动驻车',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '道路救援服务',
+      '中控屏',
+      '电动后尾门'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 沃尔沃XC60 5
+  '95': {
+    id: '95',
+    title: '沃尔沃XC60 2022款 B5 四驱智远豪华版',
+    price: 199000,
+    images: [
+      '/images/volvo/xc60/5/1.jpg',
+      '/images/volvo/xc60/5/2.jpg',
+      '/images/volvo/xc60/5/3.jpg',
+      '/images/volvo/xc60/5/4.jpg',
+      '/images/volvo/xc60/5/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '银灰色',
+    interiorColor: '黑色',
+    fuelEconomy: '7.9L/100km',
+    fuelType: '汽油',
+    transmission: '8挡手自一体',
+    engine: '2.0T L4 48V轻混',
+    drivetrain: '四驱',
+    seats: '5座',
+    hoursePower: '250马力',
+    enginecapacity: '1969cc',
+    year: 2021,
+    make: 'Volvo',
+    model: 'XC60',
+    trim: '2022款 B5 四驱智远豪华版',
+    bodyStyle: 'SUV',
+    features:[
+      '自适应巡航',
+      '自动驻车',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '道路救援服务',
+      '中控屏',
+      '电动后尾门'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 沃尔沃XC40 1
+  '96': {
+    id: '96',
+    title: '沃尔沃XC40 2021款 T4 四驱智远运动版',
+    price: 119800,
+    images: [
+      '/images/volvo/xc40/1/1.jpg',
+      '/images/volvo/xc40/1/2.jpg',
+      '/images/volvo/xc40/1/3.jpg',
+      '/images/volvo/xc40/1/4.jpg',
+      '/images/volvo/xc40/1/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2020年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '7.4L/100km',
+    fuelType: '汽油',
+    transmission: '8挡手自一体',
+    engine: '2.0T L4',
+    drivetrain: '四驱',
+    seats: '5座',
+    hoursePower: '190马力',
+    enginecapacity: '1969cc',
+    year: 2020,
+    make: 'Volvo',
+    model: 'XC40',
+    trim: '2021款 T4 四驱智远运动版',
+    bodyStyle: 'SUV',
+    features:[
+      '自适应巡航',
+      '自动驻车',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '道路救援服务',
+      '中控屏',
+      '远程控制'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 沃尔沃XC40 2
+  '97': {
+    id: '97',
+    title: '沃尔沃XC40 2021款 T4 四驱智远运动版',
+    price: 142800,
+    images: [
+      '/images/volvo/xc40/2/1.jpg',
+      '/images/volvo/xc40/2/2.jpg',
+      '/images/volvo/xc40/2/3.jpg',
+      '/images/volvo/xc40/2/4.jpg',
+      '/images/volvo/xc40/2/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '蓝色',
+    interiorColor: '黑色',
+    fuelEconomy: '7.4L/100km',
+    fuelType: '汽油',
+    transmission: '8挡手自一体',
+    engine: '2.0T L4',
+    drivetrain: '四驱',
+    seats: '5座',
+    hoursePower: '190马力',
+    enginecapacity: '1969cc',
+    year: 2022,
+    make: 'Volvo',
+    model: 'XC40',
+    trim: '2021款 T4 四驱智远运动版',
+    bodyStyle: 'SUV',
+    features:[
+      '自适应巡航',
+      '自动驻车',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '道路救援服务',
+      '中控屏',
+      '远程控制'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 沃尔沃XC40 3
+  '98': {
+    id: '98',
+    title: '沃尔沃XC40 2022款 T4 四驱智行时尚版',
+    price: 139800,
+    images: [
+      '/images/volvo/xc40/3/1.jpg',
+      '/images/volvo/xc40/3/2.jpg',
+      '/images/volvo/xc40/3/3.jpg',
+      '/images/volvo/xc40/3/4.jpg',
+      '/images/volvo/xc40/3/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '蓝色',
+    interiorColor: '黑色',
+    fuelEconomy: '7.4L/100km',
+    fuelType: '汽油',
+    transmission: '8挡手自一体',
+    engine: '2.0T L4',
+    drivetrain: '四驱',
+    seats: '5座',
+    hoursePower: '190马力',
+    enginecapacity: '1969cc',
+    year: 2022,
+    make: 'Volvo',
+    model: 'XC40',
+    trim: '2021款 T4 四驱智远运动版',
+    bodyStyle: 'SUV',
+    features:[
+      '自适应巡航',
+      '自动驻车',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '道路救援服务',
+      '中控屏',
+      '远程控制'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 沃尔沃XC40 4
+  '99': {
+    id: '99',
+    title: '沃尔沃XC40 2022款 T3 智行时尚版',
+    price: 96800,
+    images: [
+      '/images/volvo/xc40/4/1.jpg',
+      '/images/volvo/xc40/4/2.jpg',
+      '/images/volvo/xc40/4/3.jpg',
+      '/images/volvo/xc40/4/4.jpg',
+      '/images/volvo/xc40/4/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '深灰色',
+    interiorColor: '黑色',
+    fuelEconomy: '7.4L/100km',
+    fuelType: '汽油',
+    transmission: '8挡手自一体',
+    engine: '1.5T L3',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '163马力',
+    enginecapacity: '1477cc',
+    year: 2021,
+    make: 'Volvo',
+    model: 'XC40',
+    trim: '2021款 T3 智行时尚版',
+    bodyStyle: 'SUV',
+    features:[
+      '自动驻车',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '道路救援服务',
+      '中控屏',
+      '远程控制'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 沃尔沃XC40 5
+  '100': {
+    id: '100',
+    title: '沃尔沃XC40 2021款 T4 四驱智雅豪华版',
+    price: 139800,
+    images: [
+      '/images/volvo/xc40/5/1.jpg',
+      '/images/volvo/xc40/5/2.jpg',
+      '/images/volvo/xc40/5/3.jpg',
+      '/images/volvo/xc40/5/4.jpg',
+      '/images/volvo/xc40/5/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '7.4L/100km',
+    fuelType: '汽油',
+    transmission: '8挡手自一体',
+    engine: '2.0T L4',
+    drivetrain: '四驱',
+    seats: '5座',
+    hoursePower: '190马力',
+    enginecapacity: '1969cc',
+    year: 2021,
+    make: 'Volvo',
+    model: 'XC40',
+    trim: '2021款 T4 四驱智雅豪华版',
+    bodyStyle: 'SUV',
+    features:[
+      '自适应巡航',
+      '自动驻车',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '道路救援服务',
+      '中控屏',
+      '远程控制'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
 };
 
 // 包装组件，用于获取参数并提供模拟数据

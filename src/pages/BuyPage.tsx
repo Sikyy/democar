@@ -2065,6 +2065,216 @@ const carData = [
     description: '【车漆情况】原版原漆 实表 【新旧程度】99新',
     isFeatured: true
   },
+  //沃尔沃XC60 1
+  {
+    id: '91',
+    image: '/images/volvo/xc60/1/1.jpg',
+    title: '沃尔沃XC60 2021款 T5 四驱智远豪华版',
+    brand: 'Volvo',
+    price: 164900,
+    location: 'WuHan',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 36700,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 250,
+      driveType: '4WD'
+    },
+    description: '无',
+    isFeatured: true
+  },
+  //沃尔沃XC60 2
+  {
+    id: '92',
+    image: '/images/volvo/xc60/2/1.jpg',
+    title: '沃尔沃XC60 2021款 T5 四驱智逸豪华版',
+    brand: 'Volvo',
+    price: 133800,
+    location: 'TianJin',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 45000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 250,
+      driveType: '4WD'
+    },
+    description: '【车漆情况】全车精品车况 【维修保养】全程店保',
+    isFeatured: true
+  },
+  //沃尔沃XC60 3
+  {
+    id: '93',
+    image: '/images/volvo/xc60/3/1.jpg',
+    title: '沃尔沃XC60 2021款 T5 四驱智逸豪华版',
+    brand: 'Volvo',
+    price: 163800,
+    location: 'ChengDu',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 70000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 250,
+      driveType: '4WD'
+    },
+    description: '21年上户沃尔沃XC60 极品车况 已过第三方查博士检测 提供一年两2万公里质保',
+    isFeatured: true
+  },
+  //沃尔沃XC60 4
+  {
+    id: '94',
+    image: '/images/volvo/xc60/4/1.jpg',
+    title: '沃尔沃XC60 2022款 B5 四驱智远豪华版',
+    brand: 'Volvo',
+    price: 172800,
+    location: 'GuangZhou',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 37200,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 250,
+      driveType: '4WD'
+    },
+    description: '车况精品，全车经过372项检测。本公司预承诺所销售车辆，保证无重大事故，无水泡，无火烧。还支持分期按揭方式付款购车。只要一张身份证即可，手续方面齐全，方便快捷。支持第三方车辆检测. 可以放心购买的。',
+    isFeatured: true
+  },
+  //沃尔沃XC60 5
+  {
+    id: '95',
+    image: '/images/volvo/xc60/5/1.jpg',
+    title: '沃尔沃XC60 2022款 B5 四驱智远豪华版',
+    brand: 'Volvo',
+    price: 199000,
+    location: 'WeiFang',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 29000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 250,
+      driveType: '4WD'
+    },
+    description: '21年6月份出厂 出口标准 原版原漆 实表',
+    isFeatured: true
+  },
+  //沃尔沃XC40 1
+  {
+    id: '96',
+    image: '/images/volvo/xc40/1/1.jpg',
+    title: '沃尔沃XC40 2021款 T4 四驱智远运动版',
+    brand: 'Volvo',
+    price: 119800,
+    location: 'KunMing',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 39000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 190,
+      driveType: '4WD'
+    },
+    description: '这款车首次上牌时间是2020年12月10日，表显里程才3.90万公里，里程数相当低。它是2.0T的排量，动力强劲，驾驶起来游刃有余。白色车身搭配深色内饰，既时尚又耐脏。而且这是个人一手车，全程在4S店保养，无越野史，基本都是跑的全程高速。车辆空间宽敞，内饰精美，做工精致，干净整洁，各项功能也都正常。漆面完好，无色差，车身外观崭新，只有局部喷漆。发动机和变速箱运转良好，底盘紧凑，无漏油渗油情况，并且刚做完保养，车况极佳，极具性价比。',
+    isFeatured: true
+  },
+  //沃尔沃XC40 2
+  {
+    id: '96',
+    image: '/images/volvo/xc40/2/1.jpg',
+    title: '沃尔沃XC40 2021款 T4 四驱智远运动版',
+    brand: 'Volvo',
+    price: 142800,
+    location: 'QingDao',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 45000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 190,
+      driveType: '4WD'
+    },
+    description: '个人一手车，原版原漆，4.5万公里实表，查博士三方（深度）检测，发变正常并提供一年三万公里质保。 天天好车标准：保实表（专检设备确保真实公里数），发动机变速箱悬架无拆修，所有真实车况全部录入合同，90天内发现车况不符原价回购，注意是原价回购！',
+    isFeatured: true
+  },
+  //沃尔沃XC40 3
+  {
+    id: '97',
+    image: '/images/volvo/xc40/3/1.jpg',
+    title: '沃尔沃XC40 2021款 T4 四驱智远运动版',
+    brand: 'Volvo',
+    price: 139800,
+    location: 'HeFei',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 50000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 190,
+      driveType: '4WD'
+    },
+    description: '它是个人一手车，全程在4S店保养，车况非常好。内饰精美，采用深色内饰，看起来既大气又耐脏，而且车内功能正常。更值得一提的是，它还是原版原漆，外观崭新，发动机和变速箱运转良好，驾驶起来十分顺畅。 在配置方面，自动驻车、主动刹车、上坡辅助这些实用功能一应俱全，能为你的日常驾驶提供不少便利。',
+    isFeatured: true
+  },
+  //沃尔沃XC40 4
+  {
+    id: '99',
+    image: '/images/volvo/xc40/4/1.jpg',
+    title: '沃尔沃XC40 2021款 T3 智行时尚版',
+    brand: 'Volvo',
+    price: 96800,
+    location: 'ChengDu',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 72000,
+      fuelType: 'Petrol',
+      displacement: '1.5T',
+      power: 163,
+      driveType: '2WD'
+    },
+    description: '无',
+    isFeatured: true
+  },
+  //沃尔沃XC40 5
+  {
+    id: '100',
+    image: '/images/volvo/xc40/5/1.jpg',
+    title: '沃尔沃XC40 2021款 T4 四驱智雅豪华版',
+    brand: 'Volvo',
+    price: 139800,
+    location: 'FoShan',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 33000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 190,
+      driveType: '4WD'
+    },
+    description: '无',
+    isFeatured: true
+  },
 ];
 
 // 添加品牌选择器容器样式
@@ -2165,7 +2375,9 @@ const brandModels = [
   { brand: 'KIA', model: 'K5, 智跑, 狮跑, 起亚K5, 起亚K3' },
   { brand: 'Tucson', model: '途胜' },
   { brand: 'Volkswagen', model: '高尔夫, 探岳' },
-  { brand: 'Skoda', model: '明锐, 速派, 柯迪亚克' }
+  { brand: 'Skoda', model: '明锐, 速派, 柯迪亚克' },
+  { brand: 'Audi', model: 'Q3, Q3 Sportback' },
+  { brand: 'Volvo', model: 'XC60, XC40' }
 ];
 
 // 车型数据
