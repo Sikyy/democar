@@ -2275,6 +2275,300 @@ const carData = [
     description: '无',
     isFeatured: true
   },
+  //宝马X3 xDrive28i M 1 
+  {
+    id: '101',
+    image: '/images/bmw/x3/1/1.jpg',
+    title: '宝马X3 2021款 xDrive28i M运动套装',
+    brand: 'BMW',
+    price: 205800,
+    location: 'ZhengZhou',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 36000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 224,
+      driveType: '4WD'
+    },
+    description: '无',
+    isFeatured: true
+  },
+  //宝马X3 xDrive28i M 2
+  {
+    id: '102',
+    image: '/images/bmw/x3/1/2.jpg',
+    title: '宝马X3 2021款 xDrive28i M运动套装',
+    brand: 'BMW',
+    price: 189800,
+    location: 'ChongQing',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 23400,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 224,
+      driveType: '4WD'
+    },
+    description: '【外观情况】完美 【车漆情况】完美 【新旧程度】9.99成新 出有第三方检测报告公里数真实',
+    isFeatured: true
+  },
+  //宝马X3 xDrive28i M 3
+  {
+    id: '103',
+    image: '/images/bmw/x3/3/1.jpg',
+    title: '宝马X3 2021款 xDrive28i M运动套装',
+    brand: 'BMW',
+    price: 165800,
+    location: 'WuXi',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 107000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 224,
+      driveType: '4WD'
+    },
+    description: '【外观情况】完美 【车漆情况】完美 【新旧程度】9.99成新 出有第三方检测报告公里数真实',
+    isFeatured: true
+  },
+  //宝马X3 xDrive28i M 4
+  {
+    id: '104',
+    image: '/images/bmw/x3/4/1.jpg',
+    title: '宝马X3 2021款 xDrive28i M运动套装',
+    brand: 'BMW',
+    price: 206800,
+    location: 'ShenZhen',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 30000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 224,
+      driveType: '4WD'
+    },
+    description: '2021年5月 宝马X3 28i M运动套 ，美女一手车 仅3万Km 极品原版车况',
+    isFeatured: true
+  },
+  //宝马X3 xDrive28i M 5
+  {
+    id: '105',
+    image: '/images/bmw/x3/5/1.jpg',
+    title: '宝马X3 2021款 xDrive28i M运动套装',
+    brand: 'BMW',
+    price: 163800,
+    location: 'Foshan',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 117000,
+      fuelType: 'Petrol',
+      displacement: '2.0T',
+      power: 224,
+      driveType: '4WD'
+    },
+    description: '车辆是蓝色，贴了白色车衣。',
+    isFeatured: true
+  },
+  //斯柯达 柯米克 1
+  {
+    id: '106',
+    image: '/images/skoda/kamiq/1/1.jpg',
+    title: '柯米克 2020款 1.5L 自动舒适版',
+    brand: 'Skoda',
+    price: 57900,
+    location: 'ZaoZhuang',
+    locationCountry: 'CN',
+    vehicleType: 'Sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 84100,
+      fuelType: 'Petrol',
+      displacement: '1.5L',
+      power: 112,
+      driveType: '2WD'
+    },
+    description: '无',
+    isFeatured: true
+  },
+  //斯柯达 柯米克 2
+  {
+    id: '107',
+    image: '/images/skoda/kamiq/2/1.jpg',
+    title: '柯米克 2021款 1.5L 自动舒适版',
+    brand: 'Skoda',
+    price: 99800,
+    location: 'HaErBin',
+    locationCountry: 'CN',
+    vehicleType: 'Sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 7200,
+      fuelType: 'Petrol',
+      displacement: '1.5L',
+      power: 112,
+      driveType: '2WD'
+    },
+    description: '无',
+    isFeatured: true
+  },
+  //斯柯达 柯米克 3
+  {
+    id: '108',
+    image: '/images/skoda/kamiq/3/1.jpg',
+    title: '柯米克 2020款 1.5L 自动舒适版',
+    brand: 'Skoda',
+    price: 58800,
+    location: 'JinCheng',
+    locationCountry: 'CN',
+    vehicleType: 'Sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 38000,
+      fuelType: 'Petrol',
+      displacement: '1.5L',
+      power: 112,
+      driveType: '2WD'
+    },
+    description: '无',
+    isFeatured: true
+  },
+  //斯柯达 柯米克 4
+  {
+    id: '109',
+    image: '/images/skoda/kamiq/4/1.jpg',
+    title: '柯米克 2021款 1.5L 自动舒适版',
+    brand: 'Skoda',
+    price: 89800,
+    location: 'WuHan',
+    locationCountry: 'CN',
+    vehicleType: 'Sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 51000,
+      fuelType: 'Petrol',
+      displacement: '1.5L',
+      power: 112,
+      driveType: '2WD'
+    },
+    description: '原版原漆。出厂日期是2021年12月。实表5.1万公里。已经清洗整备好，到手不需要其他投资，视频已拍好。',
+    isFeatured: true
+  },
+  //斯柯达 柯米克 5
+  {
+    id: '110',
+    image: '/images/skoda/kamiq/5/1.jpg',
+    title: '柯米克 2022款 1.5L 自动舒适版',
+    brand: 'Skoda',
+    price: 86800,
+    location: 'ChangSha',
+    locationCountry: 'CN',
+    vehicleType: 'Sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 51000,
+      fuelType: 'Petrol',
+      displacement: '1.5L',
+      power: 112,
+      driveType: '2WD'
+    },
+    description: '原版原漆！极品车况！资料齐全！欢迎咨询！',
+    isFeatured: true
+  },
+  //斯柯达 柯珞克 1
+  {
+    id: '111',
+    image: '/images/skoda/karoq/1/1.jpg',
+    title: '柯珞克 2021款 TSI280 豪华版',
+    brand: 'Skoda',
+    price: 79800,
+    location: 'SuZhou',
+    locationCountry: 'CN',
+    vehicleType: 'Sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 50000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '极品车况整车原版1个面补漆，0出险理赔，一手0过户实表5万公里 外观内饰95新，全程带座椅套方向盘套使用，非常爱惜，到手无需整备投资',
+    isFeatured: true
+  },
+  //斯柯达 柯珞克 2
+  {
+    id: '112',
+    image: '/images/skoda/karoq/2/1.jpg',
+    title: '柯珞克 2022款 TSI280 尊享版',
+    brand: 'Skoda',
+    price: 88000,
+    location: 'ChongQing',
+    locationCountry: 'CN',
+    vehicleType: 'Sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 53500,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '发动机变速箱运转良好，底盘紧凑，无漏油渗油情况，刚做完保养，车况极佳。里程数较低，全程4S店保养，无越野史，全程高速行驶，漆面完好无色差，车身外观也没有明显划痕或凹陷',
+    isFeatured: true
+  },
+  //斯柯达 柯珞克 3
+  {
+    id: '113',
+    image: '/images/skoda/karoq/3/1.jpg',
+    title: '柯珞克 2022款 TSI280 尊享版',
+    brand: 'Skoda',
+    price: 124000,
+    location: 'ChangSha',
+    locationCountry: 'CN',
+    vehicleType: 'Sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 34000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '22年9月出厂 3.4万公里实表 原版原漆',
+    isFeatured: true
+  },
+  //斯柯达 柯珞克 4
+  {
+    id: '114',
+    image: '/images/skoda/karoq/4/1.jpg',
+    title: '柯珞克 2022款 TSI280 奢享版',
+    brand: 'Skoda',
+    price: 129800,
+    location: 'HeFei',
+    locationCountry: 'CN',
+    vehicleType: 'Sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 35000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '无',
+    isFeatured: true
+  },
 ];
 
 // 添加品牌选择器容器样式
@@ -2599,7 +2893,7 @@ const BuyPage: React.FC = () => {
       <PageHeader>
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <Title>Buy a car</Title>
-          <CarCount>{filteredCars.length} cars</CarCount>
+          {/* <CarCount>{filteredCars.length} cars</CarCount> */}
         </div>
         
 

@@ -6572,6 +6572,930 @@ const carDetailsMap: { [key: string]: any } = {
       }
     ],
   },
+  // 宝马X3 xDrive28i M 1 
+  '101': {
+    id: '101',
+    title: '宝马X3 2021款 xDrive28i M运动套装',
+    price: 205800,
+    images: [
+      '/images/bmw/x3/1/1.jpg',
+      '/images/bmw/x3/1/2.jpg',
+      '/images/bmw/x3/1/3.jpg',
+      '/images/bmw/x3/1/4.jpg',
+      '/images/bmw/x3/1/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '黑色',
+    interiorColor: '淡红色',
+    fuelEconomy: '8L/100km',
+    fuelType: '汽油',
+    transmission: '8挡手自一体',
+    engine: '2.0T L4',
+    drivetrain: '四驱',
+    seats: '5座',
+    hoursePower: '224马力',
+    enginecapacity: '1998cc',
+    year: 2021,
+    make: 'BMW',
+    model: 'X3',
+    trim: '2021款 xDrive28i M运动套装',
+    bodyStyle: 'SUV',
+    features:[
+      '自动泊车入位',
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 宝马X3 xDrive28i M 2 
+  '102': {
+    id: '102',
+    title: '宝马X3 2021款 xDrive28i M运动套装',
+    price: 189800,
+    images: [
+      '/images/bmw/x3/2/1.jpg',
+      '/images/bmw/x3/2/2.jpg',
+      '/images/bmw/x3/2/3.jpg',
+      '/images/bmw/x3/2/4.jpg',
+      '/images/bmw/x3/2/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '白色',
+    interiorColor: '棕色',
+    fuelEconomy: '8L/100km',
+    fuelType: '汽油',
+    transmission: '8挡手自一体',
+    engine: '2.0T L4',
+    drivetrain: '四驱',
+    seats: '5座',
+    hoursePower: '224马力',
+    enginecapacity: '1998cc',
+    year: 2021,
+    make: 'BMW',
+    model: 'X3',
+    trim: '2021款 xDrive28i M运动套装',
+    bodyStyle: 'SUV',
+    features:[
+      '自动泊车入位',
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 宝马X3 xDrive28i M 3 
+  '103': {
+    id: '103',
+    title: '宝马X3 2021款 xDrive28i M运动套装',
+    price: 165800,
+    images: [
+      '/images/bmw/x3/3/1.jpg',
+      '/images/bmw/x3/3/2.jpg',
+      '/images/bmw/x3/3/3.jpg',
+      '/images/bmw/x3/3/4.jpg',
+      '/images/bmw/x3/3/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '蓝色',
+    interiorColor: '棕色',
+    fuelEconomy: '8L/100km',
+    fuelType: '汽油',
+    transmission: '8挡手自一体',
+    engine: '2.0T L4',
+    drivetrain: '四驱',
+    seats: '5座',
+    hoursePower: '224马力',
+    enginecapacity: '1998cc',
+    year: 2021,
+    make: 'BMW',
+    model: 'X3',
+    trim: '2021款 xDrive28i M运动套装',
+    bodyStyle: 'SUV',
+    features:[
+      '自动泊车入位',
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 宝马X3 xDrive28i M 4
+  '104': {
+    id: '104',
+    title: '宝马X3 2021款 xDrive28i M运动套装',
+    price: 206800,
+    images: [
+      '/images/bmw/x3/4/1.jpg',
+      '/images/bmw/x3/4/2.jpg',
+      '/images/bmw/x3/4/3.jpg',
+      '/images/bmw/x3/4/4.jpg',
+      '/images/bmw/x3/4/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '红色',
+    interiorColor: '棕色',
+    fuelEconomy: '8L/100km',
+    fuelType: '汽油',
+    transmission: '8挡手自一体',
+    engine: '2.0T L4',
+    drivetrain: '四驱',
+    seats: '5座',
+    hoursePower: '224马力',
+    enginecapacity: '1998cc',
+    year: 2021,
+    make: 'BMW',
+    model: 'X3',
+    trim: '2021款 xDrive28i M运动套装',
+    bodyStyle: 'SUV',
+    features:[
+      '自动泊车入位',
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 宝马X3 xDrive28i M 5
+  '105': {
+    id: '105',
+    title: '宝马X3 2021款 xDrive28i M运动套装',
+    price: 163800,
+    images: [
+      '/images/bmw/x3/5/1.jpg',
+      '/images/bmw/x3/5/2.jpg',
+      '/images/bmw/x3/5/3.jpg',
+      '/images/bmw/x3/5/4.jpg',
+      '/images/bmw/x3/5/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '白色',
+    interiorColor: '棕色',
+    fuelEconomy: '8L/100km',
+    fuelType: '汽油',
+    transmission: '8挡手自一体',
+    engine: '2.0T L4',
+    drivetrain: '四驱',
+    seats: '5座',
+    hoursePower: '224马力',
+    enginecapacity: '1998cc',
+    year: 2021,
+    make: 'BMW',
+    model: 'X3',
+    trim: '2021款 xDrive28i M运动套装',
+    bodyStyle: 'SUV',
+    features:[
+      '自动泊车入位',
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 柯米克 1
+  '106': {
+    id: '106',
+    title: '柯米克 2020款 1.5L 自动舒适版',
+    price: 57900,
+    images: [
+      '/images/skoda/kamiq/1/1.jpg',
+      '/images/skoda/kamiq/1/2.jpg',
+      '/images/skoda/kamiq/1/3.jpg',
+      '/images/skoda/kamiq/1/4.jpg',
+      '/images/skoda/kamiq/1/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '6L/100km',
+    fuelType: '汽油',
+    transmission: '6挡手自一体',
+    engine: '1.5L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '112马力',
+    enginecapacity: '1498cc',
+    year: 2021,
+    make: 'Skoda',
+    model: 'Kamiq',
+    trim: '2020款 1.5L 自动舒适版',
+    bodyStyle: 'Sedan',
+    features:[
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '中控屏',
+      '无钥匙启动'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 柯米克 2
+  '107': {
+    id: '107',
+    title: '柯米克 2021款 1.5L 自动舒适版',
+    price: 99800,
+    images: [
+      '/images/skoda/kamiq/2/1.jpg',
+      '/images/skoda/kamiq/2/2.jpg',
+      '/images/skoda/kamiq/2/3.jpg',
+      '/images/skoda/kamiq/2/4.jpg',
+      '/images/skoda/kamiq/2/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '蓝色',
+    interiorColor: '黑色',
+    fuelEconomy: '6L/100km',
+    fuelType: '汽油',
+    transmission: '6挡手自一体',
+    engine: '1.5L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '112马力',
+    enginecapacity: '1498cc',
+    year: 2021,
+    make: 'Skoda',
+    model: 'Kamiq',
+    trim: '2021款 1.5L 自动舒适版',
+    bodyStyle: 'Sedan',
+    features:[
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '中控屏',
+      '无钥匙启动'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 柯米克 3
+  '108': {
+    id: '108',
+    title: '柯米克 2020款 1.5L 自动舒适版',
+    price: 58800,
+    images: [
+      '/images/skoda/kamiq/3/1.jpg',
+      '/images/skoda/kamiq/3/2.jpg',
+      '/images/skoda/kamiq/3/3.jpg',
+      '/images/skoda/kamiq/3/4.jpg',
+      '/images/skoda/kamiq/3/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '香槟色',
+    interiorColor: '黑色',
+    fuelEconomy: '6L/100km',
+    fuelType: '汽油',
+    transmission: '6挡手自一体',
+    engine: '1.5L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '112马力',
+    enginecapacity: '1498cc',
+    year: 2021,
+    make: 'Skoda',
+    model: 'Kamiq',
+    trim: '2020款 1.5L 自动舒适版',
+    bodyStyle: 'Sedan',
+    features:[
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '中控屏',
+      '无钥匙启动'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 柯米克 4
+  '109': {
+    id: '109',
+    title: '柯米克 2021款 1.5L 自动舒适版',
+    price: 89800,
+    images: [
+      '/images/skoda/kamiq/4/1.jpg',
+      '/images/skoda/kamiq/4/2.jpg',
+      '/images/skoda/kamiq/4/3.jpg',
+      '/images/skoda/kamiq/4/4.jpg',
+      '/images/skoda/kamiq/4/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '6L/100km',
+    fuelType: '汽油',
+    transmission: '6挡手自一体',
+    engine: '1.5L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '112马力',
+    enginecapacity: '1498cc',
+    year: 2022,
+    make: 'Skoda',
+    model: 'Kamiq',
+    trim: '2021款 1.5L 自动舒适版',
+    bodyStyle: 'Sedan',
+    features:[
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '中控屏',
+      '无钥匙启动'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 柯米克 5
+  '110': {
+    id: '110',
+    title: '柯米克 2021款 1.5L 自动舒适版',
+    price: 86800,
+    images: [
+      '/images/skoda/kamiq/5/1.jpg',
+      '/images/skoda/kamiq/5/2.jpg',
+      '/images/skoda/kamiq/5/3.jpg',
+      '/images/skoda/kamiq/5/4.jpg',
+      '/images/skoda/kamiq/5/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '蓝色',
+    interiorColor: '黑色',
+    fuelEconomy: '6L/100km',
+    fuelType: '汽油',
+    transmission: '6挡手自一体',
+    engine: '1.5L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '112马力',
+    enginecapacity: '1498cc',
+    year: 2022,
+    make: 'Skoda',
+    model: 'Kamiq',
+    trim: '2021款 1.5L 自动舒适版',
+    bodyStyle: 'Sedan',
+    features:[
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '中控屏',
+      '无钥匙启动'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 柯珞克 1
+  '111': {
+    id: '111',
+    title: '柯珞克 2021款 TSI280 豪华版',
+    price: 79800,
+    images: [
+      '/images/skoda/karoq/1/1.jpg',
+      '/images/skoda/karoq/1/2.jpg',
+      '/images/skoda/karoq/1/3.jpg',
+      '/images/skoda/karoq/1/4.jpg',
+      '/images/skoda/karoq/1/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '香槟色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.9L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2021,
+    make: 'Skoda',
+    model: 'Karoq',
+    trim: '2021款 TSI280 豪华版',
+    bodyStyle: 'Sedan',
+    features:[
+      '自动泊车入位',
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 柯珞克 2
+  '112': {
+    id: '112',
+    title: '柯珞克 2021款 TSI280 豪华版',
+    price: 88000,
+    images: [
+      '/images/skoda/karoq/2/1.jpg',
+      '/images/skoda/karoq/2/2.jpg',
+      '/images/skoda/karoq/2/3.jpg',
+      '/images/skoda/karoq/2/4.jpg',
+      '/images/skoda/karoq/2/5.jpg',
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.9L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2022,
+    make: 'Skoda',
+    model: 'Karoq',
+    trim: '2021款 TSI280 豪华版',
+    bodyStyle: 'Sedan',
+    features:[
+      '自动泊车入位',
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 柯珞克 3
+  '113': {
+    id: '113',
+    title: '柯珞克 2021款 TSI280 豪华版',
+    price: 88000,
+    images: [
+      '/images/skoda/karoq/3/1.jpg',
+      '/images/skoda/karoq/3/2.jpg',
+      '/images/skoda/karoq/3/3.jpg',
+      '/images/skoda/karoq/3/4.jpg',
+      '/images/skoda/karoq/3/5.jpg', 
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.9L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2022,
+    make: 'Skoda',
+    model: 'Karoq',
+    trim: '柯珞克 2022款 TSI280 尊享版',
+    bodyStyle: 'Sedan',
+    features:[
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '中控屏'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 斯柯达 柯珞克 4
+  '114': {
+    id: '114',
+    title: '柯珞克 2021款 TSI280 奢享版',
+    price: 129800,
+    images: [
+      '/images/skoda/karoq/4/1.jpg',
+      '/images/skoda/karoq/4/2.jpg',
+      '/images/skoda/karoq/4/3.jpg',
+      '/images/skoda/karoq/4/4.jpg',
+      '/images/skoda/karoq/4/5.jpg', 
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.9L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2022,
+    make: 'Skoda',
+    model: 'Karoq',
+    trim: '柯珞克 2022款 TSI280 奢享版',
+    bodyStyle: 'Sedan',
+    features:[
+      '自动泊车入位',
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
 };
 
 // 包装组件，用于获取参数并提供模拟数据
