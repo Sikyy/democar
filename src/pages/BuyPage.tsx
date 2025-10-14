@@ -19,14 +19,14 @@ const Title = styled.h1`
   margin-bottom: 12px;
 `;
 
-const CarCount = styled.span`
-  background-color: #FF5722;
-  color: white;
-  padding: 4px 8px;
-  border-radius: 4px;
-  font-size: 1rem;
-  margin-left: 12px;
-`;
+// const CarCount = styled.span`
+//   background-color: #FF5722;
+//   color: white;
+//   padding: 4px 8px;
+//   border-radius: 4px;
+//   font-size: 1rem;
+//   margin-left: 12px;
+// `;
 
 
 
