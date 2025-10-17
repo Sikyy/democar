@@ -7496,6 +7496,731 @@ const carDetailsMap: { [key: string]: any } = {
       }
     ],
   },
+  // 斯柯达 柯珞克 5
+  '115': {
+    id: '115',
+    title: '柯珞克 2021款 TSI280 科技版',
+    price: 99800,
+    images: [
+      '/images/skoda/karoq/5/1.jpg',
+      '/images/skoda/karoq/5/2.jpg',
+      '/images/skoda/karoq/5/3.jpg',
+      '/images/skoda/karoq/5/4.jpg',
+      '/images/skoda/karoq/5/5.jpg', 
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '黄色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.9L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2021,
+    make: 'Skoda',
+    model: 'Karoq',
+    trim: '柯珞克 2021款 TSI280 科技版',
+    bodyStyle: 'Sedan',
+    features:[
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '中控屏'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 起亚 傲跑 1
+  '116': {
+    id: '116',
+    title: '傲跑 2021款 1.5L CVT全能版',
+    price: 103000,
+    images: [
+      '/images/kia/kx3/1/1.jpg',
+      '/images/kia/kx3/1/2.jpg',
+      '/images/kia/kx3/1/3.jpg',
+      '/images/kia/kx3/1/4.jpg',
+      '/images/kia/kx3/1/5.jpg', 
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.4L/100km',
+    fuelType: '汽油',
+    transmission: 'CVT无级变速(模拟8挡)',
+    engine: '1.5L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '115马力',
+    enginecapacity: '1395cc',
+    year: 2022,
+    make: 'Kia',
+    model: 'KX3',
+    trim: '傲跑 2022款 1.5L CVT全能版',
+    bodyStyle: 'SUV',
+    features:[
+      '360全景影像',
+      '自适应巡航',
+      '自动驻车',
+      '上坡辅助',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 起亚 傲跑 2
+  '117': {
+    id: '117',
+    title: '傲跑 2020款 1.5L CVT潮流版',
+    price: 79900,
+    images: [
+      '/images/kia/kx3/2/1.jpg',
+      '/images/kia/kx3/2/2.jpg',
+      '/images/kia/kx3/2/3.jpg',
+      '/images/kia/kx3/2/4.jpg',
+      '/images/kia/kx3/2/5.jpg', 
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.4L/100km',
+    fuelType: '汽油',
+    transmission: 'CVT无级变速(模拟8挡)',
+    engine: '1.5L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '115马力',
+    enginecapacity: '1395cc',
+    year: 2021,
+    make: 'Kia',
+    model: 'KX3',
+    trim: '傲跑 2020款 1.5L CVT潮流版',
+    bodyStyle: 'SUV',
+    features:[
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '中控屏',
+      '无钥匙进入',
+      '无钥匙启动'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 起亚 傲跑 3
+  '118': {
+    id: '118',
+    title: '傲跑 2021款 1.5L CVT焕新版',
+    price: 99800,
+    images: [
+      '/images/kia/kx3/3/1.jpg',
+      '/images/kia/kx3/3/2.jpg',
+      '/images/kia/kx3/3/3.jpg',
+      '/images/kia/kx3/3/4.jpg',
+      '/images/kia/kx3/3/5.jpg', 
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.4L/100km',
+    fuelType: '汽油',
+    transmission: 'CVT无级变速(模拟8挡)',
+    engine: '1.5L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '115马力',
+    enginecapacity: '1395cc',
+    year: 2022,
+    make: 'Kia',
+    model: 'KX3',
+    trim: '傲跑 2021款 1.5L CVT焕新版',
+    bodyStyle: 'SUV',
+    features:[
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '中控屏',
+      '无钥匙进入',
+      '无钥匙启动'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 起亚 傲跑 4
+  '119': {
+    id: '119',
+    title: '傲跑 2020款 1.5L CVT智慧版',
+    price: 86800,
+    images: [
+      '/images/kia/kx3/4/1.jpg',
+      '/images/kia/kx3/4/2.jpg',
+      '/images/kia/kx3/4/3.jpg',
+      '/images/kia/kx3/4/4.jpg',
+      '/images/kia/kx3/4/5.jpg', 
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2020年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.4L/100km',
+    fuelType: '汽油',
+    transmission: 'CVT无级变速(模拟8挡)',
+    engine: '1.5L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '115马力',
+    enginecapacity: '1395cc',
+    year: 2020,
+    make: 'Kia',
+    model: 'KX3',
+    trim: '傲跑 2021款 1.5L CVT焕新版',
+    bodyStyle: 'SUV',
+    features:[
+      '360全景影像',
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '倒车影像',
+      '中控屏',
+      '无钥匙进入'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 起亚 傲跑 5
+  '120': {
+    id: '120',
+    title: '傲跑 2021款 1.5L CVT风尚版',
+    price: 96800,
+    images: [
+      '/images/kia/kx3/5/1.jpg',
+      '/images/kia/kx3/5/2.jpg',
+      '/images/kia/kx3/5/3.jpg',
+      '/images/kia/kx3/5/4.jpg',
+      '/images/kia/kx3/5/5.jpg', 
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.4L/100km',
+    fuelType: '汽油',
+    transmission: 'CVT无级变速(模拟8挡)',
+    engine: '1.5L L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '115马力',
+    enginecapacity: '1395cc',
+    year: 2022,
+    make: 'Kia',
+    model: 'KX3',
+    trim: '傲跑 2021款 1.5L CVT风尚版',
+    bodyStyle: 'SUV',
+    features:[
+      '上坡辅助',
+      '胎压监测系统',
+      '大灯高度调节',
+      '防眩目内后视镜',
+      '自动大灯'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 奥迪 A3 1
+  '121': {
+    id: '121',
+    title: '奥迪A3 2020款 改款 Limousine 35 TFSI 进取型',
+    price: 70800,
+    images: [
+      '/images/audi/a3/1/1.jpg',
+      '/images/audi/a3/1/2.jpg',
+      '/images/audi/a3/1/3.jpg',
+      '/images/audi/a3/1/4.jpg',
+      '/images/audi/a3/1/5.jpg', 
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2020年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.8L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2020,
+    make: 'Audi',
+    model: 'A3',
+    trim: '2020款 改款 Limousine 35 TFSI 进取型',
+    bodyStyle: 'Sedan',
+    features:[
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '语音识别控制系统',
+      '中控屏',
+      '胎压监测系统',
+      '雨量感应式雨刷'  
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 奥迪 A3 2
+  '122': {
+    id: '122',
+    title: '奥迪A3 2020款 改款 Limousine 35 TFSI 进取型',
+    price: 89800,
+    images: [
+      '/images/audi/a3/2/1.jpg',
+      '/images/audi/a3/2/2.jpg',
+      '/images/audi/a3/2/3.jpg',
+      '/images/audi/a3/2/4.jpg',
+      '/images/audi/a3/2/5.jpg', 
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '白色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.8L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2021,
+    make: 'Audi',
+    model: 'A3',
+    trim: '2020款 改款 Limousine 35 TFSI 进取型',
+    bodyStyle: 'Sedan',
+    features:[
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '语音识别控制系统',
+      '中控屏',
+      '胎压监测系统',
+      '雨量感应式雨刷'  
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 奥迪 A3 3
+  '123': {
+    id: '123',
+    title: '奥迪A3 2020款 改款 Limousine 35 TFSI 进取型',
+    price: 83000,
+    images: [
+      '/images/audi/a3/3/1.jpg',
+      '/images/audi/a3/3/2.jpg',
+      '/images/audi/a3/3/3.jpg',
+      '/images/audi/a3/3/4.jpg',
+      '/images/audi/a3/3/5.jpg', 
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2020年',
+    exteriorColor: '深灰色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.8L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2020,
+    make: 'Audi',
+    model: 'A3',
+    trim: '2020款 改款 Limousine 35 TFSI 进取型',
+    bodyStyle: 'Sedan',
+    features:[
+      '自动驻车',
+      '上坡辅助',
+      '定速巡航',
+      '驻车雷达',
+      '语音识别控制系统',
+      '中控屏',
+      '胎压监测系统',
+      '雨量感应式雨刷'  
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 奥迪 A3 4
+  '124': {
+    id: '124',
+    title: '奥迪A3 2022款 Sportback 35 TFSI 时尚运动型',
+    price: 148000,
+    images: [
+      '/images/audi/a3/4/1.jpg',
+      '/images/audi/a3/4/2.jpg',
+      '/images/audi/a3/4/3.jpg',
+      '/images/audi/a3/4/4.jpg',
+      '/images/audi/a3/4/5.jpg', 
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2022年',
+    exteriorColor: '蓝色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.8L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2022,
+    make: 'Audi',
+    model: 'A3',
+    trim: '2022款 Sportback 35 TFSI 时尚运动型',
+    bodyStyle: 'Sedan',
+    features:[
+      '自适应巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务',
+      '中控屏',
+      '电动后尾门'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
+  // 奥迪 A3 5
+  '125': {
+    id: '125',
+    title: '奥迪A3 2021款 Sportback 35 TFSI 时尚运动型',
+    price: 142000,
+    images: [
+      '/images/audi/a3/5/1.jpg',
+      '/images/audi/a3/5/2.jpg',
+      '/images/audi/a3/5/3.jpg',
+      '/images/audi/a3/5/4.jpg',
+      '/images/audi/a3/5/5.jpg', 
+    ],
+    condition: 'used' as const,
+    special: true,
+    mileage: '2021年',
+    exteriorColor: '绿色',
+    interiorColor: '黑色',
+    fuelEconomy: '5.8L/100km',
+    fuelType: '汽油',
+    transmission: '7挡双离合',
+    engine: '1.4T L4',
+    drivetrain: '前驱',
+    seats: '5座',
+    hoursePower: '150马力',
+    enginecapacity: '1395cc',
+    year: 2021,
+    make: 'Audi',
+    model: 'A3',
+    trim: '奥迪A3 2021款 Sportback 35 TFSI 时尚运动型',
+    bodyStyle: 'Sedan',
+    features:[
+      '自适应巡航',
+      '驻车雷达',
+      '倒车影像',
+      '语音识别控制系统',
+      '车联网',
+      '道路救援服务',
+      '中控屏',
+      '电动后尾门',
+      '无钥匙启动'
+    ],
+    dealerInfo: {
+      name: 'CNCCAR',
+      location: '800公里',
+      distance: '2.1公里',
+      rating: 4.9,
+      reviews: 245,
+      logo: 'https://img1.baidu.com/it=u=3009731526,373851691&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+    },
+    history: [
+      {
+        title: '首次登记',
+        description: '2019年7月首次登记上牌，个人车主',
+        icon: 'history'
+      },
+      {
+        title: '定期保养',
+        description: '大众4S店定期保养，保养记录完整',
+        icon: 'info'
+      },
+      {
+        title: '无事故记录',
+        description: '经检测，该车无重大事故记录',
+        icon: 'file'
+      }
+    ],
+  },
 };
 
 // 包装组件，用于获取参数并提供模拟数据

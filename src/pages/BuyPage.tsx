@@ -2569,6 +2569,237 @@ const carData = [
     description: '无',
     isFeatured: true
   },
+  //斯柯达 柯珞克 5
+  {
+    id: '115',
+    image: '/images/skoda/karoq/5/1.jpg',
+    title: '柯珞克 2021款 TSI280 科技版',
+    brand: 'Skoda',
+    price: 99800,
+    location: 'WeiFang',
+    locationCountry: 'CN',
+    vehicleType: 'Sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 38000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '无',
+    isFeatured: true
+  },
+  //起亚 傲跑 1
+  {
+    id: '116',
+    image: '/images/kia/kx3/1/1.jpg',
+    title: '傲跑 2021款 1.5L CVT全能版',
+    brand: 'Kia',
+    price: 103000,
+    location: 'ShenYang',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 37000,
+      fuelType: 'Petrol',
+      displacement: '1.5L',
+      power: 115,
+      driveType: '2WD'
+    },
+    description: '全车原漆，360影响，辅助驾驶，定速巡航。液晶仪表',
+    isFeatured: true
+  },
+  //起亚 傲跑 2
+  {
+    id: '117',
+    image: '/images/kia/kx3/2/1.jpg',
+    title: '傲跑 2020款 1.5L CVT潮流版',
+    brand: 'Kia',
+    price: 79900,
+    location: 'HaErBin',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 66500,
+      fuelType: 'Petrol',
+      displacement: '1.5L',
+      power: 115,
+      driveType: '2WD'
+    },
+    description: '无',
+    isFeatured: true
+  },
+  //起亚 傲跑 3
+  {
+    id: '118',
+    image: '/images/kia/kx3/3/1.jpg',
+    title: '傲跑 2021款 1.5L CVT焕新版',
+    brand: 'Kia',
+    price: 99800,
+    location: 'ChangSha',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 52000,
+      fuelType: 'Petrol',
+      displacement: '1.5L',
+      power: 115,
+      driveType: '2WD'
+    },
+    description: '外观：漆面保养良好，车身结构无修复，无重大事故。 内饰：干净整洁。安全指示灯正常，气囊等被动安全项正常，车辆内电子器件使用良好， 车内静态动态设备完善。 驾驶：车辆点火、起步、提速、过弯、减速、制动均无问题，加速迅猛，动力输出平稳舒 适,无怠速抖动。 整体：整体车况一般。车体骨架结构无变形扭曲、无火烧泡水痕迹。车身有喷漆痕迹，整体漆面良好，排除大事故车辆。',
+    isFeatured: true
+  },
+  //起亚 傲跑 4
+  {
+    id: '119',
+    image: '/images/kia/kx3/4/1.jpg',
+    title: '傲跑 2020款 1.5L CVT智慧版',
+    brand: 'Kia',
+    price: 86800,
+    location: 'XinXiang',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 34000,
+      fuelType: 'Petrol',
+      displacement: '1.5L',
+      power: 115,
+      driveType: '2WD'
+    },
+    description: '无',
+    isFeatured: true
+  },
+  //起亚 傲跑 5
+  {
+    id: '120',
+    image: '/images/kia/kx3/5/1.jpg',
+    title: '傲跑 2021款 1.5L CVT风尚版',
+    brand: 'Kia',
+    price: 96800,
+    location: 'XinXiang',
+    locationCountry: 'CN',
+    vehicleType: 'SUV',
+    energyType: 'petrol',
+    specs: {
+      mileage: 38000,
+      fuelType: 'Petrol',
+      displacement: '1.5L',
+      power: 115,
+      driveType: '2WD'
+    },
+    description: '【外观情况】原版 【车漆情况】原漆 【新旧程度】原版原漆',
+    isFeatured: true
+  },
+  //奥迪 A3 1
+  {
+    id: '121',
+    image: '/images/audi/a3/1/1.jpg',
+    title: '奥迪A3 2020款 改款 Limousine 35 TFSI 进取型',
+    brand: 'Audi',
+    price: 70800,
+    location: 'FoShan',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 56000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '无',
+    isFeatured: true
+  },
+   //奥迪 A3 2
+  {
+    id: '122',
+    image: '/images/audi/a3/2/1.jpg',
+    title: '奥迪A3 2020款 改款 Limousine 35 TFSI 进取型',
+    brand: 'Audi',
+    price: 89800,
+    location: 'HaiKou',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 32000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '无',
+    isFeatured: true
+  },
+   //奥迪 A3 3
+  {
+    id: '123',
+    image: '/images/audi/a3/3/1.jpg',
+    title: '奥迪A3 2020款 改款 Limousine 35 TFSI 进取型',
+    brand: 'Audi',
+    price: 83000,
+    location: 'XuZhou',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 28200,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '无',
+    isFeatured: true
+  },
+  //奥迪 A3 4
+  {
+    id: '124',
+    image: '/images/audi/a3/4/1.jpg',
+    title: '奥迪A3 2022款 Sportback 35 TFSI 时尚运动型',
+    brand: 'Audi',
+    price: 148000,
+    location: 'ShiJiaZhuang',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 29000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '无',
+    isFeatured: true
+  },
+  //奥迪 A3 5
+  {
+    id: '125',
+    image: '/images/audi/a3/5/1.jpg',
+    title: '奥迪A3 2021款 Sportback 35 TFSI 时尚运动型',
+    brand: 'Audi',
+    price: 142000,
+    location: 'MuDanJiang',
+    locationCountry: 'CN',
+    vehicleType: 'sedan',
+    energyType: 'petrol',
+    specs: {
+      mileage: 44000,
+      fuelType: 'Petrol',
+      displacement: '1.4T',
+      power: 150,
+      driveType: '2WD'
+    },
+    description: '念初国际，保证车况，无火烧，无水泡，无事故，让你买的放心。',
+    isFeatured: true
+  },
 ];
 
 // 添加品牌选择器容器样式
